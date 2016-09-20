@@ -1,0 +1,41 @@
+C:\Users\Eduardo\Desktop\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.csprojResolveAssemblyReference.cache
+C:\Users\Eduardo\Desktop\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.GUI.frmSQLite.resources
+C:\Users\Eduardo\Desktop\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.GUI.frmSQLiteEditar.resources
+C:\Users\Eduardo\Desktop\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.GUI.ReporteAlumno.resources
+C:\Users\Eduardo\Desktop\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.Properties.Resources.resources
+C:\Users\Eduardo\Desktop\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.csproj.GenerateResource.Cache
+C:\Users\Eduardo\Desktop\ProyectoUTM\UTM.SQLite\bin\Debug\UTM.SQLite.exe.config
+C:\Users\Eduardo\Desktop\ProyectoUTM\UTM.SQLite\bin\Debug\UTM.SQLite.exe
+C:\Users\Eduardo\Desktop\ProyectoUTM\UTM.SQLite\bin\Debug\UTM.SQLite.pdb
+C:\Users\Eduardo\Desktop\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.exe
+C:\Users\Eduardo\Desktop\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.pdb
+F:\UTM\Sep-Dic-2014\DAII\SD\ProyectoUTM\UTM.SQLite\bin\Debug\UTM.SQLite.exe.config
+F:\UTM\Sep-Dic-2014\DAII\SD\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.exe
+F:\UTM\Sep-Dic-2014\DAII\SD\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.pdb
+F:\UTM\Sep-Dic-2014\DAII\SD\ProyectoUTM\UTM.SQLite\bin\Debug\UTM.SQLite.exe
+F:\UTM\Sep-Dic-2014\DAII\SD\ProyectoUTM\UTM.SQLite\bin\Debug\UTM.SQLite.pdb
+F:\UTM\Sep-Dic-2014\DAII\SD\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.csprojResolveAssemblyReference.cache
+F:\UTM\Sep-Dic-2014\DAII\SD\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.GUI.frmSQLite.resources
+F:\UTM\Sep-Dic-2014\DAII\SD\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.GUI.frmSQLiteEditar.resources
+F:\UTM\Sep-Dic-2014\DAII\SD\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.GUI.ReporteAlumno.resources
+F:\UTM\Sep-Dic-2014\DAII\SD\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.Properties.Resources.resources
+F:\UTM\Sep-Dic-2014\DAII\SD\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.csproj.GenerateResource.Cache
+D:\UTM\2015\Septiembre-Diciembre\DAII\SD\ProyectoUTM\UTM.SQLite\bin\Debug\UTM.SQLite.exe.config
+D:\UTM\2015\Septiembre-Diciembre\DAII\SD\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.exe
+D:\UTM\2015\Septiembre-Diciembre\DAII\SD\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.pdb
+D:\UTM\2015\Septiembre-Diciembre\DAII\SD\ProyectoUTM\UTM.SQLite\bin\Debug\UTM.SQLite.exe
+D:\UTM\2015\Septiembre-Diciembre\DAII\SD\ProyectoUTM\UTM.SQLite\bin\Debug\UTM.SQLite.pdb
+D:\UTM\2015\Septiembre-Diciembre\DAII\SD\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.csprojResolveAssemblyReference.cache
+D:\UTM\2015\Septiembre-Diciembre\DAII\SD\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.GUI.frmSQLite.resources
+D:\UTM\2015\Septiembre-Diciembre\DAII\SD\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.GUI.frmSQLiteEditar.resources
+D:\UTM\2015\Septiembre-Diciembre\DAII\SD\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.GUI.ReporteAlumno.resources
+D:\UTM\2015\Septiembre-Diciembre\DAII\SD\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.Properties.Resources.resources
+D:\UTM\2015\Septiembre-Diciembre\DAII\SD\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.csproj.GenerateResource.Cache
+C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Aplicaciones II\Practica\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.csprojResolveAssemblyReference.cache
+C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Aplicaciones II\Practica\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.Properties.Resources.resources
+C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Aplicaciones II\Practica\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.csproj.GenerateResource.Cache
+C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Aplicaciones II\Practica\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.exe
+C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Aplicaciones II\Practica\ProyectoUTM\UTM.SQLite\bin\Debug\UTM.SQLite.exe.config
+C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Aplicaciones II\Practica\ProyectoUTM\UTM.SQLite\bin\Debug\UTM.SQLite.exe
+C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Aplicaciones II\Practica\ProyectoUTM\UTM.SQLite\bin\Debug\UTM.SQLite.pdb
+C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Aplicaciones II\Practica\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.pdb

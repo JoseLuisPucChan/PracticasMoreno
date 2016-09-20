@@ -1,0 +1,57 @@
+<?xml version="1.0" standalone="yes"?>
+<Alumnos>
+  <Alumno ClaveAlumno="1">
+    <Nombre>Norma</Nombre>
+    <ApellidoPaterno>Esquivel</ApellidoPaterno>
+    <ApellidoMaterno>Pech</ApellidoMaterno>
+    <Edad>19</Edad>
+  </Alumno>
+  <Alumno ClaveAlumno="2">
+    <Nombre>Katia</Nombre>
+    <ApellidoPaterno>Baas</ApellidoPaterno>
+    <ApellidoMaterno>Ginéz</ApellidoMaterno>
+    <Edad>20</Edad>
+  </Alumno>
+  <Alumno ClaveAlumno="4">
+    <Nombre>maria</Nombre>
+    <ApellidoPaterno>poot</ApellidoPaterno>
+    <ApellidoMaterno>yam</ApellidoMaterno>
+    <Edad>23</Edad>
+  </Alumno>
+  <Alumno ClaveAlumno="$$$$">
+    <Nombre>43523</Nombre>
+    <ApellidoPaterno>#"</ApellidoPaterno>
+    <ApellidoMaterno />
+    <Edad>$#</Edad>
+  </Alumno>
+  <Alumno ClaveAlumno="$$$$">
+    <Nombre>43523</Nombre>
+    <ApellidoPaterno>#"</ApellidoPaterno>
+    <ApellidoMaterno />
+    <Edad>$#</Edad>
+  </Alumno>
+  <Alumno ClaveAlumno="&quot;&quot;">
+    <Nombre>43523</Nombre>
+    <ApellidoPaterno>#"</ApellidoPaterno>
+    <ApellidoMaterno />
+    <Edad>$#</Edad>
+  </Alumno>
+  <Alumno ClaveAlumno="&quot;&gt;">
+    <Nombre>43523</Nombre>
+    <ApellidoPaterno>#"</ApellidoPaterno>
+    <ApellidoMaterno />
+    <Edad>$#</Edad>
+  </Alumno>
+  <Alumno ClaveAlumno="/&gt;">
+    <Nombre>43523</Nombre>
+    <ApellidoPaterno>#"</ApellidoPaterno>
+    <ApellidoMaterno />
+    <Edad>$#</Edad>
+  </Alumno>
+  <Alumno ClaveAlumno="ee">
+    <Nombre>ee</Nombre>
+    <ApellidoPaterno>eee</ApellidoPaterno>
+    <ApellidoMaterno>ee</ApellidoMaterno>
+    <Edad>ee</Edad>
+  </Alumno>
+</Alumnos>

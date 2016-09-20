@@ -1,0 +1,135 @@
+c:\users\emmanuel sonda\documents\visual studio 2012\Projects\ProyectoUTM\UTM.SI\bin\Debug\UTM.SI.exe.config
+c:\users\emmanuel sonda\documents\visual studio 2012\Projects\ProyectoUTM\UTM.SI\bin\Debug\UTM.SI.exe
+c:\users\emmanuel sonda\documents\visual studio 2012\Projects\ProyectoUTM\UTM.SI\bin\Debug\UTM.SI.pdb
+c:\users\emmanuel sonda\documents\visual studio 2012\Projects\ProyectoUTM\UTM.SI\bin\Debug\Guifreaks.Common.dll
+c:\users\emmanuel sonda\documents\visual studio 2012\Projects\ProyectoUTM\UTM.SI\bin\Debug\Guifreaks.NavigationBar.dll
+c:\users\emmanuel sonda\documents\visual studio 2012\Projects\ProyectoUTM\UTM.SI\bin\Debug\MT.WindowsUI.dll
+c:\users\emmanuel sonda\documents\visual studio 2012\Projects\ProyectoUTM\UTM.SI\obj\Debug\UTM.SI.csprojResolveAssemblyReference.cache
+c:\users\emmanuel sonda\documents\visual studio 2012\Projects\ProyectoUTM\UTM.SI\obj\Debug\UTM.SI.GUI.Principal.resources
+c:\users\emmanuel sonda\documents\visual studio 2012\Projects\ProyectoUTM\UTM.SI\obj\Debug\UTM.SI.Properties.Resources.resources
+c:\users\emmanuel sonda\documents\visual studio 2012\Projects\ProyectoUTM\UTM.SI\obj\Debug\UTM.SI.csproj.GenerateResource.Cache
+c:\users\emmanuel sonda\documents\visual studio 2012\Projects\ProyectoUTM\UTM.SI\obj\Debug\UTM.SI.exe
+c:\users\emmanuel sonda\documents\visual studio 2012\Projects\ProyectoUTM\UTM.SI\obj\Debug\UTM.SI.pdb
+C:\Users\Emmanuel Sonda\Documents\Visual Studio 2012\Projects\ProyectoUTM\UTM.SI\obj\Debug\UTM.SI.Form1.resources
+C:\Users\Emmanuel Sonda\Documents\Visual Studio 2012\Projects\ProyectoUTM\UTM.SI\bin\Debug\UTM.Archivo.exe
+C:\Users\Emmanuel Sonda\Documents\Visual Studio 2012\Projects\ProyectoUTM\UTM.SI\bin\Debug\UTM.SQLite.exe
+C:\Users\Emmanuel Sonda\Documents\Visual Studio 2012\Projects\ProyectoUTM\UTM.SI\bin\Debug\UTM.XML.exe
+C:\Users\Emmanuel Sonda\Documents\Visual Studio 2012\Projects\ProyectoUTM\UTM.SI\bin\Debug\UTM.Archivo.pdb
+C:\Users\Emmanuel Sonda\Documents\Visual Studio 2012\Projects\ProyectoUTM\UTM.SI\bin\Debug\UTM.SQLite.pdb
+C:\Users\Emmanuel Sonda\Documents\Visual Studio 2012\Projects\ProyectoUTM\UTM.SI\bin\Debug\UTM.XML.pdb
+C:\Users\Eduardo\Downloads\ProyectoUTM\UTM.SI\bin\Debug\UTM.SI.exe.config
+C:\Users\Eduardo\Downloads\ProyectoUTM\UTM.SI\obj\Debug\UTM.SI.exe
+C:\Users\Eduardo\Downloads\ProyectoUTM\UTM.SI\obj\Debug\UTM.SI.pdb
+C:\Users\Eduardo\Downloads\ProyectoUTM\UTM.SI\bin\Debug\UTM.SI.exe
+C:\Users\Eduardo\Downloads\ProyectoUTM\UTM.SI\bin\Debug\UTM.SI.pdb
+C:\Users\Eduardo\Downloads\ProyectoUTM\UTM.SI\bin\Debug\Guifreaks.Common.dll
+C:\Users\Eduardo\Downloads\ProyectoUTM\UTM.SI\bin\Debug\Guifreaks.NavigationBar.dll
+C:\Users\Eduardo\Downloads\ProyectoUTM\UTM.SI\bin\Debug\MT.WindowsUI.dll
+C:\Users\Eduardo\Downloads\ProyectoUTM\UTM.SI\bin\Debug\UTM.Archivo.exe
+C:\Users\Eduardo\Downloads\ProyectoUTM\UTM.SI\bin\Debug\UTM.SQLite.exe
+C:\Users\Eduardo\Downloads\ProyectoUTM\UTM.SI\bin\Debug\UTM.XML.exe
+C:\Users\Eduardo\Downloads\ProyectoUTM\UTM.SI\bin\Debug\UTM.Archivo.pdb
+C:\Users\Eduardo\Downloads\ProyectoUTM\UTM.SI\bin\Debug\UTM.SQLite.pdb
+C:\Users\Eduardo\Downloads\ProyectoUTM\UTM.SI\bin\Debug\UTM.XML.pdb
+C:\Users\Eduardo\Downloads\ProyectoUTM\UTM.SI\obj\Debug\UTM.SI.csprojResolveAssemblyReference.cache
+C:\Users\Eduardo\Downloads\ProyectoUTM\UTM.SI\obj\Debug\UTM.SI.GUI.Principal.resources
+C:\Users\Eduardo\Downloads\ProyectoUTM\UTM.SI\obj\Debug\UTM.SI.Properties.Resources.resources
+C:\Users\Eduardo\Downloads\ProyectoUTM\UTM.SI\obj\Debug\UTM.SI.csproj.GenerateResource.Cache
+C:\Users\Eduardo\Desktop\ProyectoUTM\UTM.SI\bin\Debug\UTM.SI.exe.config
+C:\Users\Eduardo\Desktop\ProyectoUTM\UTM.SI\obj\Debug\UTM.SI.exe
+C:\Users\Eduardo\Desktop\ProyectoUTM\UTM.SI\obj\Debug\UTM.SI.pdb
+C:\Users\Eduardo\Desktop\ProyectoUTM\UTM.SI\bin\Debug\UTM.SI.exe
+C:\Users\Eduardo\Desktop\ProyectoUTM\UTM.SI\bin\Debug\UTM.SI.pdb
+C:\Users\Eduardo\Desktop\ProyectoUTM\UTM.SI\bin\Debug\Guifreaks.Common.dll
+C:\Users\Eduardo\Desktop\ProyectoUTM\UTM.SI\bin\Debug\Guifreaks.NavigationBar.dll
+C:\Users\Eduardo\Desktop\ProyectoUTM\UTM.SI\bin\Debug\MT.WindowsUI.dll
+C:\Users\Eduardo\Desktop\ProyectoUTM\UTM.SI\bin\Debug\UTM.Archivo.exe
+C:\Users\Eduardo\Desktop\ProyectoUTM\UTM.SI\bin\Debug\UTM.SQLite.exe
+C:\Users\Eduardo\Desktop\ProyectoUTM\UTM.SI\bin\Debug\UTM.XML.exe
+C:\Users\Eduardo\Desktop\ProyectoUTM\UTM.SI\bin\Debug\UTM.Archivo.pdb
+C:\Users\Eduardo\Desktop\ProyectoUTM\UTM.SI\bin\Debug\UTM.SQLite.pdb
+C:\Users\Eduardo\Desktop\ProyectoUTM\UTM.SI\bin\Debug\UTM.XML.pdb
+C:\Users\Eduardo\Desktop\ProyectoUTM\UTM.SI\obj\Debug\UTM.SI.csprojResolveAssemblyReference.cache
+C:\Users\Eduardo\Desktop\ProyectoUTM\UTM.SI\obj\Debug\UTM.SI.GUI.Principal.resources
+C:\Users\Eduardo\Desktop\ProyectoUTM\UTM.SI\obj\Debug\UTM.SI.Properties.Resources.resources
+C:\Users\Eduardo\Desktop\ProyectoUTM\UTM.SI\obj\Debug\UTM.SI.csproj.GenerateResource.Cache
+F:\UTM\Sep-Dic-2014\DAII\SD\ProyectoUTM\UTM.SI\bin\Debug\UTM.SI.exe.config
+F:\UTM\Sep-Dic-2014\DAII\SD\ProyectoUTM\UTM.SI\obj\Debug\UTM.SI.exe
+F:\UTM\Sep-Dic-2014\DAII\SD\ProyectoUTM\UTM.SI\obj\Debug\UTM.SI.pdb
+F:\UTM\Sep-Dic-2014\DAII\SD\ProyectoUTM\UTM.SI\bin\Debug\UTM.SI.exe
+F:\UTM\Sep-Dic-2014\DAII\SD\ProyectoUTM\UTM.SI\bin\Debug\UTM.SI.pdb
+F:\UTM\Sep-Dic-2014\DAII\SD\ProyectoUTM\UTM.SI\bin\Debug\Guifreaks.Common.dll
+F:\UTM\Sep-Dic-2014\DAII\SD\ProyectoUTM\UTM.SI\bin\Debug\Guifreaks.NavigationBar.dll
+F:\UTM\Sep-Dic-2014\DAII\SD\ProyectoUTM\UTM.SI\bin\Debug\MT.WindowsUI.dll
+F:\UTM\Sep-Dic-2014\DAII\SD\ProyectoUTM\UTM.SI\bin\Debug\UTM.Archivo.exe
+F:\UTM\Sep-Dic-2014\DAII\SD\ProyectoUTM\UTM.SI\bin\Debug\UTM.SQLite.exe
+F:\UTM\Sep-Dic-2014\DAII\SD\ProyectoUTM\UTM.SI\bin\Debug\UTM.XML.exe
+F:\UTM\Sep-Dic-2014\DAII\SD\ProyectoUTM\UTM.SI\bin\Debug\System.Data.SQLite.dll
+F:\UTM\Sep-Dic-2014\DAII\SD\ProyectoUTM\UTM.SI\bin\Debug\UTM.Archivo.pdb
+F:\UTM\Sep-Dic-2014\DAII\SD\ProyectoUTM\UTM.SI\bin\Debug\UTM.SQLite.pdb
+F:\UTM\Sep-Dic-2014\DAII\SD\ProyectoUTM\UTM.SI\bin\Debug\UTM.XML.pdb
+F:\UTM\Sep-Dic-2014\DAII\SD\ProyectoUTM\UTM.SI\obj\Debug\UTM.SI.csprojResolveAssemblyReference.cache
+F:\UTM\Sep-Dic-2014\DAII\SD\ProyectoUTM\UTM.SI\obj\Debug\UTM.SI.GUI.Principal.resources
+F:\UTM\Sep-Dic-2014\DAII\SD\ProyectoUTM\UTM.SI\obj\Debug\UTM.SI.Properties.Resources.resources
+F:\UTM\Sep-Dic-2014\DAII\SD\ProyectoUTM\UTM.SI\obj\Debug\UTM.SI.csproj.GenerateResource.Cache
+C:\Users\Eduardo\Desktop\ProyectoUTM\UTM.SI\bin\Debug\System.Data.SQLite.dll
+D:\UTM\2015\Septiembre-Diciembre\DAII\SD\ProyectoUTM\UTM.SI\bin\Debug\UTM.SI.exe.config
+D:\UTM\2015\Septiembre-Diciembre\DAII\SD\ProyectoUTM\UTM.SI\obj\Debug\UTM.SI.exe
+D:\UTM\2015\Septiembre-Diciembre\DAII\SD\ProyectoUTM\UTM.SI\obj\Debug\UTM.SI.pdb
+D:\UTM\2015\Septiembre-Diciembre\DAII\SD\ProyectoUTM\UTM.SI\bin\Debug\UTM.SI.exe
+D:\UTM\2015\Septiembre-Diciembre\DAII\SD\ProyectoUTM\UTM.SI\bin\Debug\UTM.SI.pdb
+D:\UTM\2015\Septiembre-Diciembre\DAII\SD\ProyectoUTM\UTM.SI\bin\Debug\Guifreaks.Common.dll
+D:\UTM\2015\Septiembre-Diciembre\DAII\SD\ProyectoUTM\UTM.SI\bin\Debug\Guifreaks.NavigationBar.dll
+D:\UTM\2015\Septiembre-Diciembre\DAII\SD\ProyectoUTM\UTM.SI\bin\Debug\MT.WindowsUI.dll
+D:\UTM\2015\Septiembre-Diciembre\DAII\SD\ProyectoUTM\UTM.SI\bin\Debug\UTM.Archivo.exe
+D:\UTM\2015\Septiembre-Diciembre\DAII\SD\ProyectoUTM\UTM.SI\bin\Debug\UTM.SQLite.exe
+D:\UTM\2015\Septiembre-Diciembre\DAII\SD\ProyectoUTM\UTM.SI\bin\Debug\UTM.XML.exe
+D:\UTM\2015\Septiembre-Diciembre\DAII\SD\ProyectoUTM\UTM.SI\bin\Debug\System.Data.SQLite.dll
+D:\UTM\2015\Septiembre-Diciembre\DAII\SD\ProyectoUTM\UTM.SI\bin\Debug\UTM.Archivo.pdb
+D:\UTM\2015\Septiembre-Diciembre\DAII\SD\ProyectoUTM\UTM.SI\bin\Debug\UTM.SQLite.pdb
+D:\UTM\2015\Septiembre-Diciembre\DAII\SD\ProyectoUTM\UTM.SI\bin\Debug\UTM.XML.pdb
+D:\UTM\2015\Septiembre-Diciembre\DAII\SD\ProyectoUTM\UTM.SI\obj\Debug\UTM.SI.csprojResolveAssemblyReference.cache
+D:\UTM\2015\Septiembre-Diciembre\DAII\SD\ProyectoUTM\UTM.SI\obj\Debug\UTM.SI.GUI.Principal.resources
+D:\UTM\2015\Septiembre-Diciembre\DAII\SD\ProyectoUTM\UTM.SI\obj\Debug\UTM.SI.Properties.Resources.resources
+D:\UTM\2015\Septiembre-Diciembre\DAII\SD\ProyectoUTM\UTM.SI\obj\Debug\UTM.SI.csproj.GenerateResource.Cache
+C:\Users\emore.DESKTOP-41TR77C\Desktop\ProyectoUTM\UTM.SI\bin\Debug\UTM.SI.exe.config
+C:\Users\emore.DESKTOP-41TR77C\Desktop\ProyectoUTM\UTM.SI\obj\Debug\UTM.SI.exe
+C:\Users\emore.DESKTOP-41TR77C\Desktop\ProyectoUTM\UTM.SI\obj\Debug\UTM.SI.pdb
+C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Aplicaciones II\Practica\ProyectoUTM\UTM.SI\bin\Debug\UTM.SI.exe.config
+C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Aplicaciones II\Practica\ProyectoUTM\UTM.SI\obj\Debug\UTM.SI.exe
+C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Aplicaciones II\Practica\ProyectoUTM\UTM.SI\obj\Debug\UTM.SI.pdb
+C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Aplicaciones II\Practica\ProyectoUTM\UTM.SI\obj\Debug\UTM.SI.csprojResolveAssemblyReference.cache
+C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Aplicaciones II\Practica\ProyectoUTM\UTM.SI\obj\Debug\UTM.SI.GUI.Principal.resources
+C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Aplicaciones II\Practica\ProyectoUTM\UTM.SI\obj\Debug\UTM.SI.Properties.Resources.resources
+C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Aplicaciones II\Practica\ProyectoUTM\UTM.SI\obj\Debug\UTM.SI.csproj.GenerateResource.Cache
+C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Aplicaciones II\Practica\ProyectoUTM\UTM.SI\bin\Debug\UTM.SI.exe
+C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Aplicaciones II\Practica\ProyectoUTM\UTM.SI\bin\Debug\UTM.SI.pdb
+C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Aplicaciones II\Practica\ProyectoUTM\UTM.SI\bin\Debug\Guifreaks.Common.dll
+C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Aplicaciones II\Practica\ProyectoUTM\UTM.SI\bin\Debug\Guifreaks.NavigationBar.dll
+C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Aplicaciones II\Practica\ProyectoUTM\UTM.SI\bin\Debug\MT.WindowsUI.dll
+C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Aplicaciones II\Practica\ProyectoUTM\UTM.SI\bin\Debug\UTM.Archivo.exe
+C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Aplicaciones II\Practica\ProyectoUTM\UTM.SI\bin\Debug\UTM.SQLite.exe
+C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Aplicaciones II\Practica\ProyectoUTM\UTM.SI\bin\Debug\UTM.XML.exe
+C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Aplicaciones II\Practica\ProyectoUTM\UTM.SI\bin\Debug\UTM.Archivo.pdb
+C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Aplicaciones II\Practica\ProyectoUTM\UTM.SI\bin\Debug\UTM.SQLite.pdb
+C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Aplicaciones II\Practica\ProyectoUTM\UTM.SI\bin\Debug\UTM.XML.pdb
+C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Aplicaciones II\Practica\ProyectoUTM\UTM.SI\bin\Debug\System.Windows.Forms.Ribbon35.dll
+C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Aplicaciones II\Parcial 1\Practica\ProyectoUTM\UTM.SI\bin\Debug\UTM.SI.exe.config
+C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Aplicaciones II\Parcial 1\Practica\ProyectoUTM\UTM.SI\obj\Debug\UTM.SI.exe
+C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Aplicaciones II\Parcial 1\Practica\ProyectoUTM\UTM.SI\obj\Debug\UTM.SI.pdb
+C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Aplicaciones II\Parcial 1\Practica\ProyectoUTM\UTM.SI\bin\Debug\UTM.SI.exe
+C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Aplicaciones II\Parcial 1\Practica\ProyectoUTM\UTM.SI\bin\Debug\UTM.SI.pdb
+C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Aplicaciones II\Parcial 1\Practica\ProyectoUTM\UTM.SI\bin\Debug\Guifreaks.Common.dll
+C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Aplicaciones II\Parcial 1\Practica\ProyectoUTM\UTM.SI\bin\Debug\Guifreaks.NavigationBar.dll
+C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Aplicaciones II\Parcial 1\Practica\ProyectoUTM\UTM.SI\bin\Debug\MT.WindowsUI.dll
+C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Aplicaciones II\Parcial 1\Practica\ProyectoUTM\UTM.SI\bin\Debug\System.Windows.Forms.Ribbon35.dll
+C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Aplicaciones II\Parcial 1\Practica\ProyectoUTM\UTM.SI\bin\Debug\UTM.Archivo.exe
+C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Aplicaciones II\Parcial 1\Practica\ProyectoUTM\UTM.SI\bin\Debug\UTM.SQLite.exe
+C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Aplicaciones II\Parcial 1\Practica\ProyectoUTM\UTM.SI\bin\Debug\UTM.XML.exe
+C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Aplicaciones II\Parcial 1\Practica\ProyectoUTM\UTM.SI\bin\Debug\UTM.Archivo.pdb
+C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Aplicaciones II\Parcial 1\Practica\ProyectoUTM\UTM.SI\bin\Debug\UTM.SQLite.pdb
+C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Aplicaciones II\Parcial 1\Practica\ProyectoUTM\UTM.SI\bin\Debug\UTM.XML.pdb
+C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Aplicaciones II\Parcial 1\Practica\ProyectoUTM\UTM.SI\obj\Debug\UTM.SI.csprojResolveAssemblyReference.cache
+C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Aplicaciones II\Parcial 1\Practica\ProyectoUTM\UTM.SI\obj\Debug\UTM.SI.GUI.Principal.resources
+C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Aplicaciones II\Parcial 1\Practica\ProyectoUTM\UTM.SI\obj\Debug\UTM.SI.Properties.Resources.resources
+C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Aplicaciones II\Parcial 1\Practica\ProyectoUTM\UTM.SI\obj\Debug\UTM.SI.csproj.GenerateResource.Cache

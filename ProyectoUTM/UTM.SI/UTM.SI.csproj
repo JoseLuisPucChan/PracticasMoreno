@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5521DEAE-A161-40EC-828C-E377B75A4C88}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UTM.SI</RootNamespace>
+    <AssemblyName>UTM.SI</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guifreaks.Common, Version=0.1.0.0, Culture=neutral, PublicKeyToken=c3c25e41a6abca42" />
+    <Reference Include="Guifreaks.NavigationBar, Version=0.1.0.0, Culture=neutral, PublicKeyToken=bf0afd6b35ed9434, processorArchitecture=MSIL" />
+    <Reference Include="MT.WindowsUI, Version=2.6.4.0, Culture=neutral, PublicKeyToken=6a0e81d0b9165633, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GUI\Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Principal.Designer.cs">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="GUI\Principal.resx">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="GUI\Recursos\Imagenes\BarraPrincipal\Thumbs.db" />
+    <None Include="GUI\Recursos\Imagenes\Modulos\Thumbs.db" />
+    <None Include="GUI\Recursos\Imagenes\Otros\Thumbs.db" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Guifreaks.Common.dll" />
+    <Content Include="bin\Guifreaks.NavigationBar.dll" />
+    <Content Include="bin\MT.WindowsUI.dll" />
+    <Content Include="bin\System.Windows.Forms.Ribbon35.dll" />
+    <Content Include="GUI\Recursos\Imagenes\BarraPrincipal\Ayuda.png" />
+    <Content Include="GUI\Recursos\Imagenes\BarraPrincipal\Cerrar.png" />
+    <Content Include="GUI\Recursos\Imagenes\BarraPrincipal\Comprimir.png" />
+    <Content Include="GUI\Recursos\Imagenes\BarraPrincipal\Comprimir2.png" />
+    <Content Include="GUI\Recursos\Imagenes\Modulos\CC.png" />
+    <Content Include="GUI\Recursos\Imagenes\Modulos\CP.png" />
+    <Content Include="GUI\Recursos\Imagenes\Modulos\Ejemplo.png" />
+    <Content Include="GUI\Recursos\Imagenes\Modulos\Herramientas.png" />
+    <Content Include="GUI\Recursos\Imagenes\Modulos\Inventario.png" />
+    <Content Include="GUI\Recursos\Imagenes\Modulos\Nomina.png" />
+    <Content Include="GUI\Recursos\Imagenes\Modulos\PV.png" />
+    <Content Include="GUI\Recursos\Imagenes\Modulos\Seguridad.png" />
+    <Content Include="GUI\Recursos\Imagenes\Otros\Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\UTM.Archivo\UTM.Archivo.csproj">
+      <Project>{90483c13-2bff-4712-81ac-384af63ce6ef}</Project>
+      <Name>UTM.Archivo</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UTM.SQLite\UTM.SQLite.csproj">
+      <Project>{9cff799b-5cc9-44d8-ae22-8027b809f8df}</Project>
+      <Name>UTM.SQLite</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UTM.XML\UTM.XML.csproj">
+      <Project>{120d9145-b73f-4336-abc5-4e9a6d1723f7}</Project>
+      <Name>UTM.XML</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

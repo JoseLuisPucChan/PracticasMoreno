@@ -1,0 +1,51 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Alumno ClaveAlumno="1">
+    <Nombre>Kati2</Nombre>
+    <ApellidoPaterno>Pech</ApellidoPaterno>
+    <ApellidoMaterno>Yam</ApellidoMaterno>
+    <Edad>18</Edad>
+  </Alumno>
+  <Alumno ClaveAlumno="2">
+    <Nombre>Katia</Nombre>
+    <ApellidoPaterno>Baas</ApellidoPaterno>
+    <ApellidoMaterno>Ginéz</ApellidoMaterno>
+    <Edad>20</Edad>
+  </Alumno>
+  <Alumno ClaveAlumno="4">
+    <Nombre>Maria</Nombre>
+    <ApellidoPaterno>Poot</ApellidoPaterno>
+    <ApellidoMaterno>Yam</ApellidoMaterno>
+    <Edad>23</Edad>
+  </Alumno>
+  <Alumno ClaveAlumno="5">
+    <Nombre>Jose</Nombre>
+    <ApellidoPaterno>Puc</ApellidoPaterno>
+    <ApellidoMaterno>Chan</ApellidoMaterno>
+    <Edad>20</Edad>
+  </Alumno>
+  <Alumno ClaveAlumno="6">
+    <Nombre>Gladis</Nombre>
+    <ApellidoPaterno>Piste</ApellidoPaterno>
+    <ApellidoMaterno>Oxte</ApellidoMaterno>
+    <Edad>23</Edad>
+  </Alumno>
+  <Alumno ClaveAlumno="7">
+    <Nombre>Jose</Nombre>
+    <ApellidoPaterno>Muños</ApellidoPaterno>
+    <ApellidoMaterno>Piste</ApellidoMaterno>
+    <Edad>16</Edad>
+  </Alumno>
+  <Alumno ClaveAlumno="8">
+    <Nombre>Luis</Nombre>
+    <ApellidoPaterno>Puc</ApellidoPaterno>
+    <ApellidoMaterno>Pech</ApellidoMaterno>
+    <Edad>19</Edad>
+  </Alumno>
+  <Alumno ClaveAlumno="">
+    <Nombre />
+    <ApellidoPaterno />
+    <ApellidoMaterno />
+    <Edad />
+  </Alumno>
+</NewDataSet>

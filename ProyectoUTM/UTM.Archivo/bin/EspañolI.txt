@@ -1,0 +1,21 @@
+ESPAÑOL,INGLES
+abanico,fan
+abrir,open
+bailar,dance
+bajo,low
+barco,ship
+basilisco,basilisk
+cadaver,corpse
+calle,street
+cachorro,puppy
+chile,chilli pepper
+chingar,fuck
+chocolate,chocolate
+delgado,thin
+denunciar,report
+deporte,sport
+edad,age
+engañar,deceive
+enorme,huge
+madre,mother
+salir,go out
