@@ -61,3 +61,13 @@ C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Aplicaciones II\Parcial 1\Practica\Pr
 C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Aplicaciones II\Parcial 1\Practica\ProyectoUTM\UTM.XML\bin\Debug\UTM.XML.exe
 C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Aplicaciones II\Parcial 1\Practica\ProyectoUTM\UTM.XML\bin\Debug\UTM.XML.pdb
 C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Aplicaciones II\Parcial 1\Practica\ProyectoUTM\UTM.XML\obj\Debug\UTM.XML.pdb
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.XML\bin\Debug\UTM.XML.exe.config
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.XML\bin\Debug\UTM.XML.exe
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.XML\bin\Debug\UTM.XML.pdb
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.XML\obj\Debug\UTM.XML.csprojResolveAssemblyReference.cache
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.XML\obj\Debug\UTM.XML.GUI.frmXML.resources
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.XML\obj\Debug\UTM.XML.Properties.Resources.resources
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.XML\obj\Debug\UTM.XML.Reportes.Reporte.resources
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.XML\obj\Debug\UTM.XML.csproj.GenerateResource.Cache
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.XML\obj\Debug\UTM.XML.exe
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.XML\obj\Debug\UTM.XML.pdb

@@ -62,3 +62,13 @@ C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Aplicaciones II\Parcial 1\Practica\Pr
 C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Aplicaciones II\Parcial 1\Practica\ProyectoUTM\UTM.Archivo\obj\Debug\UTM.Archivo.csproj.GenerateResource.Cache
 C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Aplicaciones II\Parcial 1\Practica\ProyectoUTM\UTM.Archivo\obj\Debug\UTM.Archivo.exe
 C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Aplicaciones II\Parcial 1\Practica\ProyectoUTM\UTM.Archivo\obj\Debug\UTM.Archivo.pdb
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.Archivo\bin\Debug\UTM.Archivo.exe.config
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.Archivo\bin\Debug\UTM.Archivo.exe
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.Archivo\bin\Debug\UTM.Archivo.pdb
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.Archivo\obj\Debug\UTM.Archivo.csprojResolveAssemblyReference.cache
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.Archivo\obj\Debug\UTM.Archivo.bin.frmTraductor.resources
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.Archivo\obj\Debug\UTM.Archivo.GUI.frmArchivo.resources
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.Archivo\obj\Debug\UTM.Archivo.Properties.Resources.resources
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.Archivo\obj\Debug\UTM.Archivo.csproj.GenerateResource.Cache
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.Archivo\obj\Debug\UTM.Archivo.exe
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.Archivo\obj\Debug\UTM.Archivo.pdb

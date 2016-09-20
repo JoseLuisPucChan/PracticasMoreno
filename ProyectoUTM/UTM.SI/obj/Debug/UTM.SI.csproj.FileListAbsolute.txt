@@ -133,3 +133,22 @@ C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Aplicaciones II\Parcial 1\Practica\Pr
 C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Aplicaciones II\Parcial 1\Practica\ProyectoUTM\UTM.SI\obj\Debug\UTM.SI.GUI.Principal.resources
 C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Aplicaciones II\Parcial 1\Practica\ProyectoUTM\UTM.SI\obj\Debug\UTM.SI.Properties.Resources.resources
 C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Aplicaciones II\Parcial 1\Practica\ProyectoUTM\UTM.SI\obj\Debug\UTM.SI.csproj.GenerateResource.Cache
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.SI\bin\Debug\UTM.SI.exe.config
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.SI\obj\Debug\UTM.SI.exe
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.SI\obj\Debug\UTM.SI.pdb
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.SI\bin\Debug\UTM.SI.exe
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.SI\bin\Debug\UTM.SI.pdb
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.SI\bin\Debug\Guifreaks.Common.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.SI\bin\Debug\Guifreaks.NavigationBar.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.SI\bin\Debug\MT.WindowsUI.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.SI\bin\Debug\System.Windows.Forms.Ribbon35.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.SI\bin\Debug\UTM.Archivo.exe
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.SI\bin\Debug\UTM.SQLite.exe
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.SI\bin\Debug\UTM.XML.exe
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.SI\bin\Debug\UTM.Archivo.pdb
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.SI\bin\Debug\UTM.SQLite.pdb
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.SI\bin\Debug\UTM.XML.pdb
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.SI\obj\Debug\UTM.SI.csprojResolveAssemblyReference.cache
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.SI\obj\Debug\UTM.SI.GUI.Principal.resources
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.SI\obj\Debug\UTM.SI.Properties.Resources.resources
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.SI\obj\Debug\UTM.SI.csproj.GenerateResource.Cache

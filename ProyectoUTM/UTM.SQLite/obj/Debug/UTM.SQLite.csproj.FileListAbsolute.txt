@@ -39,3 +39,11 @@ C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Aplicaciones II\Practica\ProyectoUTM\
 C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Aplicaciones II\Practica\ProyectoUTM\UTM.SQLite\bin\Debug\UTM.SQLite.exe
 C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Aplicaciones II\Practica\ProyectoUTM\UTM.SQLite\bin\Debug\UTM.SQLite.pdb
 C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Aplicaciones II\Practica\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.pdb
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\bin\Debug\UTM.SQLite.exe.config
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\bin\Debug\UTM.SQLite.exe
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\bin\Debug\UTM.SQLite.pdb
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.csprojResolveAssemblyReference.cache
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.Properties.Resources.resources
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.csproj.GenerateResource.Cache
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.exe
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.pdb
