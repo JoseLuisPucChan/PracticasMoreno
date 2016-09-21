@@ -10,3 +10,6 @@ C:\Users\Luis Puc\Documents\Visual Studio 2013\Projects\Unidad1\Practica2\obj\De
 C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Estructura de Datos\Practicas\Unidad1\Practica2\bin\Debug\Practica2.exe.config
 C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Estructura de Datos\Practicas\Unidad1\Practica2\obj\Debug\Practica2.exe
 C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Estructura de Datos\Practicas\Unidad1\Practica2\obj\Debug\Practica2.pdb
+C:\Users\Luis Puc\Desktop\PracticasMoreno\Unidad1\Practica2\bin\Debug\Practica2.exe.config
+C:\Users\Luis Puc\Desktop\PracticasMoreno\Unidad1\Practica2\obj\Debug\Practica2.exe
+C:\Users\Luis Puc\Desktop\PracticasMoreno\Unidad1\Practica2\obj\Debug\Practica2.pdb

@@ -16,3 +16,6 @@ C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Estructura de Datos\Practicas\Unidad1
 C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Estructura de Datos\Practicas\Unidad1\Practica1\obj\Debug\Practica1.Form1.resources
 C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Estructura de Datos\Practicas\Unidad1\Practica1\obj\Debug\Practica1.Properties.Resources.resources
 C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Estructura de Datos\Practicas\Unidad1\Practica1\obj\Debug\Practica1.csproj.GenerateResource.Cache
+C:\Users\Luis Puc\Desktop\PracticasMoreno\Unidad1\Practica1\bin\Debug\Practica1.exe.config
+C:\Users\Luis Puc\Desktop\PracticasMoreno\Unidad1\Practica1\obj\Debug\Practica1.exe
+C:\Users\Luis Puc\Desktop\PracticasMoreno\Unidad1\Practica1\obj\Debug\Practica1.pdb

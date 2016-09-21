@@ -14,8 +14,7 @@ namespace Conceptos_Básicos
             Console.WriteLine("Seleccione una de las siguientes operaciones a realizar");
             Console.WriteLine("1. Factorial");
             Console.WriteLine("2. MCD");
-            Console.WriteLine("3. Multiplicación");
-            Console.WriteLine("4. División");
+          
             opcion = Convert.ToInt32(Console.ReadLine());
             switch (opcion)
             {
