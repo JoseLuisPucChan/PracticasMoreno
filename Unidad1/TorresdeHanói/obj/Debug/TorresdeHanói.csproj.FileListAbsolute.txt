@@ -1,0 +1,9 @@
+C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Estructura de Datos\Practicas\Unidad1\TorresdeHanói\bin\Debug\TorresdeHanói.exe.config
+C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Estructura de Datos\Practicas\Unidad1\TorresdeHanói\obj\Debug\TorresdeHanói.csprojResolveAssemblyReference.cache
+C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Estructura de Datos\Practicas\Unidad1\TorresdeHanói\obj\Debug\TorresdeHanói.Form1.resources
+C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Estructura de Datos\Practicas\Unidad1\TorresdeHanói\obj\Debug\TorresdeHanói.Properties.Resources.resources
+C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Estructura de Datos\Practicas\Unidad1\TorresdeHanói\obj\Debug\TorresdeHanói.csproj.GenerateResource.Cache
+C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Estructura de Datos\Practicas\Unidad1\TorresdeHanói\bin\Debug\TorresdeHanói.exe
+C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Estructura de Datos\Practicas\Unidad1\TorresdeHanói\bin\Debug\TorresdeHanói.pdb
+C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Estructura de Datos\Practicas\Unidad1\TorresdeHanói\obj\Debug\TorresdeHanói.exe
+C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Estructura de Datos\Practicas\Unidad1\TorresdeHanói\obj\Debug\TorresdeHanói.pdb
