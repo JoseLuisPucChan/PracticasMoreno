@@ -175,7 +175,7 @@ namespace TorresdeHanói
         {
             if (Torres)
             {
-                g.FillRectangle(new SolidBrush(Color.Black), 0, 0, 800, 800);
+                g.FillRectangle(new SolidBrush(Color.LightSeaGreen), 0, 0, 800, 800);
                 g.FillRectangle(new SolidBrush(Color.White), 100, 70, 3, 200);
                 g.FillRectangle(new SolidBrush(Color.White), 290, 70, 3, 200);
                 g.FillRectangle(new SolidBrush(Color.White), 460, 70, 3, 200);
