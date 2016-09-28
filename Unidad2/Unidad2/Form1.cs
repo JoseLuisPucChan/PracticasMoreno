@@ -134,26 +134,40 @@ namespace Unidad2
                                         new Color{indice="h",valor="Gris"},
                                     };
             string Color ="";
+            int MatrizColor = 0;
             string Indice = "";
             string[] colores = new string[8];
-            int i = ArregloColres.Length;
-           
             foreach (Color ColorActual in ArregloColres)
             {
-              
                 Color = ColorActual.valor;
+                //CrealaMatris;
+               
 
                 foreach (Color ColorNormal in ArregloColres)
                 {
                    if(ColorNormal.valor == Color)
                    {
-                       Indice = Indice + ColorNormal.indice + ",";
+                     
+                       //Indice = Indice + ColorNormal.indice + ",";
+                   }
+                   else
+                   {
+                       MatrizColor++;
                    }
                 }
                 MessageBox.Show(Color+ " = " +Indice);
                 Indice = "";
+             
             }
-           
+            MessageBox.Show(MatrizColor.ToString());
+
+            string[] Colores2 = new string[MatrizColor];
+
+
+
+
+
+
         }
     }
 }
