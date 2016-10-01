@@ -71,3 +71,9 @@ C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.XML\obj\Debug\UTM.XML.
 C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.XML\obj\Debug\UTM.XML.csproj.GenerateResource.Cache
 C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.XML\obj\Debug\UTM.XML.exe
 C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.XML\obj\Debug\UTM.XML.pdb
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.XML\obj\Debug\UTM.XML.GUI.frmGestionBliblioteca.resources
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.XML\obj\Debug\UTM.XML.GUI.Editar.resources
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.XML\obj\Debug\UTM.XML.GUI.ReporteLib.resources
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.XML\bin\Debug\Json.NET.Web.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.XML\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.XML\bin\Debug\Newtonsoft.Json.xml

@@ -62,7 +62,7 @@ namespace UTM.SI.GUI
             };
             nbbXML.RelatedControl = treeView;   
         }
-        public void CargaMenuSqlite()
+        public void Agenda()
         {
             TreeView treeView = new TreeView();
             TreeNode treeNode = new TreeNode("SQLite");
@@ -72,12 +72,29 @@ namespace UTM.SI.GUI
                 TreeNode clickedNode = e.Node;
                 if (clickedNode.Text == "SQLite")
                 {
-                 //   UTM.SQLite.GUI.frmSQLite ofrmSQLite = new UTM.SQLite.GUI.frmSQLite();
-                   // showwindow(ofrmSQLite);
+                    UTM.SQLite.GUI.SLQLite ofrmSQLite = new UTM.SQLite.GUI.SLQLite();
+                   showwindow(ofrmSQLite);
                 }
 
             };
             nbbSQLite.RelatedControl = treeView;     
+        }
+        public void CargaMenuSqlite()
+        {
+            TreeView treeView = new TreeView();
+            TreeNode treeNode = new TreeNode("Contactos");
+            treeView.Nodes.Add(treeNode);
+            treeView.NodeMouseClick += delegate(object sender, TreeNodeMouseClickEventArgs e)
+            {
+                TreeNode clickedNode = e.Node;
+                if (clickedNode.Text == "Contactos")
+                {
+                    UTM.SQLite.GUI.ABCContactos Agenda = new UTM.SQLite.GUI.ABCContactos();
+                    showwindow(Agenda);
+                }
+
+            };
+            nbbAgenda.RelatedControl = treeView;
         }
 
 
@@ -98,13 +115,31 @@ namespace UTM.SI.GUI
             };
             nbbTraductor.RelatedControl = treeView; 
         }
+        public void Blibloteca()
+        {
+            TreeView treeView = new TreeView();
+            TreeNode treeNode = new TreeNode("XML Bibliteca");
+            treeView.Nodes.Add(treeNode);
+            treeView.NodeMouseClick += delegate(object sender, TreeNodeMouseClickEventArgs e)
+            {
+                TreeNode clickedNode = e.Node;
+                if (clickedNode.Text == "XML Bibliteca")
+                {
+                    UTM.XML.GUI.frmGestionBliblioteca frmBiblioteca = new UTM.XML.GUI.frmGestionBliblioteca();
+                    showwindow(frmBiblioteca);
+                }
+
+            };
+            nbbXMLPractica.RelatedControl = treeView;
+        }
         public void CargaMenu() 
         {
             CargaMenuArchivo();
             CargaMenuXml();
             CargaMenuSqlite();
             CargaMenuTraductor();
-   
+            Blibloteca();
+            Agenda();
         }
         private void showwindow(Form ventanaMostrar)
         {
@@ -146,6 +181,21 @@ namespace UTM.SI.GUI
         }
 
         private void navigateBarButton1_OnNavigateBarButtonSelected(MT.WindowsUI.NavigationPane.NavigateBarButtonEventArgs e)
+        {
+
+        }
+
+        private void nbbXMLPractica_OnNavigateBarButtonSelected(MT.WindowsUI.NavigationPane.NavigateBarButtonEventArgs e)
+        {
+
+        }
+
+        private void nbbSQLite_OnNavigateBarButtonSelected(MT.WindowsUI.NavigationPane.NavigateBarButtonEventArgs e)
+        {
+
+        }
+
+        private void statusStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
         {
 
         }

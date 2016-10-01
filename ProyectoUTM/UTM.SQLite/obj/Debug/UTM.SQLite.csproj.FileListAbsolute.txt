@@ -47,3 +47,16 @@ C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.S
 C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.csproj.GenerateResource.Cache
 C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.exe
 C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.pdb
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.GUI.SLQLite.resources
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.GUI.Editar.resources
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.GUI.Recursos.ReporteLibros.resources
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.GUI.ReporteLibro.resources
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\bin\Debug\Json.NET.Web.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.GUI.ABCContactos.resources
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.GUI.AgendaElectronica.resources
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.GUI.EditarAgenda.resources
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.GUI.RegistroActividades.resources
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.GUI.Correo.resources
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\bin\Debug\GoEmail.dll

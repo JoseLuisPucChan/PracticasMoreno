@@ -141,18 +141,11 @@ namespace Unidad2
             {
                 Color = ColorActual.valor;
                 //CrealaMatris;
-               
-
                 foreach (Color ColorNormal in ArregloColres)
                 {
                    if(ColorNormal.valor == Color)
                    {
-                     
                        //Indice = Indice + ColorNormal.indice + ",";
-                   }
-                   else
-                   {
-                       MatrizColor++;
                    }
                 }
                 MessageBox.Show(Color+ " = " +Indice);
