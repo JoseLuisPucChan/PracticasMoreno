@@ -33,6 +33,7 @@ namespace UTM.SQLite.GUI
                 Limpiar();
                 btnGuardar.Visible = false;
                 BuscarAgenda(oAgendaBO);
+                groupBox1.Text = "Editar contacto";
             }
 
         }
@@ -59,7 +60,7 @@ namespace UTM.SQLite.GUI
         }
         private void btnSalir_Click(object sender, EventArgs e)
         {
-            Close();
+           this.Close();
         }
       
         private void EditarAgenda_Load(object sender, EventArgs e)

@@ -83,12 +83,6 @@
     <Compile Include="GUI\ABCContactos.Designer.cs">
       <DependentUpon>ABCContactos.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\AgendaElectronica.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="GUI\AgendaElectronica.Designer.cs">
-      <DependentUpon>AgendaElectronica.cs</DependentUpon>
-    </Compile>
     <Compile Include="GUI\Correo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -148,9 +142,6 @@
     <Compile Include="Service\CtrlLibro.cs" />
     <EmbeddedResource Include="GUI\ABCContactos.resx">
       <DependentUpon>ABCContactos.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GUI\AgendaElectronica.resx">
-      <DependentUpon>AgendaElectronica.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\Correo.resx">
       <DependentUpon>Correo.cs</DependentUpon>
