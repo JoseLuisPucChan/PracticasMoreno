@@ -1,0 +1,18 @@
+c:\users\luis puc\documents\visual studio 2013\Projects\Unidad2\Unidad2\bin\Debug\Unidad2.exe.config
+c:\users\luis puc\documents\visual studio 2013\Projects\Unidad2\Unidad2\bin\Debug\Unidad2.exe
+c:\users\luis puc\documents\visual studio 2013\Projects\Unidad2\Unidad2\bin\Debug\Unidad2.pdb
+c:\users\luis puc\documents\visual studio 2013\Projects\Unidad2\Unidad2\obj\Debug\Unidad2.csprojResolveAssemblyReference.cache
+c:\users\luis puc\documents\visual studio 2013\Projects\Unidad2\Unidad2\obj\Debug\Unidad2.Form1.resources
+c:\users\luis puc\documents\visual studio 2013\Projects\Unidad2\Unidad2\obj\Debug\Unidad2.Properties.Resources.resources
+c:\users\luis puc\documents\visual studio 2013\Projects\Unidad2\Unidad2\obj\Debug\Unidad2.csproj.GenerateResource.Cache
+c:\users\luis puc\documents\visual studio 2013\Projects\Unidad2\Unidad2\obj\Debug\Unidad2.exe
+c:\users\luis puc\documents\visual studio 2013\Projects\Unidad2\Unidad2\obj\Debug\Unidad2.pdb
+C:\Users\Luis Puc\Desktop\PracticasMoreno\Unidad2\Unidad2\bin\Debug\Unidad2.exe.config
+C:\Users\Luis Puc\Desktop\PracticasMoreno\Unidad2\Unidad2\obj\Debug\Unidad2.exe
+C:\Users\Luis Puc\Desktop\PracticasMoreno\Unidad2\Unidad2\obj\Debug\Unidad2.pdb
+C:\Users\Luis Puc\Desktop\PracticasMoreno\Unidad2\Unidad2\bin\Debug\Unidad2.exe
+C:\Users\Luis Puc\Desktop\PracticasMoreno\Unidad2\Unidad2\bin\Debug\Unidad2.pdb
+C:\Users\Luis Puc\Desktop\PracticasMoreno\Unidad2\Unidad2\obj\Debug\Unidad2.csprojResolveAssemblyReference.cache
+C:\Users\Luis Puc\Desktop\PracticasMoreno\Unidad2\Unidad2\obj\Debug\Unidad2.Form1.resources
+C:\Users\Luis Puc\Desktop\PracticasMoreno\Unidad2\Unidad2\obj\Debug\Unidad2.Properties.Resources.resources
+C:\Users\Luis Puc\Desktop\PracticasMoreno\Unidad2\Unidad2\obj\Debug\Unidad2.csproj.GenerateResource.Cache

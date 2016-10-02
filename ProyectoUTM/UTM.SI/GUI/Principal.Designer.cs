@@ -42,6 +42,10 @@
             this.nbbXML = new MT.WindowsUI.NavigationPane.NavigateBarButton();
             this.nbbSQLite = new MT.WindowsUI.NavigationPane.NavigateBarButton();
             this.nbbTraductor = new MT.WindowsUI.NavigationPane.NavigateBarButton();
+            this.nbbXMLPractica = new MT.WindowsUI.NavigationPane.NavigateBarButton();
+            this.ribbonButton1 = new System.Windows.Forms.RibbonButton();
+            this.ribbonButton2 = new System.Windows.Forms.RibbonButton();
+            this.nbbAgenda = new MT.WindowsUI.NavigationPane.NavigateBarButton();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.toolStrip1.SuspendLayout();
@@ -126,6 +130,7 @@
             this.statusStrip1.Size = new System.Drawing.Size(954, 22);
             this.statusStrip1.TabIndex = 5;
             this.statusStrip1.Text = "statusStrip1";
+            this.statusStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.statusStrip1_ItemClicked);
             // 
             // nbPrincipal
             // 
@@ -136,7 +141,9 @@
             this.nbPrincipal.Controls.Add(this.nbbXML);
             this.nbPrincipal.Controls.Add(this.nbbSQLite);
             this.nbPrincipal.Controls.Add(this.nbbTraductor);
-            this.nbPrincipal.DisplayedButtonCount = 4;
+            this.nbPrincipal.Controls.Add(this.nbbXMLPractica);
+            this.nbPrincipal.Controls.Add(this.nbbAgenda);
+            this.nbPrincipal.DisplayedButtonCount = 6;
             this.nbPrincipal.Dock = System.Windows.Forms.DockStyle.Left;
             this.nbPrincipal.Location = new System.Drawing.Point(0, 129);
             this.nbPrincipal.MinimumSize = new System.Drawing.Size(22, 100);
@@ -145,9 +152,11 @@
             this.nbbArchivo,
             this.nbbXML,
             this.nbbSQLite,
-            this.nbbTraductor});
+            this.nbbTraductor,
+            this.nbbXMLPractica,
+            this.nbbAgenda});
             this.nbPrincipal.NavigateBarColorTable = ((MT.WindowsUI.NavigationPane.NavigateBarColorTable)(resources.GetObject("nbPrincipal.NavigateBarColorTable")));
-            this.nbPrincipal.NavigateBarDisplayedButtonCount = 4;
+            this.nbPrincipal.NavigateBarDisplayedButtonCount = 6;
             this.nbPrincipal.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.nbPrincipal.SelectedButton = this.nbbArchivo;
             this.nbPrincipal.Size = new System.Drawing.Size(245, 339);
@@ -164,7 +173,7 @@
             this.nbbArchivo.IsSelected = true;
             this.nbbArchivo.IsShowCollapseScreenCaption = false;
             this.nbbArchivo.Key = "8A351B5A0B5140B3BC5227D8435AA547";
-            this.nbbArchivo.Location = new System.Drawing.Point(0, 179);
+            this.nbbArchivo.Location = new System.Drawing.Point(0, 115);
             this.nbbArchivo.MinimumSize = new System.Drawing.Size(22, 20);
             this.nbbArchivo.MouseOverImage = global::UTM.SI.Properties.Resources.Herramientas;
             this.nbbArchivo.Name = "nbbArchivo";
@@ -183,7 +192,7 @@
             this.nbbXML.IsSelected = false;
             this.nbbXML.IsShowCollapseScreenCaption = false;
             this.nbbXML.Key = "308D21D946814CF7A407ABF26FFDBBB4";
-            this.nbbXML.Location = new System.Drawing.Point(0, 211);
+            this.nbbXML.Location = new System.Drawing.Point(0, 147);
             this.nbbXML.MinimumSize = new System.Drawing.Size(22, 20);
             this.nbbXML.MouseOverImage = global::UTM.SI.Properties.Resources.Herramientas;
             this.nbbXML.Name = "nbbXML";
@@ -202,7 +211,7 @@
             this.nbbSQLite.IsSelected = false;
             this.nbbSQLite.IsShowCollapseScreenCaption = false;
             this.nbbSQLite.Key = "3C73C8F6469E48C493F2C77783329DAB";
-            this.nbbSQLite.Location = new System.Drawing.Point(0, 243);
+            this.nbbSQLite.Location = new System.Drawing.Point(0, 179);
             this.nbbSQLite.MinimumSize = new System.Drawing.Size(22, 20);
             this.nbbSQLite.MouseOverImage = global::UTM.SI.Properties.Resources.Herramientas;
             this.nbbSQLite.Name = "nbbSQLite";
@@ -210,6 +219,7 @@
             this.nbbSQLite.Size = new System.Drawing.Size(245, 32);
             this.nbbSQLite.TabIndex = 6;
             this.nbbSQLite.ToolTipText = "NavigateBarButton";
+            this.nbbSQLite.OnNavigateBarButtonSelected += new MT.WindowsUI.NavigationPane.NavigateBarButton.OnNavigateBarButtonSelectedEventHandler(this.nbbSQLite_OnNavigateBarButtonSelected);
             // 
             // nbbTraductor
             // 
@@ -221,7 +231,7 @@
             this.nbbTraductor.IsSelected = false;
             this.nbbTraductor.IsShowCollapseScreenCaption = false;
             this.nbbTraductor.Key = "2A79F31B944F4DDDAE1E492F7980CCC4";
-            this.nbbTraductor.Location = new System.Drawing.Point(0, 275);
+            this.nbbTraductor.Location = new System.Drawing.Point(0, 211);
             this.nbbTraductor.MinimumSize = new System.Drawing.Size(22, 20);
             this.nbbTraductor.MouseOverImage = global::UTM.SI.Properties.Resources.Herramientas;
             this.nbbTraductor.Name = "nbbTraductor";
@@ -230,6 +240,55 @@
             this.nbbTraductor.TabIndex = 7;
             this.nbbTraductor.ToolTipText = "NavigateBarButton";
             this.nbbTraductor.OnNavigateBarButtonSelected += new MT.WindowsUI.NavigationPane.NavigateBarButton.OnNavigateBarButtonSelectedEventHandler(this.navigateBarButton1_OnNavigateBarButtonSelected);
+            // 
+            // nbbXMLPractica
+            // 
+            this.nbbXMLPractica.Caption = "XML Bibliteca";
+            this.nbbXMLPractica.CaptionDescription = "XML Bibliteca";
+            this.nbbXMLPractica.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.nbbXMLPractica.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.nbbXMLPractica.Image = global::UTM.SI.Properties.Resources.Herramientas;
+            this.nbbXMLPractica.IsSelected = false;
+            this.nbbXMLPractica.IsShowCollapseScreenCaption = false;
+            this.nbbXMLPractica.Key = "924BECD50CEF40928F736D48A708AC7A";
+            this.nbbXMLPractica.Location = new System.Drawing.Point(0, 243);
+            this.nbbXMLPractica.MinimumSize = new System.Drawing.Size(22, 20);
+            this.nbbXMLPractica.MouseOverImage = global::UTM.SI.Properties.Resources.Herramientas;
+            this.nbbXMLPractica.Name = "nbbXMLPractica";
+            this.nbbXMLPractica.SelectedImage = global::UTM.SI.Properties.Resources.Herramientas;
+            this.nbbXMLPractica.Size = new System.Drawing.Size(245, 32);
+            this.nbbXMLPractica.TabIndex = 8;
+            this.nbbXMLPractica.ToolTipText = "XML Bibliteca";
+            this.nbbXMLPractica.OnNavigateBarButtonSelected += new MT.WindowsUI.NavigationPane.NavigateBarButton.OnNavigateBarButtonSelectedEventHandler(this.nbbXMLPractica_OnNavigateBarButtonSelected);
+            // 
+            // ribbonButton1
+            // 
+            this.ribbonButton1.Image = ((System.Drawing.Image)(resources.GetObject("ribbonButton1.Image")));
+            this.ribbonButton1.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButton1.SmallImage")));
+            // 
+            // ribbonButton2
+            // 
+            this.ribbonButton2.Image = ((System.Drawing.Image)(resources.GetObject("ribbonButton2.Image")));
+            this.ribbonButton2.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButton2.SmallImage")));
+            // 
+            // nbbAgenda
+            // 
+            this.nbbAgenda.Caption = "Agenda";
+            this.nbbAgenda.CaptionDescription = "Contactos";
+            this.nbbAgenda.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.nbbAgenda.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.nbbAgenda.Image = global::UTM.SI.Properties.Resources.Herramientas;
+            this.nbbAgenda.IsSelected = false;
+            this.nbbAgenda.IsShowCollapseScreenCaption = false;
+            this.nbbAgenda.Key = "64ECF07747F047779A130198E05CB862";
+            this.nbbAgenda.Location = new System.Drawing.Point(0, 275);
+            this.nbbAgenda.MinimumSize = new System.Drawing.Size(22, 20);
+            this.nbbAgenda.MouseOverImage = global::UTM.SI.Properties.Resources.Herramientas;
+            this.nbbAgenda.Name = "nbbAgenda";
+            this.nbbAgenda.SelectedImage = global::UTM.SI.Properties.Resources.Herramientas;
+            this.nbbAgenda.Size = new System.Drawing.Size(245, 32);
+            this.nbbAgenda.TabIndex = 9;
+            this.nbbAgenda.ToolTipText = "NavigateBarButton";
             // 
             // Principal
             // 
@@ -271,5 +330,9 @@
         private MT.WindowsUI.NavigationPane.NavigateBarButton nbbXML;
         private MT.WindowsUI.NavigationPane.NavigateBarButton nbbSQLite;
         private MT.WindowsUI.NavigationPane.NavigateBarButton nbbTraductor;
+        private MT.WindowsUI.NavigationPane.NavigateBarButton nbbXMLPractica;
+        private System.Windows.Forms.RibbonButton ribbonButton1;
+        private System.Windows.Forms.RibbonButton ribbonButton2;
+        private MT.WindowsUI.NavigationPane.NavigateBarButton nbbAgenda;
     }
 }

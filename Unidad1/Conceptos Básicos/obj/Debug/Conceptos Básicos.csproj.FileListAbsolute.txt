@@ -7,6 +7,12 @@ C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Estructura de Datos\Practicas\Unidad1
 C:\Users\Luis Puc\Desktop\PracticasMoreno\Unidad1\Conceptos Básicos\bin\Debug\Conceptos Básicos.exe.config
 C:\Users\Luis Puc\Desktop\PracticasMoreno\Unidad1\Conceptos Básicos\obj\Debug\Conceptos Básicos.exe
 C:\Users\Luis Puc\Desktop\PracticasMoreno\Unidad1\Conceptos Básicos\obj\Debug\Conceptos Básicos.pdb
+<<<<<<< HEAD
 C:\Users\Andre\Desktop\PracticasMoreno\Unidad1\Conceptos Básicos\bin\Debug\Conceptos Básicos.exe.config
 C:\Users\Andre\Desktop\PracticasMoreno\Unidad1\Conceptos Básicos\obj\Debug\Conceptos Básicos.exe
 C:\Users\Andre\Desktop\PracticasMoreno\Unidad1\Conceptos Básicos\obj\Debug\Conceptos Básicos.pdb
+=======
+C:\Users\Luis Puc\Desktop\PracticasMoreno\Unidad1\Conceptos Básicos\bin\Debug\Conceptos Básicos.exe
+C:\Users\Luis Puc\Desktop\PracticasMoreno\Unidad1\Conceptos Básicos\bin\Debug\Conceptos Básicos.pdb
+C:\Users\Luis Puc\Desktop\PracticasMoreno\Unidad1\Conceptos Básicos\obj\Debug\Conceptos Básicos.csprojResolveAssemblyReference.cache
+>>>>>>> origin/master

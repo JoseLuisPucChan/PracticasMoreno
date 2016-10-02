@@ -36,12 +36,6 @@
     <ApellidoMaterno>Piste</ApellidoMaterno>
     <Edad>16</Edad>
   </Alumno>
-  <Alumno ClaveAlumno="8">
-    <Nombre>Luis</Nombre>
-    <ApellidoPaterno>Puc</ApellidoPaterno>
-    <ApellidoMaterno>Pech</ApellidoMaterno>
-    <Edad>19</Edad>
-  </Alumno>
   <Alumno ClaveAlumno="">
     <Nombre />
     <ApellidoPaterno />

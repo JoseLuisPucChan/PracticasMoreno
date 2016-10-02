@@ -37,6 +37,16 @@
     <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
     <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
     <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="GoEmail">
+      <HintPath>..\..\..\MATERIAL\GoEmail.dll</HintPath>
+    </Reference>
+    <Reference Include="Json.NET.Web">
+      <HintPath>..\packages\Json.NET.Web.1.0.49\lib\portable45-net45+win8+wpa81\Json.NET.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.SQLite, Version=1.0.89.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=x86">
@@ -55,14 +65,118 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BO\AgendaBO.cs" />
+    <Compile Include="BO\LibroBO.cs" />
+    <Compile Include="DAO\AgendaDAO.cs" />
+    <Compile Include="DAO\Conexion.cs" />
+    <Compile Include="DAO\ConexionAgenda.cs" />
+    <Compile Include="DAO\LibrosDAO.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI\ABCContactos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\ABCContactos.Designer.cs">
+      <DependentUpon>ABCContactos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\AgendaElectronica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\AgendaElectronica.Designer.cs">
+      <DependentUpon>AgendaElectronica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Correo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Correo.Designer.cs">
+      <DependentUpon>Correo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Editar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Editar.Designer.cs">
+      <DependentUpon>Editar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\EditarAgenda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\EditarAgenda.Designer.cs">
+      <DependentUpon>EditarAgenda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Recursos\ReporteLibros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Recursos\ReporteLibros.Designer.cs">
+      <DependentUpon>ReporteLibros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\RegistroActividades.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\RegistroActividades.Designer.cs">
+      <DependentUpon>RegistroActividades.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\ReporteLibro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\ReporteLibro.Designer.cs">
+      <DependentUpon>ReporteLibro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Reportes\CRLibros.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CRLibros.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GUI\Reportes\DSLibros.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSLibros.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\SLQLite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\SLQLite.Designer.cs">
+      <DependentUpon>SLQLite.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service\CtrlAgenda.cs" />
+    <Compile Include="Service\CtrlLibro.cs" />
+    <EmbeddedResource Include="GUI\ABCContactos.resx">
+      <DependentUpon>ABCContactos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\AgendaElectronica.resx">
+      <DependentUpon>AgendaElectronica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Correo.resx">
+      <DependentUpon>Correo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Editar.resx">
+      <DependentUpon>Editar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\EditarAgenda.resx">
+      <DependentUpon>EditarAgenda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Recursos\ReporteLibros.resx">
+      <DependentUpon>ReporteLibros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\RegistroActividades.resx">
+      <DependentUpon>RegistroActividades.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ReporteLibro.resx">
+      <DependentUpon>ReporteLibro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Reportes\CRLibros.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CRLibros.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\SLQLite.resx">
+      <DependentUpon>SLQLite.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -72,7 +186,21 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="bin\Debug\Agenda.db" />
     <None Include="bin\Debug\BDEstudiantes.db" />
+    <None Include="bin\Debug\SqlLiteBlibliteca.db" />
+    <None Include="GUI\Reportes\DSLibros.xsc">
+      <DependentUpon>DSLibros.xsd</DependentUpon>
+    </None>
+    <None Include="GUI\Reportes\DSLibros.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSLibros.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="GUI\Reportes\DSLibros.xss">
+      <DependentUpon>DSLibros.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -95,8 +223,6 @@
     <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="BO\" />
-    <Folder Include="DAO\" />
     <Folder Include="GUI\Recursos\Imagenes\Barra\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

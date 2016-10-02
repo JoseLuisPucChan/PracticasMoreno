@@ -152,3 +152,8 @@ C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.SI\obj\Debug\UTM.SI.cs
 C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.SI\obj\Debug\UTM.SI.GUI.Principal.resources
 C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.SI\obj\Debug\UTM.SI.Properties.Resources.resources
 C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.SI\obj\Debug\UTM.SI.csproj.GenerateResource.Cache
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.SI\bin\Debug\System.Data.SQLite.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.SI\bin\Debug\Json.NET.Web.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.SI\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.SI\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.SI\bin\Debug\GoEmail.dll
