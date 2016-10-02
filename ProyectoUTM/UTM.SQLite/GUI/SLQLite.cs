@@ -84,15 +84,24 @@ namespace UTM.SQLite.GUI
 
         private void button3_Click(object sender, EventArgs e)
         {
-            if (dsReporte.Tables[0].Rows.Count != 0)
+            try
             {
-                ReporteLibro oReporteAlumno = new ReporteLibro(dsReporte.Tables[0]);
-                oReporteAlumno.ShowDialog();
+                if (dsReporte.Tables[0].Rows.Count != 0)
+                {
+                    ReporteLibro oReporteAlumno = new ReporteLibro(dsReporte.Tables[0]);
+                    oReporteAlumno.ShowDialog();
+                }
+                else
+                {
+                    MessageBox.Show("Favor de realizar una busqueda");
+                }
             }
-            else
+            catch(Exception ex)
             {
-                MessageBox.Show("Favor de realizar una busqueda");
+                MessageBox.Show("Error: " + ex.Message);
+
             }
+            
 
         }
 

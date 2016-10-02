@@ -16,7 +16,9 @@ namespace UTM.SQLite.GUI
         public ABCContactos()
         {
             InitializeComponent();
+            Buscar();
         }
+       
         DataSet dsReporte = new DataSet();
 
         private void btnBuscar_Click(object sender, EventArgs e)
@@ -59,15 +61,15 @@ namespace UTM.SQLite.GUI
         {
             Close();
         }
+      
 
         private void ABCContactos_Load(object sender, EventArgs e)
         {
-            //dtgContactos.Columns[0].Visible = false;
+            dtgContactos.Columns[0].Visible = false;
         }
-
         private void dtgContactos_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -94,12 +96,20 @@ namespace UTM.SQLite.GUI
 
         private void dtgContactos_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-          
-            
+
+
         }
+        private void Formulario_Primario(object sender, FormClosedEventArgs e)
+        {
+            Buscar();
+           
+        }
+
+       
 
         private void dtgContactos_CellClick_1(object sender, DataGridViewCellEventArgs e)
         {
+            // Obtener la acción seleccionada 
             if (e.RowIndex > -1)
             {
                 if (this.dtgContactos.Columns[e.ColumnIndex].Name == "editar")
@@ -107,11 +117,13 @@ namespace UTM.SQLite.GUI
                     AgendaBO oLibroBO = new AgendaBO();
 
                     oLibroBO.IDagenda = Convert.ToInt32(this.dtgContactos.Rows[e.RowIndex].Cells["IDagenda"].Value);
-                   
+
                     GUI.EditarAgenda ofrmSQLiteEditar = new GUI.EditarAgenda("Edicion", oLibroBO);
-                   
+                    ofrmSQLiteEditar.FormClosed += new FormClosedEventHandler(Formulario_Primario);
                     ofrmSQLiteEditar.ShowDialog();
-                    dtgContactos.DataSource = null;
+                    //Método para disparar la acción de buscar y llenar la tabla al cerrar el formulario primario.
+                 
+                    
 
                 }
                 if (this.dtgContactos.Columns[e.ColumnIndex].Name == "Actividades")
@@ -122,11 +134,13 @@ namespace UTM.SQLite.GUI
 
 
                     GUI.RegistroActividades frmRegistroActividades = new GUI.RegistroActividades("Actividades", oLibroBO);
-
+                    frmRegistroActividades.FormClosed += new FormClosedEventHandler(Formulario_Primario);
                     frmRegistroActividades.ShowDialog();
-                    dtgContactos.DataSource = null;
+                   
 
-                }} if (this.dtgContactos.Columns[e.ColumnIndex].Name == "correo")
+                }
+
+                if (this.dtgContactos.Columns[e.ColumnIndex].Name == "correo")
                 {
                     AgendaBO oLibroBO = new AgendaBO();
 
@@ -134,9 +148,9 @@ namespace UTM.SQLite.GUI
 
 
                     GUI.Correo frmRegistroActividades = new GUI.Correo("correo", oLibroBO);
-
+                     frmRegistroActividades.FormClosed += new FormClosedEventHandler(Formulario_Primario);
                     frmRegistroActividades.ShowDialog();
-                    dtgContactos.DataSource = null;
+                  
 
                 }
 
@@ -144,7 +158,7 @@ namespace UTM.SQLite.GUI
 
         }
 
-       
+
+
     }
-
-
+}

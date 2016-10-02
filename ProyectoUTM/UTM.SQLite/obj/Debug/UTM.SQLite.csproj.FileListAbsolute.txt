@@ -55,7 +55,6 @@ C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\bin\Debug\Json.
 C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.GUI.ABCContactos.resources
-C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.GUI.AgendaElectronica.resources
 C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.GUI.EditarAgenda.resources
 C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.GUI.RegistroActividades.resources
 C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.GUI.Correo.resources
