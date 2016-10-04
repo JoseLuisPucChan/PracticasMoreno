@@ -137,6 +137,7 @@ namespace Unidad2
             int MatrizColor = 0;
             string Indice = "";
             string[] colores = new string[8];
+            int i =0;
             foreach (Color ColorActual in ArregloColres)
             {
                 Color = ColorActual.valor;
@@ -145,21 +146,14 @@ namespace Unidad2
                 {
                    if(ColorNormal.valor == Color)
                    {
-                       //Indice = Indice + ColorNormal.indice + ",";
+                      Indice = Indice + ColorNormal.indice + ",";
+                      
                    }
                 }
                 MessageBox.Show(Color+ " = " +Indice);
                 Indice = "";
-             
             }
             MessageBox.Show(MatrizColor.ToString());
-
-            string[] Colores2 = new string[MatrizColor];
-
-
-
-
-
 
         }
     }
