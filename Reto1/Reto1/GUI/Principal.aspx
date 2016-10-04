@@ -40,25 +40,14 @@
 </head>
 <body>
     <form id="home" runat="server">
-<<<<<<< HEAD
 
-
-=======
- 
-    	<div class="main"> 
-		<h1>Búsqueda</h1>
-                <div class="row">
-
-
-		<div class="login-form col-sm-3 margen"> 
- 
->>>>>>> origin/master
+    
    <div class="main"> 
                 <!--Titulo-->
 <h1>Búsqueda</h1>
       <div class="row">
           <!--DropDownlist Estados-->
-		<div class="login-form col-sm-3 "> 
+		<div class="login-form col-sm-3 margen"> 
 
 			<h2>Estado</h2>
 			<div class="agileits-top">
@@ -77,18 +66,12 @@
                 <asp:Button ID="btnSeleccionarEstado" runat="server" Text="Seleccionar" />
 			</div>	
             </div>
-<<<<<<< HEAD
 
-            <!--DropDownlist Municipio--> 
-        <div class="login-form col-sm-3 margen"> 
-=======
- 
-        <div class="login-form col-sm-3 margen"> 
  
            <!--DropDownlist Municipio-->
-        <div class="login-form col-sm-3 "> 
+        <div class="login-form col-sm-3 margen"> 
  
->>>>>>> origin/master
+
 			<h2>Municipio</h2>
 			<div class="agileits-top">
                 <div class="styled-input">
@@ -106,20 +89,12 @@
                 <asp:Button ID="lbtnSeleccionarMunicipio" runat="server" Text="Seleccionar" />
 			</div>	
             </div>
-<<<<<<< HEAD
 
-
-           <!--DropDownlist Localidad-->
-        <div class="login-form col-sm-3 margen"> 
-
-=======
- 
-        <div class="login-form col-sm-3 margen"> 
  
            <!--DropDownlist Localidad-->
-        <div class="login-form col-sm-3 "> 
+        <div class="login-form col-sm-3 margen"> 
  
->>>>>>> origin/master
+
 			<h2>Localidad</h2>
 			<div class="agileits-top">
                 <div class="styled-input">
