@@ -21,11 +21,11 @@
 </head>
 <body>
     <form id="home" runat="server">
-    		<div class="main"> 
-		<h1>Búsqueda</h1>
-                <div class="row">
-
-
+   <div class="main"> 
+                <!--Titulo-->
+<h1>Búsqueda</h1>
+      <div class="row">
+          <!--DropDownlist Estados-->
 		<div class="login-form col-sm-3 "> 
 			<h2>Estado</h2>
 			<div class="agileits-top">
@@ -44,6 +44,7 @@
                 <asp:Button ID="btnSeleccionarEstado" runat="server" Text="Seleccionar" />
 			</div>	
             </div>
+           <!--DropDownlist Municipio-->
         <div class="login-form col-sm-3 "> 
 			<h2>Municipio</h2>
 			<div class="agileits-top">
@@ -62,6 +63,7 @@
                 <asp:Button ID="lbtnSeleccionarMunicipio" runat="server" Text="Seleccionar" />
 			</div>	
             </div>
+           <!--DropDownlist Localidad-->
         <div class="login-form col-sm-3 "> 
 			<h2>Localidad</h2>
 			<div class="agileits-top">
@@ -82,7 +84,7 @@
             </div>
 
 
-                    </div>
+         </div>
 	</div>	
 
 
