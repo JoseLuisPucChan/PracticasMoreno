@@ -26,7 +26,7 @@
                 <div class="row">
 
 
-		<div class="login-form col-sm-3 "> 
+		<div class="login-form col-sm-3 margen"> 
 			<h2>Estado</h2>
 			<div class="agileits-top">
                 <div class="styled-input">
@@ -44,7 +44,7 @@
                 <asp:Button ID="btnSeleccionarEstado" runat="server" Text="Seleccionar" />
 			</div>	
             </div>
-        <div class="login-form col-sm-3 "> 
+        <div class="login-form col-sm-3 margen"> 
 			<h2>Municipio</h2>
 			<div class="agileits-top">
                 <div class="styled-input">
@@ -62,7 +62,7 @@
                 <asp:Button ID="lbtnSeleccionarMunicipio" runat="server" Text="Seleccionar" />
 			</div>	
             </div>
-        <div class="login-form col-sm-3 "> 
+        <div class="login-form col-sm-3 margen"> 
 			<h2>Localidad</h2>
 			<div class="agileits-top">
                 <div class="styled-input">
