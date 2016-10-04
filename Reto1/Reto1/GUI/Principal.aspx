@@ -17,6 +17,25 @@
 <!-- //Custom Theme files -->
 <!-- web font -->
 <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'/><!--web font-->
+             
+    <script type="text/javascript" >
+                 $(document).ready(function () {
+                     $.getJSON("datos.json", function (data) {
+                         for (u in data.users.user) {
+                             $("#usuarios").append("<option value=" + data.users.user[u].Id +
+                                          ">" + data.users.user[u].nombre + "</option>");
+                         }
+                     })
+
+                     $("#usuarios").change(function () {
+                         var str = "";
+                         $("#usuarios option:selected").each(function () {
+                             str = $(this).val();
+                         })
+                         $("#txtvalor").text("Ha seleccionado el valor " + str);
+                     })
+                 });
+        </script> 
 
 </head>
 <body>
@@ -99,8 +118,6 @@
                 <asp:Button ID="lbtnSeleccionarLocalidad" runat="server" Text="Seleccionar" />
 			</div>	
             </div>
-
-
          </div>
 	</div>	
 
