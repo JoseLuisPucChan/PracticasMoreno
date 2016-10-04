@@ -30,3 +30,4 @@ C:\Users\Andre\Desktop\PracticasMoreno\Reto1\Reto1\bin\Microsoft.ApplicationInsi
 C:\Users\Andre\Desktop\PracticasMoreno\Reto1\Reto1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\Andre\Desktop\PracticasMoreno\Reto1\Reto1\obj\Debug\Reto1.dll
 C:\Users\Andre\Desktop\PracticasMoreno\Reto1\Reto1\obj\Debug\Reto1.pdb
+C:\Users\Andre\Desktop\PracticasMoreno\Reto1\Reto1\obj\Debug\Reto1.csprojResolveAssemblyReference.cache
