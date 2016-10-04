@@ -41,7 +41,7 @@
 <body>
     <form id="home" runat="server">
  
-    		<div class="main"> 
+    	<div class="main"> 
 		<h1>Búsqueda</h1>
                 <div class="row">
 
