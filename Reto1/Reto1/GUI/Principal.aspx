@@ -23,71 +23,37 @@
     <form id="home" runat="server">
     		<div class="main"> 
 		<h1>Badge Sign In Form</h1>
-		<div class="login-form col-md-3 Espacio"> 
-			<h2>SignIn Form</h2> 
+                <div class="row">
+
+
+		<div class="login-form col-sm-3 "> 
+			<h2>Estados</h2> 
 			<div class="agileits-top">
-				<form action="#" method="post">
-					<div class="styled-input">
-						<input type="text" name="User Name" required=""/>
-						<label>User Name</label>
-						<span></span>
-					</div>
-					<div class="styled-input">
-						<input type="password" name="Password" required=""> 
-						<label>Password</label>
-						<span></span>
-					</div> 
-					<div class="wthree-text"> 
-						<ul> 
-							<li>
-								<input type="checkbox" id="brand" value="">
-								<label for="brand"><span></span> Remember me ?</label>  
-							</li>
-							<li> <a href="#">Forgot password?</a> </li>
-						</ul>
-						<div class="clear"> </div>
-					</div>  
-				</form>
+				
 			</div>
 			<div class="agileits-bottom">
-				<form action="#" method="post">
-					<input type="submit" value="Sign In">
-				</form>
+				
 			</div>	
             </div>
-		<div class="login-form col-md-3 Espacio"> 
-			<h2>SignIn Form</h2> 
+		<div class="login-form col-sm-3 "> 
+			<h2>Municipio</h2>
 			<div class="agileits-top">
-				<form action="#" method="post">
-					<div class="styled-input">
-						<input type="text" name="User Name" required=""/>
-						<label>User Name</label>
-						<span></span>
-					</div>
-					<div class="styled-input">
-						<input type="password" name="Password" required=""> 
-						<label>Password</label>
-						<span></span>
-					</div> 
-					<div class="wthree-text"> 
-						<ul> 
-							<li>
-								<input type="checkbox" id="brand" value="">
-								<label for="brand"><span></span> Remember me ?</label>  
-							</li>
-							<li> <a href="#">Forgot password?</a> </li>
-						</ul>
-						<div class="clear"> </div>
-					</div>  
-				</form>
+                <div class="styled-input">
+					<center>
+					<asp:Label ID="Label1" runat="server" Text="Seleccione una opción..." CssClass="color"></asp:Label>
+                        <asp:DropDownList ID="DropDownList1" runat="server" CssClass="color" width="300px">
+                            <asp:ListItem>
+                                holi
+                            </asp:ListItem>
+                        </asp:DropDownList>
+				</center>
+                </div>
 			</div>
 			<div class="agileits-bottom">
-				<form action="#" method="post">
-					<input type="submit" value="Sign In">
-				</form>
+                <asp:Button ID="btnSeleccionarMunicipio" runat="server" Text="Seleccionar" />
 			</div>	
             </div>
-		<div class="login-form col-md-3 Espacio"> 
+		<div class="login-form col-sm-3 "> 
 			<h2>SignIn Form</h2> 
 			<div class="agileits-top">
 				<form action="#" method="post">
@@ -121,6 +87,7 @@
             </div>
 
 
+                    </div>
 	</div>	
 
 
