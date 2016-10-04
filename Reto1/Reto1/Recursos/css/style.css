@@ -293,7 +293,7 @@ h1 {
     width: 52%; 
 }
 }
-@media(max-width:900px){
+@media(max-width:00px){
 .agileits-top {
     padding: 1em 3em 3em;
 }
@@ -420,7 +420,7 @@ h2 {
 }
 @media(max-width:414px){
 .main {
-    padding: 1.5em 0 0;
+    padding: 1em 0 0;
 }
 .styled-input { 
     margin: 1.5em 0 1em; 
@@ -483,7 +483,7 @@ h2 {
     padding: 0.8em;
 }
 .login-form {
-    width: 85%;
+    width: 50%;
 }
 .agileits-top {
     padding:0.5em 1em 1.5em;
@@ -503,6 +503,7 @@ h2 {
 }
 .login-form {
     padding-bottom: 1em;
+    resize:horizontal;
 }
 .agileits-bottom input[type="submit"] {
     width: 107%;
@@ -510,4 +511,7 @@ h2 {
 }
 }
 /*-- //responsive-design --*/
-
+.Espacio {
+    padding-left:10px;
+    padding-right:10px;
+}

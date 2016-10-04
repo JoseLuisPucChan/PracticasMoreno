@@ -109,6 +109,7 @@
   <ItemGroup>
     <Content Include="GUI\Principal.aspx" />
     <Content Include="Recursos\css\style.css" />
+    <Content Include="Recursos\css\css_bootstrap.css" />
     <Content Include="Recursos\images\banner.jpg" />
     <Content Include="Recursos\images\tick.png" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
