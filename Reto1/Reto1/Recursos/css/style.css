@@ -256,7 +256,7 @@ h2 {
 }
 @media(max-width:1366px){
 .login-form {
-    width: 37%; 
+    width: 33%; 
 	margin: 3em auto;
 }
 }
@@ -514,4 +514,14 @@ h2 {
 .Espacio {
     padding-left:10px;
     padding-right:10px;
+}
+
+.color {
+    background:none;
+    background-color:transparent;
+    color:white;
+}
+
+h2{
+    font:400 bold;
 }
