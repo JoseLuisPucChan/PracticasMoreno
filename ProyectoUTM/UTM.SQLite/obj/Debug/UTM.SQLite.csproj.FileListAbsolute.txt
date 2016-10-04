@@ -59,3 +59,41 @@ C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.S
 C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.GUI.RegistroActividades.resources
 C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.GUI.Correo.resources
 C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\bin\Debug\GoEmail.dll
+C:\Users\Andre\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\bin\Debug\UTM.SQLite.exe.config
+C:\Users\Andre\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\bin\Debug\UTM.SQLite.exe
+C:\Users\Andre\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\bin\Debug\UTM.SQLite.pdb
+C:\Users\Andre\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Andre\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Andre\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Andre\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Andre\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\bin\Debug\FlashControlV71.dll
+C:\Users\Andre\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\bin\Debug\Json.NET.Web.dll
+C:\Users\Andre\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Andre\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Andre\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Andre\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Andre\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Andre\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Andre\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Andre\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Andre\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Andre\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Andre\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Andre\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Andre\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Andre\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Andre\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\bin\Debug\stdole.dll
+C:\Users\Andre\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Andre\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.csprojResolveAssemblyReference.cache
+C:\Users\Andre\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.GUI.ABCContactos.resources
+C:\Users\Andre\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.GUI.Correo.resources
+C:\Users\Andre\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.GUI.Editar.resources
+C:\Users\Andre\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.GUI.EditarAgenda.resources
+C:\Users\Andre\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.GUI.Recursos.ReporteLibros.resources
+C:\Users\Andre\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.GUI.RegistroActividades.resources
+C:\Users\Andre\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.GUI.ReporteLibro.resources
+C:\Users\Andre\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.GUI.SLQLite.resources
+C:\Users\Andre\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.Properties.Resources.resources
+C:\Users\Andre\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.csproj.GenerateResource.Cache
+C:\Users\Andre\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.exe
+C:\Users\Andre\Desktop\PracticasMoreno\ProyectoUTM\UTM.SQLite\obj\Debug\UTM.SQLite.pdb

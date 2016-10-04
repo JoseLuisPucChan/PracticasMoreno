@@ -75,3 +75,10 @@ C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.Archivo\obj\Debug\UTM.
 C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.Archivo\bin\Debug\Json.NET.Web.dll
 C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.Archivo\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Luis Puc\Desktop\PracticasMoreno\ProyectoUTM\UTM.Archivo\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Andre\Desktop\PracticasMoreno\ProyectoUTM\UTM.Archivo\obj\Debug\UTM.Archivo.csprojResolveAssemblyReference.cache
+C:\Users\Andre\Desktop\PracticasMoreno\ProyectoUTM\UTM.Archivo\obj\Debug\UTM.Archivo.bin.frmTraductor.resources
+C:\Users\Andre\Desktop\PracticasMoreno\ProyectoUTM\UTM.Archivo\obj\Debug\UTM.Archivo.GUI.frmArchivo.resources
+C:\Users\Andre\Desktop\PracticasMoreno\ProyectoUTM\UTM.Archivo\obj\Debug\UTM.Archivo.Properties.Resources.resources
+C:\Users\Andre\Desktop\PracticasMoreno\ProyectoUTM\UTM.Archivo\obj\Debug\UTM.Archivo.csproj.GenerateResource.Cache
+C:\Users\Andre\Desktop\PracticasMoreno\ProyectoUTM\UTM.Archivo\obj\Debug\UTM.Archivo.exe
+C:\Users\Andre\Desktop\PracticasMoreno\ProyectoUTM\UTM.Archivo\obj\Debug\UTM.Archivo.pdb
