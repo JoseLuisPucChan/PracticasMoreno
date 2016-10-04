@@ -1,0 +1,588 @@
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\Practica2.exe.config
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\Practica2.exe
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\Practica2.pdb
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\obj\Debug\Practica2.csprojResolveAssemblyReference.cache
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\obj\Debug\Practica2.Principal.resources
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\obj\Debug\Practica2.Properties.Resources.resources
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\obj\Debug\Practica2.csproj.GenerateResource.Cache
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\obj\Debug\Practica2.exe
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\obj\Debug\Practica2.pdb
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\DevExpress.Data.v15.2.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\DevExpress.Printing.v15.2.Core.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\DevExpress.Sparkline.v15.2.Core.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\DevExpress.Utils.v15.2.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\DevExpress.XtraEditors.v15.2.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\DevExpress.XtraGrid.v15.2.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\DevExpress.XtraLayout.v15.2.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\DevExpress.XtraPrinting.v15.2.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\MetroFramework.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\DevExpress.RichEdit.v15.2.Core.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\DevExpress.XtraBars.v15.2.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\DevExpress.XtraTreeList.v15.2.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\DevExpress.Office.v15.2.Core.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\DevExpress.Pdf.v15.2.Core.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\DevExpress.Pdf.v15.2.Drawing.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\DevExpress.Data.v15.2.xml
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\DevExpress.Printing.v15.2.Core.xml
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\DevExpress.Sparkline.v15.2.Core.xml
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\DevExpress.Utils.v15.2.xml
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\DevExpress.XtraEditors.v15.2.xml
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\DevExpress.XtraGrid.v15.2.xml
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\DevExpress.XtraLayout.v15.2.xml
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\DevExpress.XtraPrinting.v15.2.xml
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\DevExpress.RichEdit.v15.2.Core.xml
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\DevExpress.XtraBars.v15.2.xml
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\DevExpress.XtraTreeList.v15.2.xml
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\DevExpress.Office.v15.2.Core.xml
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\DevExpress.Pdf.v15.2.Core.xml
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\DevExpress.Pdf.v15.2.Drawing.xml
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\de\DevExpress.Data.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\es\DevExpress.Data.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\ja\DevExpress.Data.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\ru\DevExpress.Data.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\de\DevExpress.Printing.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\es\DevExpress.Printing.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\ja\DevExpress.Printing.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\ru\DevExpress.Printing.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\de\DevExpress.Sparkline.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\es\DevExpress.Sparkline.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\ja\DevExpress.Sparkline.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\ru\DevExpress.Sparkline.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\de\DevExpress.Utils.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\es\DevExpress.Utils.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\ja\DevExpress.Utils.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\ru\DevExpress.Utils.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\de\DevExpress.XtraEditors.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\es\DevExpress.XtraEditors.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\ja\DevExpress.XtraEditors.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\ru\DevExpress.XtraEditors.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\de\DevExpress.XtraGrid.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\es\DevExpress.XtraGrid.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\ja\DevExpress.XtraGrid.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\ru\DevExpress.XtraGrid.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\de\DevExpress.XtraLayout.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\es\DevExpress.XtraLayout.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\ja\DevExpress.XtraLayout.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\ru\DevExpress.XtraLayout.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\de\DevExpress.XtraPrinting.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\es\DevExpress.XtraPrinting.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\ja\DevExpress.XtraPrinting.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\ru\DevExpress.XtraPrinting.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\de\DevExpress.RichEdit.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\es\DevExpress.RichEdit.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\ja\DevExpress.RichEdit.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\ru\DevExpress.RichEdit.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\de\DevExpress.XtraBars.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\es\DevExpress.XtraBars.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\ja\DevExpress.XtraBars.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\ru\DevExpress.XtraBars.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\de\DevExpress.XtraTreeList.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\es\DevExpress.XtraTreeList.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\ja\DevExpress.XtraTreeList.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\ru\DevExpress.XtraTreeList.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\de\DevExpress.Office.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\es\DevExpress.Office.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\ja\DevExpress.Office.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\ru\DevExpress.Office.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\de\DevExpress.Pdf.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\es\DevExpress.Pdf.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\ja\DevExpress.Pdf.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\bin\Debug\ru\DevExpress.Pdf.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\obj\Debug\Practica2.exe.licenses
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\Programacion\Practica2\Practica2\obj\Debug\Practica2.GUI.Editar.resources
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\Practica2.exe.config
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\obj\Debug\Practica2.exe
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\obj\Debug\Practica2.pdb
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\Practica2.exe
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\Practica2.pdb
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\DevExpress.Data.v15.2.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\DevExpress.Printing.v15.2.Core.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\DevExpress.Sparkline.v15.2.Core.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\DevExpress.Utils.v15.2.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\DevExpress.XtraEditors.v15.2.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\DevExpress.XtraGrid.v15.2.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\DevExpress.XtraLayout.v15.2.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\DevExpress.XtraPrinting.v15.2.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\MetroFramework.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\DevExpress.RichEdit.v15.2.Core.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\DevExpress.XtraBars.v15.2.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\DevExpress.XtraTreeList.v15.2.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\DevExpress.Office.v15.2.Core.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\DevExpress.Pdf.v15.2.Core.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\DevExpress.Pdf.v15.2.Drawing.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\DevExpress.Data.v15.2.xml
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\DevExpress.Printing.v15.2.Core.xml
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\DevExpress.Sparkline.v15.2.Core.xml
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\DevExpress.Utils.v15.2.xml
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\DevExpress.XtraEditors.v15.2.xml
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\DevExpress.XtraGrid.v15.2.xml
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\DevExpress.XtraLayout.v15.2.xml
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\DevExpress.XtraPrinting.v15.2.xml
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\DevExpress.RichEdit.v15.2.Core.xml
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\DevExpress.XtraBars.v15.2.xml
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\DevExpress.XtraTreeList.v15.2.xml
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\DevExpress.Office.v15.2.Core.xml
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\DevExpress.Pdf.v15.2.Core.xml
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\DevExpress.Pdf.v15.2.Drawing.xml
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\de\DevExpress.Data.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\es\DevExpress.Data.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\ja\DevExpress.Data.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\ru\DevExpress.Data.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\de\DevExpress.Printing.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\es\DevExpress.Printing.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\ja\DevExpress.Printing.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\ru\DevExpress.Printing.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\de\DevExpress.Sparkline.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\es\DevExpress.Sparkline.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\ja\DevExpress.Sparkline.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\ru\DevExpress.Sparkline.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\de\DevExpress.Utils.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\es\DevExpress.Utils.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\ja\DevExpress.Utils.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\ru\DevExpress.Utils.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\de\DevExpress.XtraEditors.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\es\DevExpress.XtraEditors.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\ja\DevExpress.XtraEditors.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\ru\DevExpress.XtraEditors.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\de\DevExpress.XtraGrid.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\es\DevExpress.XtraGrid.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\ja\DevExpress.XtraGrid.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\ru\DevExpress.XtraGrid.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\de\DevExpress.XtraLayout.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\es\DevExpress.XtraLayout.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\ja\DevExpress.XtraLayout.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\ru\DevExpress.XtraLayout.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\de\DevExpress.XtraPrinting.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\es\DevExpress.XtraPrinting.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\ja\DevExpress.XtraPrinting.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\ru\DevExpress.XtraPrinting.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\de\DevExpress.RichEdit.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\es\DevExpress.RichEdit.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\ja\DevExpress.RichEdit.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\ru\DevExpress.RichEdit.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\de\DevExpress.XtraBars.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\es\DevExpress.XtraBars.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\ja\DevExpress.XtraBars.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\ru\DevExpress.XtraBars.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\de\DevExpress.XtraTreeList.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\es\DevExpress.XtraTreeList.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\ja\DevExpress.XtraTreeList.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\ru\DevExpress.XtraTreeList.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\de\DevExpress.Office.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\es\DevExpress.Office.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\ja\DevExpress.Office.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\ru\DevExpress.Office.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\de\DevExpress.Pdf.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\es\DevExpress.Pdf.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\ja\DevExpress.Pdf.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\bin\Debug\ru\DevExpress.Pdf.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\obj\Debug\Practica2.csprojResolveAssemblyReference.cache
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\obj\Debug\Practica2.GUI.Editar.resources
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\obj\Debug\Practica2.Principal.resources
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\obj\Debug\Practica2.Properties.Resources.resources
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\obj\Debug\Practica2.csproj.GenerateResource.Cache
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica2XML\Practica2\obj\Debug\Practica2.exe.licenses
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\Practica2.exe.config
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\obj\Debug\Practica2.exe
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\obj\Debug\Practica2.pdb
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\Practica2.exe
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\Practica2.pdb
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\DevExpress.Data.v15.2.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\DevExpress.Printing.v15.2.Core.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\DevExpress.Sparkline.v15.2.Core.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\DevExpress.Utils.v15.2.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\DevExpress.XtraEditors.v15.2.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\DevExpress.XtraGrid.v15.2.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\DevExpress.XtraLayout.v15.2.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\DevExpress.XtraPrinting.v15.2.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\FlashControlV71.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\MetroFramework.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\DevExpress.RichEdit.v15.2.Core.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\DevExpress.XtraBars.v15.2.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\DevExpress.XtraTreeList.v15.2.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\stdole.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\DevExpress.Office.v15.2.Core.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\DevExpress.Pdf.v15.2.Core.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\DevExpress.Pdf.v15.2.Drawing.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\DevExpress.Data.v15.2.xml
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\DevExpress.Printing.v15.2.Core.xml
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\DevExpress.Sparkline.v15.2.Core.xml
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\DevExpress.Utils.v15.2.xml
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\DevExpress.XtraEditors.v15.2.xml
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\DevExpress.XtraGrid.v15.2.xml
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\DevExpress.XtraLayout.v15.2.xml
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\DevExpress.XtraPrinting.v15.2.xml
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\DevExpress.RichEdit.v15.2.Core.xml
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\DevExpress.XtraBars.v15.2.xml
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\DevExpress.XtraTreeList.v15.2.xml
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\DevExpress.Office.v15.2.Core.xml
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\DevExpress.Pdf.v15.2.Core.xml
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\DevExpress.Pdf.v15.2.Drawing.xml
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\de\DevExpress.Data.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\es\DevExpress.Data.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\ja\DevExpress.Data.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\ru\DevExpress.Data.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\de\DevExpress.Printing.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\es\DevExpress.Printing.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\ja\DevExpress.Printing.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\ru\DevExpress.Printing.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\de\DevExpress.Sparkline.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\es\DevExpress.Sparkline.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\ja\DevExpress.Sparkline.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\ru\DevExpress.Sparkline.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\de\DevExpress.Utils.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\es\DevExpress.Utils.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\ja\DevExpress.Utils.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\ru\DevExpress.Utils.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\de\DevExpress.XtraEditors.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\es\DevExpress.XtraEditors.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\ja\DevExpress.XtraEditors.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\ru\DevExpress.XtraEditors.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\de\DevExpress.XtraGrid.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\es\DevExpress.XtraGrid.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\ja\DevExpress.XtraGrid.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\ru\DevExpress.XtraGrid.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\de\DevExpress.XtraLayout.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\es\DevExpress.XtraLayout.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\ja\DevExpress.XtraLayout.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\ru\DevExpress.XtraLayout.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\de\DevExpress.XtraPrinting.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\es\DevExpress.XtraPrinting.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\ja\DevExpress.XtraPrinting.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\ru\DevExpress.XtraPrinting.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\de\DevExpress.RichEdit.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\es\DevExpress.RichEdit.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\ja\DevExpress.RichEdit.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\ru\DevExpress.RichEdit.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\de\DevExpress.XtraBars.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\es\DevExpress.XtraBars.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\ja\DevExpress.XtraBars.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\ru\DevExpress.XtraBars.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\de\DevExpress.XtraTreeList.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\es\DevExpress.XtraTreeList.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\ja\DevExpress.XtraTreeList.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\ru\DevExpress.XtraTreeList.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\de\DevExpress.Office.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\es\DevExpress.Office.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\ja\DevExpress.Office.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\ru\DevExpress.Office.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\de\DevExpress.Pdf.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\es\DevExpress.Pdf.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\ja\DevExpress.Pdf.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\bin\Debug\ru\DevExpress.Pdf.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\obj\Debug\Practica2.csprojResolveAssemblyReference.cache
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\obj\Debug\Practica2.GUI.Editar.resources
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\obj\Debug\Practica2.Principal.resources
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\obj\Debug\Practica2.GUI.rpt.resources
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\obj\Debug\Practica2.Properties.Resources.resources
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\obj\Debug\Practica2.csproj.GenerateResource.Cache
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\Practica3XML\Practica2\obj\Debug\Practica2.exe.licenses
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\Practica2.exe.config
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\obj\Debug\Practica2.exe
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\obj\Debug\Practica2.pdb
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\Practica2.exe
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\Practica2.pdb
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\DevExpress.Data.v15.2.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\DevExpress.Printing.v15.2.Core.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\DevExpress.Sparkline.v15.2.Core.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\DevExpress.Utils.v15.2.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\DevExpress.XtraEditors.v15.2.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\DevExpress.XtraGrid.v15.2.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\DevExpress.XtraLayout.v15.2.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\DevExpress.XtraPrinting.v15.2.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\FlashControlV71.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\MetroFramework.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\Newtonsoft.Json.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\DevExpress.RichEdit.v15.2.Core.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\DevExpress.XtraBars.v15.2.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\DevExpress.XtraTreeList.v15.2.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\stdole.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\DevExpress.Office.v15.2.Core.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\DevExpress.Pdf.v15.2.Core.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\DevExpress.Pdf.v15.2.Drawing.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\DevExpress.Data.v15.2.xml
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\DevExpress.Printing.v15.2.Core.xml
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\DevExpress.Sparkline.v15.2.Core.xml
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\DevExpress.Utils.v15.2.xml
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\DevExpress.XtraEditors.v15.2.xml
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\DevExpress.XtraGrid.v15.2.xml
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\DevExpress.XtraLayout.v15.2.xml
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\DevExpress.XtraPrinting.v15.2.xml
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\DevExpress.RichEdit.v15.2.Core.xml
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\DevExpress.XtraBars.v15.2.xml
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\DevExpress.XtraTreeList.v15.2.xml
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\DevExpress.Office.v15.2.Core.xml
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\DevExpress.Pdf.v15.2.Core.xml
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\DevExpress.Pdf.v15.2.Drawing.xml
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\de\DevExpress.Data.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\es\DevExpress.Data.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\ja\DevExpress.Data.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\ru\DevExpress.Data.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\de\DevExpress.Printing.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\es\DevExpress.Printing.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\ja\DevExpress.Printing.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\ru\DevExpress.Printing.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\de\DevExpress.Sparkline.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\es\DevExpress.Sparkline.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\ja\DevExpress.Sparkline.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\ru\DevExpress.Sparkline.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\de\DevExpress.Utils.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\es\DevExpress.Utils.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\ja\DevExpress.Utils.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\ru\DevExpress.Utils.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\de\DevExpress.XtraEditors.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\es\DevExpress.XtraEditors.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\ja\DevExpress.XtraEditors.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\ru\DevExpress.XtraEditors.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\de\DevExpress.XtraGrid.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\es\DevExpress.XtraGrid.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\ja\DevExpress.XtraGrid.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\ru\DevExpress.XtraGrid.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\de\DevExpress.XtraLayout.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\es\DevExpress.XtraLayout.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\ja\DevExpress.XtraLayout.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\ru\DevExpress.XtraLayout.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\de\DevExpress.XtraPrinting.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\es\DevExpress.XtraPrinting.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\ja\DevExpress.XtraPrinting.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\ru\DevExpress.XtraPrinting.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\de\DevExpress.RichEdit.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\es\DevExpress.RichEdit.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\ja\DevExpress.RichEdit.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\ru\DevExpress.RichEdit.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\de\DevExpress.XtraBars.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\es\DevExpress.XtraBars.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\ja\DevExpress.XtraBars.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\ru\DevExpress.XtraBars.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\de\DevExpress.XtraTreeList.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\es\DevExpress.XtraTreeList.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\ja\DevExpress.XtraTreeList.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\ru\DevExpress.XtraTreeList.v15.2.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\de\DevExpress.Office.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\es\DevExpress.Office.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\ja\DevExpress.Office.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\ru\DevExpress.Office.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\de\DevExpress.Pdf.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\es\DevExpress.Pdf.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\ja\DevExpress.Pdf.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\bin\Debug\ru\DevExpress.Pdf.v15.2.Core.resources.dll
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\obj\Debug\Practica2.csprojResolveAssemblyReference.cache
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\obj\Debug\Practica2.GUI.Editar.resources
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\obj\Debug\Practica2.Principal.resources
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\obj\Debug\Practica2.GUI.rpt.resources
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\obj\Debug\Practica2.Properties.Resources.resources
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\obj\Debug\Practica2.csproj.GenerateResource.Cache
+C:\Users\aaron\Desktop\Escuela\4-Cuatrimestre\desarollo de aplicaciones II\PracticaJSON\Practica3XML\Practica2\obj\Debug\Practica2.exe.licenses
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\Practica2.exe.config
+F:\PracticaJSON\PracticaJSON\Practica2\obj\Debug\Practica2.exe
+F:\PracticaJSON\PracticaJSON\Practica2\obj\Debug\Practica2.pdb
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\Practica2.exe
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\Practica2.pdb
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\MetroFramework.dll
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\MetroFramework.Fonts.dll
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\Newtonsoft.Json.dll
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\DevExpress.RichEdit.v15.2.Core.dll
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\DevExpress.XtraBars.v15.2.dll
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\DevExpress.XtraTreeList.v15.2.dll
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\DevExpress.Office.v15.2.Core.dll
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\DevExpress.Pdf.v15.2.Core.dll
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\DevExpress.Pdf.v15.2.Drawing.dll
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\DevExpress.Data.v15.2.xml
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\DevExpress.Printing.v15.2.Core.xml
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\DevExpress.Sparkline.v15.2.Core.xml
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\DevExpress.Utils.v15.2.xml
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\DevExpress.XtraEditors.v15.2.xml
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\DevExpress.XtraGrid.v15.2.xml
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\DevExpress.XtraLayout.v15.2.xml
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\DevExpress.XtraPrinting.v15.2.xml
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\DevExpress.RichEdit.v15.2.Core.xml
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\DevExpress.XtraBars.v15.2.xml
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\DevExpress.XtraTreeList.v15.2.xml
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\DevExpress.Office.v15.2.Core.xml
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\DevExpress.Pdf.v15.2.Core.xml
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\DevExpress.Pdf.v15.2.Drawing.xml
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\de\DevExpress.Data.v15.2.resources.dll
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\es\DevExpress.Data.v15.2.resources.dll
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\ja\DevExpress.Data.v15.2.resources.dll
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\ru\DevExpress.Data.v15.2.resources.dll
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\de\DevExpress.Printing.v15.2.Core.resources.dll
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\es\DevExpress.Printing.v15.2.Core.resources.dll
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\ja\DevExpress.Printing.v15.2.Core.resources.dll
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\ru\DevExpress.Printing.v15.2.Core.resources.dll
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\de\DevExpress.Sparkline.v15.2.Core.resources.dll
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\es\DevExpress.Sparkline.v15.2.Core.resources.dll
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\ja\DevExpress.Sparkline.v15.2.Core.resources.dll
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\ru\DevExpress.Sparkline.v15.2.Core.resources.dll
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\de\DevExpress.Utils.v15.2.resources.dll
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\es\DevExpress.Utils.v15.2.resources.dll
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\ja\DevExpress.Utils.v15.2.resources.dll
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\ru\DevExpress.Utils.v15.2.resources.dll
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\de\DevExpress.XtraEditors.v15.2.resources.dll
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\es\DevExpress.XtraEditors.v15.2.resources.dll
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\ja\DevExpress.XtraEditors.v15.2.resources.dll
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\ru\DevExpress.XtraEditors.v15.2.resources.dll
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\de\DevExpress.XtraGrid.v15.2.resources.dll
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\es\DevExpress.XtraGrid.v15.2.resources.dll
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\ja\DevExpress.XtraGrid.v15.2.resources.dll
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\ru\DevExpress.XtraGrid.v15.2.resources.dll
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\de\DevExpress.XtraLayout.v15.2.resources.dll
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\es\DevExpress.XtraLayout.v15.2.resources.dll
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\ja\DevExpress.XtraLayout.v15.2.resources.dll
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\ru\DevExpress.XtraLayout.v15.2.resources.dll
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\de\DevExpress.XtraPrinting.v15.2.resources.dll
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\es\DevExpress.XtraPrinting.v15.2.resources.dll
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\ja\DevExpress.XtraPrinting.v15.2.resources.dll
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\ru\DevExpress.XtraPrinting.v15.2.resources.dll
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\de\DevExpress.RichEdit.v15.2.Core.resources.dll
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\es\DevExpress.RichEdit.v15.2.Core.resources.dll
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\ja\DevExpress.RichEdit.v15.2.Core.resources.dll
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\ru\DevExpress.RichEdit.v15.2.Core.resources.dll
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\de\DevExpress.XtraBars.v15.2.resources.dll
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\es\DevExpress.XtraBars.v15.2.resources.dll
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\ja\DevExpress.XtraBars.v15.2.resources.dll
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\ru\DevExpress.XtraBars.v15.2.resources.dll
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\de\DevExpress.XtraTreeList.v15.2.resources.dll
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\es\DevExpress.XtraTreeList.v15.2.resources.dll
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\ja\DevExpress.XtraTreeList.v15.2.resources.dll
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\ru\DevExpress.XtraTreeList.v15.2.resources.dll
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\de\DevExpress.Office.v15.2.Core.resources.dll
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\es\DevExpress.Office.v15.2.Core.resources.dll
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\ja\DevExpress.Office.v15.2.Core.resources.dll
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\ru\DevExpress.Office.v15.2.Core.resources.dll
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\de\DevExpress.Pdf.v15.2.Core.resources.dll
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\es\DevExpress.Pdf.v15.2.Core.resources.dll
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\ja\DevExpress.Pdf.v15.2.Core.resources.dll
+F:\PracticaJSON\PracticaJSON\Practica2\bin\Debug\ru\DevExpress.Pdf.v15.2.Core.resources.dll
+F:\PracticaJSON\PracticaJSON\Practica2\obj\Debug\Practica2.csprojResolveAssemblyReference.cache
+F:\PracticaJSON\PracticaJSON\Practica2\obj\Debug\Practica2.GUI.Editar.resources
+F:\PracticaJSON\PracticaJSON\Practica2\obj\Debug\Practica2.Principal.resources
+F:\PracticaJSON\PracticaJSON\Practica2\obj\Debug\Practica2.GUI.rpt.resources
+F:\PracticaJSON\PracticaJSON\Practica2\obj\Debug\Practica2.Properties.Resources.resources
+F:\PracticaJSON\PracticaJSON\Practica2\obj\Debug\Practica2.csproj.GenerateResource.Cache
+F:\PracticaJSON\PracticaJSON\Practica2\obj\Debug\Practica2.exe.licenses
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\Practica2.exe.config
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\obj\Debug\Practica2.exe
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\obj\Debug\Practica2.pdb
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\Practica2.exe
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\Practica2.pdb
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\MetroFramework.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\DevExpress.RichEdit.v15.2.Core.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\DevExpress.XtraBars.v15.2.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\DevExpress.XtraTreeList.v15.2.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\DevExpress.Office.v15.2.Core.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\DevExpress.Pdf.v15.2.Core.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\DevExpress.Pdf.v15.2.Drawing.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\DevExpress.Data.v15.2.xml
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\DevExpress.Printing.v15.2.Core.xml
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\DevExpress.Sparkline.v15.2.Core.xml
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\DevExpress.Utils.v15.2.xml
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\DevExpress.XtraEditors.v15.2.xml
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\DevExpress.XtraGrid.v15.2.xml
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\DevExpress.XtraLayout.v15.2.xml
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\DevExpress.XtraPrinting.v15.2.xml
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\DevExpress.RichEdit.v15.2.Core.xml
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\DevExpress.XtraBars.v15.2.xml
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\DevExpress.XtraTreeList.v15.2.xml
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\DevExpress.Office.v15.2.Core.xml
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\DevExpress.Pdf.v15.2.Core.xml
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\DevExpress.Pdf.v15.2.Drawing.xml
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\de\DevExpress.Data.v15.2.resources.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\es\DevExpress.Data.v15.2.resources.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\ja\DevExpress.Data.v15.2.resources.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\ru\DevExpress.Data.v15.2.resources.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\de\DevExpress.Printing.v15.2.Core.resources.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\es\DevExpress.Printing.v15.2.Core.resources.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\ja\DevExpress.Printing.v15.2.Core.resources.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\ru\DevExpress.Printing.v15.2.Core.resources.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\de\DevExpress.Sparkline.v15.2.Core.resources.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\es\DevExpress.Sparkline.v15.2.Core.resources.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\ja\DevExpress.Sparkline.v15.2.Core.resources.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\ru\DevExpress.Sparkline.v15.2.Core.resources.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\de\DevExpress.Utils.v15.2.resources.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\es\DevExpress.Utils.v15.2.resources.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\ja\DevExpress.Utils.v15.2.resources.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\ru\DevExpress.Utils.v15.2.resources.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\de\DevExpress.XtraEditors.v15.2.resources.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\es\DevExpress.XtraEditors.v15.2.resources.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\ja\DevExpress.XtraEditors.v15.2.resources.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\ru\DevExpress.XtraEditors.v15.2.resources.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\de\DevExpress.XtraGrid.v15.2.resources.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\es\DevExpress.XtraGrid.v15.2.resources.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\ja\DevExpress.XtraGrid.v15.2.resources.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\ru\DevExpress.XtraGrid.v15.2.resources.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\de\DevExpress.XtraLayout.v15.2.resources.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\es\DevExpress.XtraLayout.v15.2.resources.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\ja\DevExpress.XtraLayout.v15.2.resources.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\ru\DevExpress.XtraLayout.v15.2.resources.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\de\DevExpress.XtraPrinting.v15.2.resources.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\es\DevExpress.XtraPrinting.v15.2.resources.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\ja\DevExpress.XtraPrinting.v15.2.resources.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\ru\DevExpress.XtraPrinting.v15.2.resources.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\de\DevExpress.RichEdit.v15.2.Core.resources.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\es\DevExpress.RichEdit.v15.2.Core.resources.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\ja\DevExpress.RichEdit.v15.2.Core.resources.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\ru\DevExpress.RichEdit.v15.2.Core.resources.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\de\DevExpress.XtraBars.v15.2.resources.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\es\DevExpress.XtraBars.v15.2.resources.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\ja\DevExpress.XtraBars.v15.2.resources.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\ru\DevExpress.XtraBars.v15.2.resources.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\de\DevExpress.XtraTreeList.v15.2.resources.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\es\DevExpress.XtraTreeList.v15.2.resources.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\ja\DevExpress.XtraTreeList.v15.2.resources.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\ru\DevExpress.XtraTreeList.v15.2.resources.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\de\DevExpress.Office.v15.2.Core.resources.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\es\DevExpress.Office.v15.2.Core.resources.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\ja\DevExpress.Office.v15.2.Core.resources.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\ru\DevExpress.Office.v15.2.Core.resources.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\de\DevExpress.Pdf.v15.2.Core.resources.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\es\DevExpress.Pdf.v15.2.Core.resources.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\ja\DevExpress.Pdf.v15.2.Core.resources.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\bin\Debug\ru\DevExpress.Pdf.v15.2.Core.resources.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\obj\Debug\Practica2.csprojResolveAssemblyReference.cache
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\obj\Debug\Practica2.GUI.Editar.resources
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\obj\Debug\Practica2.Principal.resources
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\obj\Debug\Practica2.GUI.rpt.resources
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\obj\Debug\Practica2.Properties.Resources.resources
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\obj\Debug\Practica2.csproj.GenerateResource.Cache
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\obj\Debug\Practica2.exe.licenses
+C:\Users\Luis Puc\Desktop\PracticasMoreno\PracticaJSON\PracticaJSON\Practica2\obj\Debug\Practica2.GUI.Estados.resources
