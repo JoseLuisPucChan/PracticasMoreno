@@ -45,7 +45,7 @@
 
 =======
  
-    		<div class="main"> 
+    	<div class="main"> 
 		<h1>Búsqueda</h1>
                 <div class="row">
 
