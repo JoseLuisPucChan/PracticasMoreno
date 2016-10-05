@@ -134,6 +134,10 @@ namespace Unidad2
                                         new Color{indice="f",valor="Gris"},
                                         new Color{indice="g",valor="Morado"},
                                         new Color{indice="h",valor="Gris"},
+                                         new Color{indice="o",valor="Verdecito"},
+                                         new Color{indice="e",valor="Verdecito"},
+                                         new Color{indice="y",valor="Verdecito"},
+                                         new Color{indice="u",valor="Verdecito"},
                                     };
 
             int y = 0;
