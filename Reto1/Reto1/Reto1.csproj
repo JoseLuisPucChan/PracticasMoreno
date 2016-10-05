@@ -105,6 +105,39 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Json\aspnetJSON" />
+    <Content Include="Json\Aguascalientes-json.json" />
+    <Content Include="Json\BajaCalifornia-json.json" />
+    <Content Include="Json\BajaCaliforniaSur-json.json" />
+    <Content Include="Json\Campeche-json.json" />
+    <Content Include="Json\CDMexico-Json.json" />
+    <Content Include="Json\Chiapas-json.json" />
+    <Content Include="Json\Chihuahua-json.json" />
+    <Content Include="Json\Coahuila-Json.json" />
+    <Content Include="Json\Colima-Json.json" />
+    <Content Include="Json\Durango-Json.json" />
+    <Content Include="Json\Guanajuato-Json.json" />
+    <Content Include="Json\Guerrero-Json.json" />
+    <Content Include="Json\Hidalgo-josn.json" />
+    <Content Include="Json\Jalisco-json.json" />
+    <Content Include="Json\Mexico-json.json" />
+    <Content Include="Json\Michoacan-json.json" />
+    <Content Include="Json\Morelos-Json.json" />
+    <Content Include="Json\Nayarit-Json.json" />
+    <Content Include="Json\NuevoLeon-Json.json" />
+    <Content Include="Json\Oaxaca-Json.json" />
+    <Content Include="Json\Puebla-Json.json" />
+    <Content Include="Json\Queretaro-Json.json" />
+    <Content Include="Json\Quintana Roo.json" />
+    <Content Include="Json\Sanluispotosi.json" />
+    <Content Include="Json\Sinaloa.json" />
+    <Content Include="Json\Sonora.json" />
+    <Content Include="Json\Tabasco-json.json" />
+    <Content Include="Json\Tamaulipas-json.json" />
+    <Content Include="Json\Tlaxcala-json.json" />
+    <Content Include="Json\Veracruz-json.json" />
+    <Content Include="Json\Yucatan-json.json" />
+    <Content Include="Json\Zacatecas-json.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -7,7 +7,6 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.IO;
-using System.Data;
 using System.Diagnostics;
 
 using System.ComponentModel;
@@ -31,25 +30,72 @@ namespace Reto1.GUI
         }
         private void RellenarDropDownList()
         {
-            string fileJson = File.ReadAllText(@"C:\Users\Luis Puc\Desktop\PracticasMoreno\aspnetJSON");
-            DataTable dt = (DataTable)JsonConvert.DeserializeObject(fileJson, typeof(DataTable));
-            GridView1.DataSource = dt;
-            GridView1.DataBind();
 
+            string fileJson = File.ReadAllText(@"C:\Users\Luis Puc\Desktop\PracticasMoreno\Reto1\Reto1\Json\aspnetJSON");
+            DataTable dt = (DataTable)JsonConvert.DeserializeObject(fileJson, typeof(DataTable));
+            //GridView1.DataSource = dt;
+            //GridView1.DataBind();
             ddlEstados.DataSource = Buscar("1");
             ddlEstados.DataValueField = "c_estado";
-            ddlEstados.DataTextField = "d_ciudad";
+            ddlEstados.DataTextField = "d_estado";
             DataBind();
         }
 
         //Recuperar el archivo Json
         private DataTable Listar()
         {
-            string fileJson = File.ReadAllText(@"C:\Users\Luis Puc\Desktop\PracticasMoreno\aspnetJSON");
+            string fileJson = File.ReadAllText(@"C:\Users\Luis Puc\Desktop\PracticasMoreno\Reto1\Reto1\Json\aspnetJSON");
             DataTable dsBibliografia = (DataTable)JsonConvert.DeserializeObject(fileJson, typeof(DataTable));
             return dsBibliografia;
         }
+        private DataTable ListarEstados(string idEstado)
+        {
+            string fileJson = "";
+            if (idEstado == "01" || idEstado == "1") { fileJson = Server.MapPath(@"~/Json/Aguascalientes-json.json"); }
+            if (idEstado == "02" || idEstado == "2") { fileJson = Server.MapPath(@"~/Json/BajaCalifornia-json.json"); }
+            if (idEstado == "03" || idEstado == "3") { fileJson = Server.MapPath(@"~/Json/BajaCaliforniaSur-json.json"); }
+            if (idEstado == "04") { fileJson = Server.MapPath("~/Json/Campeche-json.json"); }
+            if (idEstado == "05") { fileJson = Server.MapPath("~/Json/Chiapas-json.json"); }
+            if (idEstado == "06") { fileJson = Server.MapPath("~/Json/Chihuahua-json.json"); }
+            if (idEstado == "07") { fileJson = Server.MapPath("~/Json/CDMexico-Json.json"); }
+            if (idEstado == "08") { fileJson = Server.MapPath("~/Json/Aguascalientes-json.json"); }
+            if (idEstado == "09") { fileJson = Server.MapPath("~/Json/Aguascalientes-json.json"); }
+            if (idEstado == "10") { fileJson = Server.MapPath("~/Json/Aguascalientes-json.json"); }
+            if (idEstado == "11") { fileJson = Server.MapPath("~/Json/Aguascalientes-json.json"); }
+            if (idEstado == "12") { fileJson = Server.MapPath("~/Json/Aguascalientes-json.json"); }
+            if (idEstado == "13") { fileJson = Server.MapPath("~/Json/Aguascalientes-json.json"); }
+            DataTable dsBibliografia = (DataTable)JsonConvert.DeserializeObject(rutaCompleta(fileJson), typeof(DataTable));
+            return dsBibliografia;
+        }
         
+        //------------------------------------------------------------trabajar andré ._. ---------------------------------------------
+        private string rutaCompleta(string ruta)
+        {
+            string nuevaCadena = "";
+            for (int i = 0; i < ruta.Length; i++ )
+            {
+                if (i > 0)
+                {
+                    try
+                    {
+                        if (ruta.Substring(i, 2) == "\\")
+                        {
+
+                            nuevaCadena += "/";
+                            i++;
+                        }
+                        else { nuevaCadena += ruta.Substring(i, 1); }
+                    }
+                    catch { nuevaCadena += ruta.Substring(i, 1); }
+                }
+                else
+                {
+                    nuevaCadena += ruta.Substring(i, 1);
+                }
+            }
+            return nuevaCadena;
+        }
+
         // ----Recupera el prime Drop Estados
         private DataTable Buscar(string id)
         {
@@ -80,47 +126,53 @@ namespace Reto1.GUI
             return dsTemporal;
         }
         //------- Lista los municipios anidados ----
-        private DataTable BuscarMunicipio(string id)
+        private DataTable BuscarMunicipio(string id, string mun)
         {
             DataTable dsBibliografia = new DataTable();
             DataTable dsTemporal = new DataTable();
-            dsBibliografia = this.Listar();
+            dsBibliografia = this.ListarEstados(id);
             try
             {
-                dsTemporal = this.Listar();
+                dsTemporal = this.ListarEstados(id);
                 dsTemporal.Clear();
             }
             catch
             {
 
             }
-            if (id.Trim().Length > 0)
+            int cont = 0, i = 0;
+            string[] filas = new string[dsBibliografia.Rows.Count];
+            foreach (DataRow r in dsBibliografia.Rows)
             {
-                foreach (DataRow r in dsBibliografia.Rows)
+                foreach (string cadena in filas)
                 {
-                    if (r["c_estado"].ToString() == id)
+                    if (r["D_mnpio"].ToString() == cadena)
                     {
-                        dsTemporal.ImportRow(r);
+                        cont++;
                     }
                 }
-            }
-            else
-            {
-                dsTemporal = this.Listar();
-            }
+                if (cont == 0)
+                {
+                    dsTemporal.ImportRow(r);
+                    filas[i] = r["D_mnpio"].ToString();
+                    i++;
+                }
 
+                cont = 0;
+            }
             return dsTemporal;
         }
-
-        // ----- Evento para poder elegir el 2 Drop
         protected void ddlEstados_SelectedIndexChanged(object sender, EventArgs e)
         {
             string ID = "";
+            string mun = "";
             ID = ddlEstados.SelectedItem.Value;
-           // Response.Write("<script>alert(' id "+ ID+" ');</script>");
-            ddlMunicipio.DataSource = BuscarMunicipio(ID);
+            mun = ddlEstados.SelectedItem.Text;
+            Response.Write("<script>alert(' id " + ID + " ');</script>");
+
+            ddlMunicipio.DataSource = BuscarMunicipio(ID,mun);
             ddlMunicipio.DataMember = "c_estado";
-            ddlMunicipio.DataValueField = "d_estado";
+            ddlMunicipio.DataValueField = "D_mnpio";
             DataBind();
         }
          //--------Crear Persona------

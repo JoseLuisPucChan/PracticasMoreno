@@ -41,9 +41,9 @@
         <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_Click" />--%>
 
     <!--Obtener el GridView de un archivo json-->
-     <asp:Button ID="Button1" runat="server" Text="Button"  />
+<%--     <asp:Button ID="Button1" runat="server" Text="Button"  />
         <asp:GridView ID="GridView1" runat="server" ForeColor="White"></asp:GridView>
-    
+    --%>
         
         
          <!--DropDownlist-->
