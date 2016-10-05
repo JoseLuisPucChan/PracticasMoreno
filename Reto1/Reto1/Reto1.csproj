@@ -99,6 +99,7 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Global.asax" />
     <Content Include="GUI\index.html" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
@@ -123,6 +124,9 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
     <Compile Include="GUI\Principal.aspx.cs">
       <DependentUpon>Principal.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -130,6 +134,7 @@
     <Compile Include="GUI\Principal.aspx.designer.cs">
       <DependentUpon>Principal.aspx</DependentUpon>
     </Compile>
+    <Compile Include="persona.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />

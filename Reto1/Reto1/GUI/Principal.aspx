@@ -26,14 +26,26 @@
 <body>
     <form id="home" runat="server">
          <script src="../Recursos/js/jquery-3.1.1.min.js" type="text/javascript"></script>
-         <h1>Web Form que lee un Archivo JSON</h1> 
-  <br/>
-  <select id="usuarios">
-      <option value="0">[--Seleccione un Nombre--]</option>
-   </select> 
-   <span id="txtvalor" style="color: #008000; font-weight: bolder"></span>
 
+         <!--Ejemplo de crear archivo json-->
+<%--        <asp:Label ID="Label4" runat="server" Text="Nombre"></asp:Label>
+        <asp:TextBox ID="txtNombre" runat="server"></asp:TextBox>
+           <asp:Label ID="Label5" runat="server" Text="Edad"></asp:Label>
+        <asp:TextBox ID="txtEdad" runat="server"></asp:TextBox>
+           <asp:Label ID="Label6" runat="server" Text="Email"></asp:Label>
+        <asp:TextBox ID="txtEmail" runat="server"></asp:TextBox>
 
+        <asp:ListBox ID="ListBox1" runat="server"></asp:ListBox>
+         <asp:Button ID="Button3" runat="server" Text="GeneraJson" OnClick="Button2_Click" />
+
+        <asp:GridView ID="GridView1" runat="server"></asp:GridView>
+
+        <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_Click" />--%>
+
+        <!--Obtener el GridView de un archivo json-->
+        <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_Click" />
+        <asp:GridView ID="GridView1" runat="server"></asp:GridView>
+        <!--DropDownlist-->
    <div class="main"> 
                 <!--Titulo-->
 <h1>Búsqueda</h1>
@@ -58,8 +70,6 @@
                 <asp:Button ID="btnSeleccionarEstado" runat="server" Text="Seleccionar" />
 			</div>	
             </div>
-
- 
            <!--DropDownlist Municipio-->
         <div class="login-form col-sm-3 margen"> 
 			<h2>Municipio</h2>
@@ -80,45 +90,57 @@
 			</div>	
             </div>
 
- 
            <!--DropDownlist Localidad-->
         <div class="login-form col-sm-3 margen"> 
- 
-
 			<h2>Localidad</h2>
 			<div class="agileits-top">
                 <div class="styled-input">
 					<center>
 					<asp:Label ID="Label3" runat="server" Text="Seleccione una Localidad..." CssClass="color"></asp:Label>
-                        <asp:DropDownList ID="ddlLocalidad" runat="server" CssClass="color" width="300px">
+                        <asp:DropDownList ID="ddlLocalidad" runat="server" CssClass="color" width="300px" OnSelectedIndexChanged="ddlLocalidad_SelectedIndexChanged" OnTextChanged="ddlLocalidad_TextChanged">
                             <asp:ListItem>
-                                holi
+                                -----Seleccione Localidad----
                             </asp:ListItem>
                         </asp:DropDownList>
 				</center>
                 </div>
 			</div>
+            <span id="txtvalor" style="color: #008000; font-weight: bolder"></span>
+            
 			<div class="agileits-bottom">
                 <asp:Button ID="lbtnSeleccionarLocalidad" runat="server" Text="Seleccionar" />
+                <asp:TextBox name="usermessage" ID="usermessage" class="ID" height="128" width="425px" runat="server"></asp:TextBox>
 			</div>	
             </div>
          </div>
-	</div>	
+	</div>
+        
+        <script type="text/javascript" >
+         
+            $("#ddlLocalidad")
+            $("#ddlLocalidad").change(function () {
+                mivalor = $("#ddlLocalidad").val();
+                //alert("Han cambiado mi valor = " + mivalor);
+               //--La clase realiza la comunicación directa con el control de manera tiempo real o el ID
+                $("#usermessage").val(mivalor);
+            })
+        </script> 
+       
         <script type="text/javascript" >
             $(document).ready(function () {
                 $.getJSON("datos.json", function (data) {
                     for (u in data.users.user) {
-                        $("#usuarios").append("<option value=" + data.users.user[u].Id +
+                        $("#ddlLocalidad").append("<option value=" + data.users.user[u].Id +
                                      ">" + data.users.user[u].nombre + "</option>");
                     }
                 })
 
                 $("#usuarios").change(function () {
                     var str = "";
-                    $("#usuarios option:selected").each(function () {
+                    $("#ddlLocalidad ListItem:selected").each(function () {
                         str = $(this).val();
                     })
-                    $("#txtvalor").text("Ha seleccionado el valor " + str);
+                    $("#Label4").text("Ha seleccionado el valor " + str);
                 })
             });
         </script> 
