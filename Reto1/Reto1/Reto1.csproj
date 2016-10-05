@@ -77,6 +77,10 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\4to Cuatrimestre\Aplicaciones II\Parcial 1\Material Estudio\JSON\Bin\Net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
@@ -87,6 +91,7 @@
     <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
@@ -94,11 +99,45 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Global.asax" />
     <Content Include="GUI\index.html" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Json\aspnetJSON" />
+    <Content Include="Json\Aguascalientes-json.json" />
+    <Content Include="Json\BajaCalifornia-json.json" />
+    <Content Include="Json\BajaCaliforniaSur-json.json" />
+    <Content Include="Json\Campeche-json.json" />
+    <Content Include="Json\CDMexico-Json.json" />
+    <Content Include="Json\Chiapas-json.json" />
+    <Content Include="Json\Chihuahua-json.json" />
+    <Content Include="Json\Coahuila-Json.json" />
+    <Content Include="Json\Colima-Json.json" />
+    <Content Include="Json\Durango-Json.json" />
+    <Content Include="Json\Guanajuato-Json.json" />
+    <Content Include="Json\Guerrero-Json.json" />
+    <Content Include="Json\Hidalgo-josn.json" />
+    <Content Include="Json\Jalisco-json.json" />
+    <Content Include="Json\Mexico-json.json" />
+    <Content Include="Json\Michoacan-json.json" />
+    <Content Include="Json\Morelos-Json.json" />
+    <Content Include="Json\Nayarit-Json.json" />
+    <Content Include="Json\NuevoLeon-Json.json" />
+    <Content Include="Json\Oaxaca-Json.json" />
+    <Content Include="Json\Puebla-Json.json" />
+    <Content Include="Json\Queretaro-Json.json" />
+    <Content Include="Json\Quintana Roo.json" />
+    <Content Include="Json\Sanluispotosi.json" />
+    <Content Include="Json\Sinaloa.json" />
+    <Content Include="Json\Sonora.json" />
+    <Content Include="Json\Tabasco-json.json" />
+    <Content Include="Json\Tamaulipas-json.json" />
+    <Content Include="Json\Tlaxcala-json.json" />
+    <Content Include="Json\Veracruz-json.json" />
+    <Content Include="Json\Yucatan-json.json" />
+    <Content Include="Json\Zacatecas-json.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -112,11 +151,15 @@
     <Content Include="Recursos\css\css_bootstrap.css" />
     <Content Include="Recursos\images\banner.jpg" />
     <Content Include="Recursos\images\tick.png" />
+    <Content Include="Recursos\js\jquery-3.1.1.min.js" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
     <Compile Include="GUI\Principal.aspx.cs">
       <DependentUpon>Principal.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -124,11 +167,10 @@
     <Compile Include="GUI\Principal.aspx.designer.cs">
       <DependentUpon>Principal.aspx</DependentUpon>
     </Compile>
+    <Compile Include="persona.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Recursos\js\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

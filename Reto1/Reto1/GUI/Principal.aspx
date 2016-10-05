@@ -16,69 +16,84 @@
     
 <!-- //Custom Theme files -->
 <!-- web font -->
-<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'/><!--web font-->
-             
-    <script type="text/javascript" >
-                 $(document).ready(function () {
-                     $.getJSON("datos.json", function (data) {
-                         for (u in data.users.user) {
-                             $("#usuarios").append("<option value=" + data.users.user[u].Id +
-                                          ">" + data.users.user[u].nombre + "</option>");
-                         }
-                     })
-
-                     $("#usuarios").change(function () {
-                         var str = "";
-                         $("#usuarios option:selected").each(function () {
-                             str = $(this).val();
-                         })
-                         $("#txtvalor").text("Ha seleccionado el valor " + str);
-                     })
-                 });
-        </script> 
-
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'/>
+   <!--web font-->
 </head>
+
+   
 <body>
     <form id="home" runat="server">
+         <script src="../Recursos/js/jquery-3.1.1.min.js" type="text/javascript"></script>
 
-    
-   <div class="main"> 
+         <!--Ejemplo de crear archivo json-->
+<%--   <asp:Label ID="Label4" runat="server" Text="Nombre"></asp:Label>
+        <asp:TextBox ID="txtNombre" runat="server"></asp:TextBox>
+           <asp:Label ID="Label5" runat="server" Text="Edad"></asp:Label>
+        <asp:TextBox ID="txtEdad" runat="server"></asp:TextBox>
+           <asp:Label ID="Label6" runat="server" Text="Email"></asp:Label>
+        <asp:TextBox ID="txtEmail" runat="server"></asp:TextBox>
+
+        <asp:ListBox ID="ListBox1" runat="server"></asp:ListBox>
+         <asp:Button ID="Button3" runat="server" Text="GeneraJson" OnClick="Button2_Click" />
+
+        <asp:GridView ID="GridView1" runat="server"></asp:GridView>
+
+        <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_Click" />--%>
+
+    <!--Obtener el GridView de un archivo json-->
+<%--     <asp:Button ID="Button1" runat="server" Text="Button"  />
+        <asp:GridView ID="GridView1" runat="server" ForeColor="White"></asp:GridView>
+    --%>
+        
+        
+         <!--DropDownlist-->
+  <div class="main"> 
                 <!--Titulo-->
-<h1>Búsqueda</h1>
-      <div class="row">
+                    <h1>Búsqueda</h1>
+                   <div class="row">
           <!--DropDownlist Estados-->
-		<div class="login-form col-sm-3 margen"> 
-
-			<h2>Estado</h2>
-			<div class="agileits-top">
+		        <div class="login-form col-sm-3 margen"> 
+	    		<h2>Estado</h2>
+			<div class="agileits-top" id="s">
                 <div class="styled-input">
 					<center>
 					<asp:Label ID="Label1" runat="server" Text="Seleccione un Estado..." CssClass="color"></asp:Label>
-                        <asp:DropDownList ID="ddlEstados" runat="server" CssClass="color" width="300px">
-                            <asp:ListItem>
-                                holi
-                            </asp:ListItem>
+                        <asp:DropDownList ID="ddlEstados"  ForeColor="#60b699" runat="server" CssClass="color" width="300px" AutoPostBack="True" OnSelectedIndexChanged="ddlEstados_SelectedIndexChanged">
+                           
                         </asp:DropDownList>
 				</center>
                 </div>
 			</div>
+             <asp:TextBox name="usermessage" ID="LblEstado" Visible ="true" runat="server"></asp:TextBox>
 			<div class="agileits-bottom">
                 <asp:Button ID="btnSeleccionarEstado" runat="server" Text="Seleccionar" />
 			</div>	
             </div>
-
- 
+                 <!-- Se activa when el Drop selecciona un nuevo Item-->
+           <script type="text/javascript" >
+               $("#ddlEstados")
+               $("#ddlEstados").change(function () {
+                   mivalor = $("#ddlEstados").val();
+                   //alert("Han cambiado mi valor = " + mivalor);
+                   //--La clase realiza la comunicación directa con el control de manera tiempo real o el ID
+                   $("#LblEstado").val(mivalor);
+               })
+            </script> 
            <!--DropDownlist Municipio-->
         <div class="login-form col-sm-3 margen"> 
- 
-
 			<h2>Municipio</h2>
 			<div class="agileits-top">
                 <div class="styled-input">
 					<center>
 					<asp:Label ID="Label2" runat="server" Text="Seleccione un Municipio..." CssClass="color"></asp:Label>
-                        <asp:DropDownList ID="ddlMunicipio" runat="server" CssClass="color" width="300px">
+                        <asp:DropDownList ID="ddlMunicipio"  ForeColor="#60b699" runat="server" CssClass="color" width="300px">
                             <asp:ListItem>
+                                -----Seleccione Localidad----
+                            </asp:ListItem>
+                              <asp:ListItem>
+                                holi
+                            </asp:ListItem>
+                              <asp:ListItem>
                                 holi
                             </asp:ListItem>
                         </asp:DropDownList>
@@ -90,32 +105,51 @@
 			</div>	
             </div>
 
- 
            <!--DropDownlist Localidad-->
         <div class="login-form col-sm-3 margen"> 
- 
-
 			<h2>Localidad</h2>
 			<div class="agileits-top">
                 <div class="styled-input">
 					<center>
 					<asp:Label ID="Label3" runat="server" Text="Seleccione una Localidad..." CssClass="color"></asp:Label>
-                        <asp:DropDownList ID="ddlLocalidad" runat="server" CssClass="color" width="300px">
-                            <asp:ListItem>
-                                holi
+                        <asp:DropDownList ID="ddlLocalidad"  ForeColor="#60b699" runat="server" CssClass="color" width="300px" AutoPostBack="True">
+                           <asp:ListItem>
+                                -----Seleccione Localidad----
                             </asp:ListItem>
                         </asp:DropDownList>
 				</center>
+                    
                 </div>
 			</div>
+           
 			<div class="agileits-bottom">
                 <asp:Button ID="lbtnSeleccionarLocalidad" runat="server" Text="Seleccionar" />
 			</div>	
             </div>
          </div>
-	</div>	
+	</div>
+        
+     
+       <!---Metodo para obtener el json Prueba--->
+        <script type="text/javascript" >
+            $(document).ready(function () {
+                $.getJSON("datos.json", function (data) {
+                    for (u in data.users.user) {
+                        $("#ddlLocalidad").append("<option value=" + data.users.user[u].Id +
+                                     ">" + data.users.user[u].nombre + "</option>");
+                    }
+                })
 
-
+                $("#usuarios").change(function () {
+                    var str = "";
+                    $("#ddlLocalidad ListItem:selected").each(function () {
+                        str = $(this).val();
+                    })
+                    $("#Label4").text("Ha seleccionado el valor " + str);
+                })
+            });
+        </script> 
     </form>
+      
 </body>
 </html>

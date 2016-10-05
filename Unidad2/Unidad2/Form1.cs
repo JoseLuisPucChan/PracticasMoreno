@@ -122,8 +122,10 @@ namespace Unidad2
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
+     
+        private void IndiceOrdenar()
         {
+            string NumI = "";
             Color[] ArregloColres = {
                                         new Color{indice="a",valor="Rojo"},
                                         new Color{indice="s",valor="Rojo"},
@@ -132,29 +134,49 @@ namespace Unidad2
                                         new Color{indice="f",valor="Gris"},
                                         new Color{indice="g",valor="Morado"},
                                         new Color{indice="h",valor="Gris"},
+                                         new Color{indice="o",valor="Verdecito"},
+                                         new Color{indice="e",valor="Verdecito"},
+                                         new Color{indice="y",valor="Verdecito"},
+                                         new Color{indice="u",valor="Verdecito"},
                                     };
-            string Color ="";
-            int MatrizColor = 0;
-            string Indice = "";
-            string[] colores = new string[8];
-            int i =0;
-            foreach (Color ColorActual in ArregloColres)
-            {
-                Color = ColorActual.valor;
-                //CrealaMatris;
-                foreach (Color ColorNormal in ArregloColres)
-                {
-                   if(ColorNormal.valor == Color)
-                   {
-                      Indice = Indice + ColorNormal.indice + ",";
-                      
-                   }
-                }
-                MessageBox.Show(Color+ " = " +Indice);
-                Indice = "";
-            }
-            MessageBox.Show(MatrizColor.ToString());
 
+            int y = 0;
+            int NumeroIndice1 = 0;
+            string[] Colors = new string[ArregloColres.Length];
+            foreach (Color dato in ArregloColres)
+            {
+                string ColorActual = dato.valor;
+                foreach (string dato3 in Colors)
+                {
+                    if (ColorActual == dato3)
+                    {
+                        y++;
+                    }
+                }
+                if (y == 0)
+                {
+                    foreach (Color dato2 in ArregloColres)
+                    {
+                        if (ColorActual == dato2.valor)
+                        {
+                            NumI = NumI + dato2.indice + ", ";
+                        }
+                    }
+                    Colors[NumeroIndice1] = ColorActual;
+                    NumI = NumI.Substring(0, NumI.Length - 2);
+                    MessageBox.Show("Color: "+ ColorActual + " se encuentra en los indices = " + NumI);
+                    NumeroIndice1++;
+                }
+                y = 0;
+                NumI = "";
+            }
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            IndiceOrdenar();
+        }
+
+     
     }
 }
