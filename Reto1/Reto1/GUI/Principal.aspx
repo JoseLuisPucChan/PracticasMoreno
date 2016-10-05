@@ -26,7 +26,7 @@
          <script src="../Recursos/js/jquery-3.1.1.min.js" type="text/javascript"></script>
 
          <!--Ejemplo de crear archivo json-->
-<%--        <asp:Label ID="Label4" runat="server" Text="Nombre"></asp:Label>
+<%--   <asp:Label ID="Label4" runat="server" Text="Nombre"></asp:Label>
         <asp:TextBox ID="txtNombre" runat="server"></asp:TextBox>
            <asp:Label ID="Label5" runat="server" Text="Edad"></asp:Label>
         <asp:TextBox ID="txtEdad" runat="server"></asp:TextBox>
@@ -40,11 +40,10 @@
 
         <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_Click" />--%>
 
-        <!--Obtener el GridView de un archivo json-->
-<%--        <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_Click" />
-        <asp:GridView ID="GridView1" runat="server" ForeColor="White"></asp:GridView>--%>
-       
-        
+    <!--Obtener el GridView de un archivo json-->
+     <asp:Button ID="Button1" runat="server" Text="Button"  />
+        <asp:GridView ID="GridView1" runat="server" ForeColor="White"></asp:GridView>
+    
         
         
          <!--DropDownlist-->

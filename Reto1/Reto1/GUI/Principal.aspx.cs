@@ -33,11 +33,11 @@ namespace Reto1.GUI
         {
             string fileJson = File.ReadAllText(@"C:\Users\Luis Puc\Desktop\PracticasMoreno\aspnetJSON");
             DataTable dt = (DataTable)JsonConvert.DeserializeObject(fileJson, typeof(DataTable));
-            //GridView1.DataSource = dt;
-            //GridView1.DataBind();
+            GridView1.DataSource = dt;
+            GridView1.DataBind();
 
-            ddlEstados.DataSource = Buscar("01");
-            ddlEstados.DataValueField = "id";
+            ddlEstados.DataSource = Buscar("1");
+            ddlEstados.DataValueField = "c_estado";
             ddlEstados.DataTextField = "d_ciudad";
             DataBind();
         }
@@ -69,10 +69,7 @@ namespace Reto1.GUI
             {
                 foreach (DataRow r in dsBibliografia.Rows)
                 {
-                    if (r["edad"].ToString() == id)
-                    {
                         dsTemporal.ImportRow(r);
-                    }
                 }
             }
             else
@@ -123,10 +120,10 @@ namespace Reto1.GUI
            // Response.Write("<script>alert(' id "+ ID+" ');</script>");
             ddlMunicipio.DataSource = BuscarMunicipio(ID);
             ddlMunicipio.DataMember = "c_estado";
-            ddlMunicipio.DataValueField = "d_ciudad";
+            ddlMunicipio.DataValueField = "d_estado";
             DataBind();
         }
-        // --------Crear Persona------
+         //--------Crear Persona------
         //protected void Button1_Click(object sender, EventArgs e)
         //{
 
@@ -151,12 +148,12 @@ namespace Reto1.GUI
         //    string fileJSON = File.ReadAllText = 
         //}
 
-        //protected void Button2_Click(object sender, EventArgs e)
-        //{
+        protected void Button2_Click(object sender, EventArgs e)
+        {
 
-        //    File.WriteAllText(@"C:\Users\Luis Puc\Desktop\PracticasMoreno\aspnetJSON", "[" + Session["ARCHIVOJSON"].ToString() + "]");
-        //    Response.Write("<script>alert(' JSON Listo !! ');</script>");
-        //}
+            File.WriteAllText(@"C:\Users\Luis Puc\Desktop\PracticasMoreno\aspnetJSON", "[" + Session["ARCHIVOJSON"].ToString() + "]");
+            Response.Write("<script>alert(' JSON Listo !! ');</script>");
+        }
         //private DataTable Listar()
         //{
         //    DataSet dsBibliografia = new DataSet();

@@ -1,7 +1,7 @@
 [	
-   {
-    "id": "01",
-    "edad": "01",
+{
+    "-xmlns": "NewDataSet",
+    "d_codigo": "20000",
     "d_asenta": "Zona Centro",
     "d_tipo_asenta": "Colonia",
     "D_mnpio": "Aguascalientes",
@@ -15,60 +15,58 @@
     "id_asenta_cpcons": "0001",
     "d_zona": "Urbano",
     "c_cve_ciudad": "01"
+}, 
+ {
+    "-xmlns": "NewDataSet",
+    "d_codigo": "21000",
+    "d_asenta": "Centro Cívico",
+    "d_tipo_asenta": "Colonia",
+    "D_mnpio": "Mexicali",
+    "d_estado": "Baja California",
+    "d_ciudad": "Mexicali",
+    "d_CP": "21101",
+    "c_estado": "02",
+    "c_oficina": "21101",
+    "c_tipo_asenta": "09",
+    "c_mnpio": "002",
+    "id_asenta_cpcons": "0001",
+    "d_zona": "Urbano",
+    "c_cve_ciudad": "02"
+  }, {
+    "-xmlns": "NewDataSet",
+    "d_codigo": "21010",
+    "d_asenta": "Residencial Cerrada del Parque",
+    "d_tipo_asenta": "Fraccionamiento",
+    "D_mnpio": "Mexicali",
+    "d_estado": "Baja California",
+    "d_ciudad": "Mexicali",
+    "d_CP": "21101",
+    "c_estado": "02",
+    "c_oficina": "21101",
+    "c_tipo_asenta": "21",
+    "c_mnpio": "002",
+    "id_asenta_cpcons": "1658",
+    "d_zona": "Urbano",
+    "c_cve_ciudad": "02"
   },
-  {
-   "id": "02",
-    "edad": "01",
-    "d_asenta": "Ramon Romo Franco",
-    "d_tipo_asenta": "Fraccionamiento",
-    "D_mnpio": "Aguascalientes",
-    "d_estado": "Aguascalientes",
-    "d_ciudad": "Yucatan",
-    "d_CP": "20001",
-    "c_estado": "01",
-    "c_oficina": "20001",
-    "c_tipo_asenta": "21",
-    "c_mnpio": "001",
-    "id_asenta_cpcons": "0008",
+	{
+    "-xmlns": "NewDataSet",
+    "d_codigo": "23000",
+    "d_asenta": "Zona Central",
+    "d_tipo_asenta": "Colonia",
+    "D_mnpio": "La Paz",
+    "d_estado": "Baja California Sur",
+    "d_ciudad": "La Paz",
+    "d_CP": "23004",
+    "c_estado": "03",
+    "c_oficina": "23004",
+    "c_tipo_asenta": "09",
+    "c_mnpio": "003",
+    "id_asenta_cpcons": "0001",
     "d_zona": "Urbano",
-    "c_cve_ciudad": "01"
-},
-
-  {
-    "id": "03",
-    "edad": "20010",
-    "d_asenta": "Ramon Romo Franco",
-    "d_tipo_asenta": "Fraccionamiento",
-    "D_mnpio": "Aguascalientes",
-    "d_estado": "Merida",
-    "d_ciudad": "Merida",
-    "d_CP": "20001",
-    "c_estado": "02",
-    "c_oficina": "20001",
-    "c_tipo_asenta": "21",
-    "c_mnpio": "001",
-    "id_asenta_cpcons": "0008",
-    "d_zona": "Urbano",
-    "c_cve_ciudad": "01"
-	},
-
-  {
-    "id": "04",
-    "edad": "20010",
-    "d_asenta": "Ramon Romo Franco",
-    "d_tipo_asenta": "Fraccionamiento",
-    "D_mnpio": "Aguascalientes",
-    "d_estado": "Merida",
-    "d_ciudad": "Kanasin",
-    "d_CP": "20001",
-    "c_estado": "02",
-    "c_oficina": "20001",
-    "c_tipo_asenta": "21",
-    "c_mnpio": "001",
-    "id_asenta_cpcons": "0008",
-    "d_zona": "Urbano",
-    "c_cve_ciudad": "01"
+    "c_cve_ciudad": "02"
 }
+
 ]
 
 
