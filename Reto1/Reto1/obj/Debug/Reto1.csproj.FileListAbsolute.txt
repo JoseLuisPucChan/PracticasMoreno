@@ -64,3 +64,6 @@ C:\Users\Luis Puc\Desktop\PracticasMoreno\Reto1\Reto1\bin\Microsoft.CodeDom.Prov
 C:\Users\Luis Puc\Desktop\PracticasMoreno\Reto1\Reto1\obj\Debug\Reto1.csprojResolveAssemblyReference.cache
 C:\Users\Luis Puc\Desktop\PracticasMoreno\Reto1\Reto1\obj\Debug\Reto1.dll
 C:\Users\Luis Puc\Desktop\PracticasMoreno\Reto1\Reto1\obj\Debug\Reto1.pdb
+C:\Users\Luis Puc\Desktop\PracticasMoreno\Reto1\Reto1\bin\Newtonsoft.Json.dll
+C:\Users\Luis Puc\Desktop\PracticasMoreno\Reto1\Reto1\bin\Newtonsoft.Json.pdb
+C:\Users\Luis Puc\Desktop\PracticasMoreno\Reto1\Reto1\bin\Newtonsoft.Json.xml

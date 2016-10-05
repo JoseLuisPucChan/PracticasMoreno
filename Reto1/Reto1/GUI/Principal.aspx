@@ -18,30 +18,22 @@
 <!-- web font -->
 <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'/><!--web font-->
              
-    <script type="text/javascript" >
-                 $(document).ready(function () {
-                     $.getJSON("datos.json", function (data) {
-                         for (u in data.users.user) {
-                             $("#usuarios").append("<option value=" + data.users.user[u].Id +
-                                          ">" + data.users.user[u].nombre + "</option>");
-                         }
-                     })
-
-                     $("#usuarios").change(function () {
-                         var str = "";
-                         $("#usuarios option:selected").each(function () {
-                             str = $(this).val();
-                         })
-                         $("#txtvalor").text("Ha seleccionado el valor " + str);
-                     })
-                 });
-        </script> 
-
+  
+   
 </head>
+
+   
 <body>
     <form id="home" runat="server">
+         <script src="../Recursos/js/jquery-3.1.1.min.js" type="text/javascript"></script>
+         <h1>Web Form que lee un Archivo JSON</h1> 
+  <br/>
+  <select id="usuarios">
+      <option value="0">[--Seleccione un Nombre--]</option>
+   </select> 
+   <span id="txtvalor" style="color: #008000; font-weight: bolder"></span>
 
-    
+
    <div class="main"> 
                 <!--Titulo-->
 <h1>Búsqueda</h1>
@@ -70,8 +62,6 @@
  
            <!--DropDownlist Municipio-->
         <div class="login-form col-sm-3 margen"> 
- 
-
 			<h2>Municipio</h2>
 			<div class="agileits-top">
                 <div class="styled-input">
@@ -114,8 +104,25 @@
             </div>
          </div>
 	</div>	
+        <script type="text/javascript" >
+            $(document).ready(function () {
+                $.getJSON("datos.json", function (data) {
+                    for (u in data.users.user) {
+                        $("#usuarios").append("<option value=" + data.users.user[u].Id +
+                                     ">" + data.users.user[u].nombre + "</option>");
+                    }
+                })
 
-
+                $("#usuarios").change(function () {
+                    var str = "";
+                    $("#usuarios option:selected").each(function () {
+                        str = $(this).val();
+                    })
+                    $("#txtvalor").text("Ha seleccionado el valor " + str);
+                })
+            });
+        </script> 
     </form>
+      
 </body>
 </html>
