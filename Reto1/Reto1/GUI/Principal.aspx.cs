@@ -23,37 +23,110 @@ namespace Reto1.GUI
         //------Load----------
         protected void Page_Load(object sender, EventArgs e)
         {
+            if(!IsPostBack)
+            {
+                  RellenarDropDownList();
+            }
+             
+        }
+        private void RellenarDropDownList()
+        {
             string fileJson = File.ReadAllText(@"C:\Users\Luis Puc\Desktop\PracticasMoreno\aspnetJSON");
             DataTable dt = (DataTable)JsonConvert.DeserializeObject(fileJson, typeof(DataTable));
-            GridView1.DataSource = dt;
-            GridView1.DataBind();
+            //GridView1.DataSource = dt;
+            //GridView1.DataBind();
 
-            ddlLocalidad.DataSource = dt;
-            ddlLocalidad.DataMember = "edad";
-            ddlLocalidad.DataValueField = "Nombre";
+            ddlEstados.DataSource = Buscar("01");
+            ddlEstados.DataValueField = "id";
+            ddlEstados.DataTextField = "d_ciudad";
             DataBind();
-           //
-           
-
         }
 
-        protected void Button1_Click(object sender, EventArgs e)
+        //Recuperar el archivo Json
+        private DataTable Listar()
         {
-
+            string fileJson = File.ReadAllText(@"C:\Users\Luis Puc\Desktop\PracticasMoreno\aspnetJSON");
+            DataTable dsBibliografia = (DataTable)JsonConvert.DeserializeObject(fileJson, typeof(DataTable));
+            return dsBibliografia;
         }
-
-        protected void ddlLocalidad_SelectedIndexChanged(object sender, EventArgs e)
+        
+        // ----Recupera el prime Drop Estados
+        private DataTable Buscar(string id)
         {
-           
+            DataTable dsBibliografia = new DataTable();
+            DataTable dsTemporal = new DataTable();
+            dsBibliografia = this.Listar();
+            try
+            {
+                dsTemporal = this.Listar();
+                dsTemporal.Clear();
+            }
+            catch
+            {
+
+            }
+            if (id.Trim().Length > 0)
+            {
+                foreach (DataRow r in dsBibliografia.Rows)
+                {
+                    if (r["edad"].ToString() == id)
+                    {
+                        dsTemporal.ImportRow(r);
+                    }
+                }
+            }
+            else
+            {
+                dsTemporal = this.Listar();
+            }
+
+            return dsTemporal;
+        }
+        //------- Lista los municipios anidados ----
+        private DataTable BuscarMunicipio(string id)
+        {
+            DataTable dsBibliografia = new DataTable();
+            DataTable dsTemporal = new DataTable();
+            dsBibliografia = this.Listar();
+            try
+            {
+                dsTemporal = this.Listar();
+                dsTemporal.Clear();
+            }
+            catch
+            {
+
+            }
+            if (id.Trim().Length > 0)
+            {
+                foreach (DataRow r in dsBibliografia.Rows)
+                {
+                    if (r["c_estado"].ToString() == id)
+                    {
+                        dsTemporal.ImportRow(r);
+                    }
+                }
+            }
+            else
+            {
+                dsTemporal = this.Listar();
+            }
+
+            return dsTemporal;
         }
 
-        protected void ddlLocalidad_TextChanged(object sender, EventArgs e)
+        // ----- Evento para poder elegir el 2 Drop
+        protected void ddlEstados_SelectedIndexChanged(object sender, EventArgs e)
         {
             string ID = "";
-            ID = ddlLocalidad.SelectedValue.ToString();
-            Response.Write("<script>alert(' " + ID + "JSON Listo !! ');</script>");
+            ID = ddlEstados.SelectedItem.Value;
+           // Response.Write("<script>alert(' id "+ ID+" ');</script>");
+            ddlMunicipio.DataSource = BuscarMunicipio(ID);
+            ddlMunicipio.DataMember = "c_estado";
+            ddlMunicipio.DataValueField = "d_ciudad";
+            DataBind();
         }
-
+        // --------Crear Persona------
         //protected void Button1_Click(object sender, EventArgs e)
         //{
 

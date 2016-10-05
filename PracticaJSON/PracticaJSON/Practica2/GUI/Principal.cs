@@ -71,6 +71,7 @@ namespace Practica2
                 string Rutacompleta = Application.StartupPath.ToString();
                 string ruta = Rutacompleta.Substring(0, Rutacompleta.Length - 5) + @"\JSONBibliografia.json";
                 dsBibliografia = JsonConvert.DeserializeObject<DataSet>(File.ReadAllText(ruta));
+
             if (dsBibliografia == null)
             {
                 MessageBox.Show("No Existen datos");

@@ -16,10 +16,8 @@
     
 <!-- //Custom Theme files -->
 <!-- web font -->
-<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'/><!--web font-->
-             
-  
-   
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'/>
+   <!--web font-->
 </head>
 
    
@@ -43,33 +41,45 @@
         <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_Click" />--%>
 
         <!--Obtener el GridView de un archivo json-->
-        <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_Click" />
-        <asp:GridView ID="GridView1" runat="server"></asp:GridView>
-        <!--DropDownlist-->
-   <div class="main"> 
+<%--        <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_Click" />
+        <asp:GridView ID="GridView1" runat="server" ForeColor="White"></asp:GridView>--%>
+       
+        
+        
+        
+         <!--DropDownlist-->
+  <div class="main"> 
                 <!--Titulo-->
-<h1>Búsqueda</h1>
-      <div class="row">
+                    <h1>Búsqueda</h1>
+                   <div class="row">
           <!--DropDownlist Estados-->
-		<div class="login-form col-sm-3 margen"> 
-
-			<h2>Estado</h2>
-			<div class="agileits-top">
+		        <div class="login-form col-sm-3 margen"> 
+	    		<h2>Estado</h2>
+			<div class="agileits-top" id="s">
                 <div class="styled-input">
 					<center>
 					<asp:Label ID="Label1" runat="server" Text="Seleccione un Estado..." CssClass="color"></asp:Label>
-                        <asp:DropDownList ID="ddlEstados" runat="server" CssClass="color" width="300px">
-                            <asp:ListItem>
-                                holi
-                            </asp:ListItem>
+                        <asp:DropDownList ID="ddlEstados"  ForeColor="#60b699" runat="server" CssClass="color" width="300px" AutoPostBack="True" OnSelectedIndexChanged="ddlEstados_SelectedIndexChanged">
+                           
                         </asp:DropDownList>
 				</center>
                 </div>
 			</div>
+             <asp:TextBox name="usermessage" ID="LblEstado" Visible ="true" runat="server"></asp:TextBox>
 			<div class="agileits-bottom">
                 <asp:Button ID="btnSeleccionarEstado" runat="server" Text="Seleccionar" />
 			</div>	
             </div>
+                 <!-- Se activa when el Drop selecciona un nuevo Item-->
+           <script type="text/javascript" >
+               $("#ddlEstados")
+               $("#ddlEstados").change(function () {
+                   mivalor = $("#ddlEstados").val();
+                   //alert("Han cambiado mi valor = " + mivalor);
+                   //--La clase realiza la comunicación directa con el control de manera tiempo real o el ID
+                   $("#LblEstado").val(mivalor);
+               })
+            </script> 
            <!--DropDownlist Municipio-->
         <div class="login-form col-sm-3 margen"> 
 			<h2>Municipio</h2>
@@ -77,8 +87,14 @@
                 <div class="styled-input">
 					<center>
 					<asp:Label ID="Label2" runat="server" Text="Seleccione un Municipio..." CssClass="color"></asp:Label>
-                        <asp:DropDownList ID="ddlMunicipio" runat="server" CssClass="color" width="300px">
+                        <asp:DropDownList ID="ddlMunicipio"  ForeColor="#60b699" runat="server" CssClass="color" width="300px">
                             <asp:ListItem>
+                                -----Seleccione Localidad----
+                            </asp:ListItem>
+                              <asp:ListItem>
+                                holi
+                            </asp:ListItem>
+                              <asp:ListItem>
                                 holi
                             </asp:ListItem>
                         </asp:DropDownList>
@@ -97,35 +113,25 @@
                 <div class="styled-input">
 					<center>
 					<asp:Label ID="Label3" runat="server" Text="Seleccione una Localidad..." CssClass="color"></asp:Label>
-                        <asp:DropDownList ID="ddlLocalidad" runat="server" CssClass="color" width="300px" OnSelectedIndexChanged="ddlLocalidad_SelectedIndexChanged" OnTextChanged="ddlLocalidad_TextChanged">
-                            <asp:ListItem>
+                        <asp:DropDownList ID="ddlLocalidad"  ForeColor="#60b699" runat="server" CssClass="color" width="300px" AutoPostBack="True">
+                           <asp:ListItem>
                                 -----Seleccione Localidad----
                             </asp:ListItem>
                         </asp:DropDownList>
 				</center>
+                    
                 </div>
 			</div>
-            <span id="txtvalor" style="color: #008000; font-weight: bolder"></span>
-            
+           
 			<div class="agileits-bottom">
                 <asp:Button ID="lbtnSeleccionarLocalidad" runat="server" Text="Seleccionar" />
-                <asp:TextBox name="usermessage" ID="usermessage" class="ID" height="128" width="425px" runat="server"></asp:TextBox>
 			</div>	
             </div>
          </div>
 	</div>
         
-        <script type="text/javascript" >
-         
-            $("#ddlLocalidad")
-            $("#ddlLocalidad").change(function () {
-                mivalor = $("#ddlLocalidad").val();
-                //alert("Han cambiado mi valor = " + mivalor);
-               //--La clase realiza la comunicación directa con el control de manera tiempo real o el ID
-                $("#usermessage").val(mivalor);
-            })
-        </script> 
-       
+     
+       <!---Metodo para obtener el json Prueba--->
         <script type="text/javascript" >
             $(document).ready(function () {
                 $.getJSON("datos.json", function (data) {

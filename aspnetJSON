@@ -1,10 +1,74 @@
-[
-	{"Nombre":"lUIS",
-	"edad":14,
-	"email":"josechan211@gmail.com"
+[	
+   {
+    "id": "01",
+    "edad": "01",
+    "d_asenta": "Zona Centro",
+    "d_tipo_asenta": "Colonia",
+    "D_mnpio": "Aguascalientes",
+    "d_estado": "Aguascalientes",
+    "d_ciudad": "Aguascalientes",
+    "d_CP": "20001",
+    "c_estado": "01",
+    "c_oficina": "20001",
+    "c_tipo_asenta": "09",
+    "c_mnpio": "001",
+    "id_asenta_cpcons": "0001",
+    "d_zona": "Urbano",
+    "c_cve_ciudad": "01"
+  },
+  {
+   "id": "02",
+    "edad": "01",
+    "d_asenta": "Ramon Romo Franco",
+    "d_tipo_asenta": "Fraccionamiento",
+    "D_mnpio": "Aguascalientes",
+    "d_estado": "Aguascalientes",
+    "d_ciudad": "Yucatan",
+    "d_CP": "20001",
+    "c_estado": "01",
+    "c_oficina": "20001",
+    "c_tipo_asenta": "21",
+    "c_mnpio": "001",
+    "id_asenta_cpcons": "0008",
+    "d_zona": "Urbano",
+    "c_cve_ciudad": "01"
+},
+
+  {
+    "id": "03",
+    "edad": "20010",
+    "d_asenta": "Ramon Romo Franco",
+    "d_tipo_asenta": "Fraccionamiento",
+    "D_mnpio": "Aguascalientes",
+    "d_estado": "Merida",
+    "d_ciudad": "Merida",
+    "d_CP": "20001",
+    "c_estado": "02",
+    "c_oficina": "20001",
+    "c_tipo_asenta": "21",
+    "c_mnpio": "001",
+    "id_asenta_cpcons": "0008",
+    "d_zona": "Urbano",
+    "c_cve_ciudad": "01"
 	},
-	{"Nombre":"Jose",
-	"edad":15,
-	"email":"josechan211@gmail.com"
-	}
+
+  {
+    "id": "04",
+    "edad": "20010",
+    "d_asenta": "Ramon Romo Franco",
+    "d_tipo_asenta": "Fraccionamiento",
+    "D_mnpio": "Aguascalientes",
+    "d_estado": "Merida",
+    "d_ciudad": "Kanasin",
+    "d_CP": "20001",
+    "c_estado": "02",
+    "c_oficina": "20001",
+    "c_tipo_asenta": "21",
+    "c_mnpio": "001",
+    "id_asenta_cpcons": "0008",
+    "d_zona": "Urbano",
+    "c_cve_ciudad": "01"
+}
 ]
+
+
