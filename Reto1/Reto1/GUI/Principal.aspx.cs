@@ -31,7 +31,7 @@ namespace Reto1.GUI
         private void RellenarDropDownList()
         {
 
-            string fileJson = File.ReadAllText(@"C:\Users\Luis Puc\Desktop\PracticasMoreno\Reto1\Reto1\Json\aspnetJSON");
+            string fileJson = File.ReadAllText(Server.MapPath(@"~/Json/aspnetJSON"));
             DataTable dt = (DataTable)JsonConvert.DeserializeObject(fileJson, typeof(DataTable));
             //GridView1.DataSource = dt;
             //GridView1.DataBind();
@@ -44,57 +44,54 @@ namespace Reto1.GUI
         //Recuperar el archivo Json
         private DataTable Listar()
         {
-            string fileJson = File.ReadAllText(@"C:\Users\Luis Puc\Desktop\PracticasMoreno\Reto1\Reto1\Json\aspnetJSON");
+            string fileJson = File.ReadAllText(Server.MapPath(@"~/Json/aspnetJSON"));
             DataTable dsBibliografia = (DataTable)JsonConvert.DeserializeObject(fileJson, typeof(DataTable));
             return dsBibliografia;
         }
         private DataTable ListarEstados(string idEstado)
         {
+            DataTable dsBibliografia = new DataTable();
             string fileJson = "";
-            if (idEstado == "01" || idEstado == "1") { fileJson = Server.MapPath(@"~/Json/Aguascalientes-json.json"); }
-            if (idEstado == "02" || idEstado == "2") { fileJson = Server.MapPath(@"~/Json/BajaCalifornia-json.json"); }
-            if (idEstado == "03" || idEstado == "3") { fileJson = Server.MapPath(@"~/Json/BajaCaliforniaSur-json.json"); }
-            if (idEstado == "04") { fileJson = Server.MapPath("~/Json/Campeche-json.json"); }
-            if (idEstado == "05") { fileJson = Server.MapPath("~/Json/Chiapas-json.json"); }
-            if (idEstado == "06") { fileJson = Server.MapPath("~/Json/Chihuahua-json.json"); }
-            if (idEstado == "07") { fileJson = Server.MapPath("~/Json/CDMexico-Json.json"); }
-            if (idEstado == "08") { fileJson = Server.MapPath("~/Json/Aguascalientes-json.json"); }
-            if (idEstado == "09") { fileJson = Server.MapPath("~/Json/Aguascalientes-json.json"); }
-            if (idEstado == "10") { fileJson = Server.MapPath("~/Json/Aguascalientes-json.json"); }
-            if (idEstado == "11") { fileJson = Server.MapPath("~/Json/Aguascalientes-json.json"); }
-            if (idEstado == "12") { fileJson = Server.MapPath("~/Json/Aguascalientes-json.json"); }
-            if (idEstado == "13") { fileJson = Server.MapPath("~/Json/Aguascalientes-json.json"); }
-            DataTable dsBibliografia = (DataTable)JsonConvert.DeserializeObject(rutaCompleta(fileJson), typeof(DataTable));
+            if (idEstado == "01") { fileJson = File.ReadAllText(Server.MapPath(@"~/Json/Aguascalientes-json.json")); }
+            if (idEstado == "02") { fileJson = File.ReadAllText(Server.MapPath(@"~/Json/BajaCalifornia-json.json")); }
+            if (idEstado == "03") { fileJson = File.ReadAllText(Server.MapPath(@"~/Json/BajaCaliforniaSur-json.json")); }
+            if (idEstado == "04") { fileJson = File.ReadAllText(Server.MapPath(@"~/Json/Campeche-json.json")); }
+            if (idEstado == "05") { fileJson = File.ReadAllText(Server.MapPath(@"~/Json/Chiapas-json.json")); }
+            if (idEstado == "06") { fileJson = File.ReadAllText(Server.MapPath(@"~/Json/Chihuahua-json.json")); }
+            if (idEstado == "07") { fileJson = File.ReadAllText(Server.MapPath(@"~/Json/CDMexico-Json.json")); }
+            if (idEstado == "08") { fileJson = File.ReadAllText(Server.MapPath(@"~/Json/Coahuila-Json.json")); }
+            if (idEstado == "09") { fileJson = File.ReadAllText(Server.MapPath(@"~/Json/Colima-Json.json")); }
+            if (idEstado == "10") { fileJson = File.ReadAllText(Server.MapPath(@"~/Json/Durango-Json.json")); }
+            if (idEstado == "11") { fileJson = File.ReadAllText(Server.MapPath(@"~/Json/Guanajuato-Json.json")); }
+            if (idEstado == "12") { fileJson = File.ReadAllText(Server.MapPath(@"~/Json/Guerrero-Json.json")); }
+            if (idEstado == "13") { fileJson = File.ReadAllText(Server.MapPath(@"~/Json/Hidalgo-josn.json")); }
+            if (idEstado == "14") { fileJson = File.ReadAllText(Server.MapPath(@"~/Json/Jalisco-json.json")); }
+            if (idEstado == "15") { fileJson = File.ReadAllText(Server.MapPath(@"~/Json/Mexico-json.json")); }
+            if (idEstado == "16") { fileJson = File.ReadAllText(Server.MapPath(@"~/Json/Michoacan-json.json")); }
+            if (idEstado == "17") { fileJson = File.ReadAllText(Server.MapPath(@"~/Json/Morelos-Json.json")); }
+            if (idEstado == "18") { fileJson = File.ReadAllText(Server.MapPath(@"~/Json/Nayarit-Json.json")); }
+            if (idEstado == "19") { fileJson = File.ReadAllText(Server.MapPath(@"~/Json/NuevoLeon-Json.json")); }
+            if (idEstado == "20") { fileJson = File.ReadAllText(Server.MapPath(@"~/Json/Oaxaca-Json.json")); }
+            if (idEstado == "21") { fileJson = File.ReadAllText(Server.MapPath(@"~/Json/Puebla-Json.json")); }
+            if (idEstado == "22") { fileJson = File.ReadAllText(Server.MapPath(@"~/Json/Queretaro-Json.json")); }
+            if (idEstado == "23") { fileJson = File.ReadAllText(Server.MapPath(@"~/Json/Quintana Roo.json")); }
+            if (idEstado == "24") { fileJson = File.ReadAllText(Server.MapPath(@"~/Json/Sanluispotosi.json")); }
+            if (idEstado == "25") { fileJson = File.ReadAllText(Server.MapPath(@"~/Json/Sinaloa.json")); }
+            if (idEstado == "26") { fileJson = File.ReadAllText(Server.MapPath(@"~/Json/Sonora.json")); }
+            if (idEstado == "27") { fileJson = File.ReadAllText(Server.MapPath(@"~/Json/Tabasco-json.json")); }
+            if (idEstado == "28") { fileJson = File.ReadAllText(Server.MapPath(@"~/Json/Tamaulipas-json.json")); }
+            if (idEstado == "29") { fileJson = File.ReadAllText(Server.MapPath(@"~/Json/Tlaxcala-json.json")); }
+            if (idEstado == "30") { fileJson = File.ReadAllText(Server.MapPath(@"~/Json/Veracruz-json.json")); }
+            if (idEstado == "31") { fileJson = File.ReadAllText(Server.MapPath(@"~/Json/Yucatan-json.json")); }
+            if (idEstado == "32") { fileJson = File.ReadAllText(Server.MapPath(@"~/Json/Zacatecas-json.json")); }
+
+            try
+            {
+                dsBibliografia = (DataTable)JsonConvert.DeserializeObject(fileJson, typeof(DataTable));
+            }catch (Exception e) { MessageBox.Show(""+e); }
             return dsBibliografia;
         }
-        
-        //------------------------------------------------------------trabajar andré ._. ---------------------------------------------
-        private string rutaCompleta(string ruta)
-        {
-            string nuevaCadena = "";
-            for (int i = 0; i < ruta.Length; i++ )
-            {
-                if (i > 0)
-                {
-                    try
-                    {
-                        if (ruta.Substring(i, 2) == "\\")
-                        {
 
-                            nuevaCadena += "/";
-                            i++;
-                        }
-                        else { nuevaCadena += ruta.Substring(i, 1); }
-                    }
-                    catch { nuevaCadena += ruta.Substring(i, 1); }
-                }
-                else
-                {
-                    nuevaCadena += ruta.Substring(i, 1);
-                }
-            }
-            return nuevaCadena;
-        }
 
         // ----Recupera el prime Drop Estados
         private DataTable Buscar(string id)
@@ -168,7 +165,6 @@ namespace Reto1.GUI
             string mun = "";
             ID = ddlEstados.SelectedItem.Value;
             mun = ddlEstados.SelectedItem.Text;
-            Response.Write("<script>alert(' id " + ID + " ');</script>");
 
             ddlMunicipio.DataSource = BuscarMunicipio(ID,mun);
             ddlMunicipio.DataMember = "c_estado";

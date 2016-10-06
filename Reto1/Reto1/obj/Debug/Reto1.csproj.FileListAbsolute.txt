@@ -67,3 +67,5 @@ C:\Users\Luis Puc\Desktop\PracticasMoreno\Reto1\Reto1\obj\Debug\Reto1.pdb
 C:\Users\Luis Puc\Desktop\PracticasMoreno\Reto1\Reto1\bin\Newtonsoft.Json.dll
 C:\Users\Luis Puc\Desktop\PracticasMoreno\Reto1\Reto1\bin\Newtonsoft.Json.pdb
 C:\Users\Luis Puc\Desktop\PracticasMoreno\Reto1\Reto1\bin\Newtonsoft.Json.xml
+C:\Users\Andre\Desktop\PracticasMoreno\Reto1\Reto1\bin\Newtonsoft.Json.pdb
+C:\Users\Andre\Desktop\PracticasMoreno\Reto1\Reto1\bin\Newtonsoft.Json.xml
