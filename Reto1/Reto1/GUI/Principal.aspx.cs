@@ -245,21 +245,12 @@ namespace Reto1.GUI
             string mun = "";
             ID = ddlEstados.SelectedItem.Value;
             mun = ddlMunicipio.SelectedItem.Value;
-<<<<<<< HEAD
-           
+
                 ddlLocalidad.DataSource = BuscarLocalidad(ID, mun);
                 ddlLocalidad.DataMember = "D_mnpio";
                 ddlLocalidad.DataValueField = "d_asenta";
                 DataBind();
            
-            
-=======
-
-            ddlLocalidad.DataSource = BuscarLocalidad(ID, mun);
-            ddlLocalidad.DataMember = "c_mnpio";
-            ddlLocalidad.DataValueField = "d_asenta";
-            ddlLocalidad.DataBind();
->>>>>>> origin/master
         }
 
         //private DataTable Listar()
