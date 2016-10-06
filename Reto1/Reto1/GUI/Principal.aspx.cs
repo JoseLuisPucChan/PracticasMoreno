@@ -205,7 +205,7 @@ namespace Reto1.GUI
             ddlMunicipio.DataSource = BuscarMunicipio(ID);
             ddlMunicipio.DataMember = "c_estado";
             ddlMunicipio.DataValueField = "D_mnpio";
-            DataBind();
+            ddlMunicipio.DataBind();
         }
          //--------Crear Persona------
         //protected void Button1_Click(object sender, EventArgs e)
@@ -245,6 +245,7 @@ namespace Reto1.GUI
             string mun = "";
             ID = ddlEstados.SelectedItem.Value;
             mun = ddlMunicipio.SelectedItem.Value;
+<<<<<<< HEAD
            
                 ddlLocalidad.DataSource = BuscarLocalidad(ID, mun);
                 ddlLocalidad.DataMember = "D_mnpio";
@@ -252,7 +253,15 @@ namespace Reto1.GUI
                 DataBind();
            
             
+=======
+
+            ddlLocalidad.DataSource = BuscarLocalidad(ID, mun);
+            ddlLocalidad.DataMember = "c_mnpio";
+            ddlLocalidad.DataValueField = "d_asenta";
+            ddlLocalidad.DataBind();
+>>>>>>> origin/master
         }
+
         //private DataTable Listar()
         //{
         //    DataSet dsBibliografia = new DataSet();
