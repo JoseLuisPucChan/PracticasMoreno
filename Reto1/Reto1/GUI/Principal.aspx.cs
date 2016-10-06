@@ -123,7 +123,7 @@ namespace Reto1.GUI
             return dsTemporal;
         }
         //------- Lista los municipios anidados ----
-        private DataTable BuscarMunicipio(string id, string mun)
+        private DataTable BuscarMunicipio(string id)
         {
             DataTable dsBibliografia = new DataTable();
             DataTable dsTemporal = new DataTable();
@@ -159,6 +159,42 @@ namespace Reto1.GUI
             }
             return dsTemporal;
         }
+        private DataTable BuscarLocalidad(string id, string mun)
+        {
+            DataTable dsBibliografia = new DataTable();
+            DataTable dsTemporal = new DataTable();
+            dsBibliografia = this.ListarEstados(id);
+            try
+            {
+                dsTemporal = this.ListarEstados(id);
+                dsTemporal.Clear();
+            }
+            catch
+            {
+
+            }            
+            int cont = 0, i = 0;
+            string[] filas = new string[dsBibliografia.Rows.Count];
+            foreach (DataRow r in dsBibliografia.Rows)
+            {
+                foreach (string cadena in filas)
+                {
+                    if (r["d_asenta"].ToString() == cadena)
+                    {
+                        cont++;
+                    }
+                }
+                if (cont == 0)
+                {
+                    dsTemporal.ImportRow(r);
+                    filas[i] = r["d_asenta"].ToString();
+                    i++;
+                }
+
+                cont = 0;
+            }
+            return dsTemporal;
+        }
         protected void ddlEstados_SelectedIndexChanged(object sender, EventArgs e)
         {
             string ID = "";
@@ -166,7 +202,7 @@ namespace Reto1.GUI
             ID = ddlEstados.SelectedItem.Value;
             mun = ddlEstados.SelectedItem.Text;
 
-            ddlMunicipio.DataSource = BuscarMunicipio(ID,mun);
+            ddlMunicipio.DataSource = BuscarMunicipio(ID);
             ddlMunicipio.DataMember = "c_estado";
             ddlMunicipio.DataValueField = "D_mnpio";
             DataBind();
@@ -201,6 +237,19 @@ namespace Reto1.GUI
 
             File.WriteAllText(@"C:\Users\Luis Puc\Desktop\PracticasMoreno\aspnetJSON", "[" + Session["ARCHIVOJSON"].ToString() + "]");
             Response.Write("<script>alert(' JSON Listo !! ');</script>");
+        }
+
+        protected void ddlMunicipio_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string ID = "";
+            string mun = "";
+            ID = ddlEstados.SelectedItem.Value;
+            mun = ddlMunicipio.SelectedItem.Value;
+
+            ddlLocalidad.DataSource = BuscarLocalidad(ID, mun);
+            ddlLocalidad.DataMember = "D_mnpio";
+            ddlLocalidad.DataValueField = "d_asenta";
+            DataBind();
         }
         //private DataTable Listar()
         //{
