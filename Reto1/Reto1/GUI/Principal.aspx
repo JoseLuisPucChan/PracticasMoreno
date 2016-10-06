@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
     <title></title>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -59,15 +59,11 @@
 					<center>
 					<asp:Label ID="Label1" runat="server" Text="Seleccione un Estado..." CssClass="color"></asp:Label>
                         <asp:DropDownList ID="ddlEstados"  ForeColor="#60b699" runat="server" CssClass="color" width="300px" AutoPostBack="True" OnSelectedIndexChanged="ddlEstados_SelectedIndexChanged">
-                           
+
                         </asp:DropDownList>
 				</center>
                 </div>
 			</div>
-             <asp:TextBox name="usermessage" ID="LblEstado" Visible ="true" runat="server"></asp:TextBox>
-			<div class="agileits-bottom">
-                <asp:Button ID="btnSeleccionarEstado" runat="server" Text="Seleccionar" />
-			</div>	
             </div>
                  <!-- Se activa when el Drop selecciona un nuevo Item-->
            <script type="text/javascript" >
@@ -88,21 +84,13 @@
 					<asp:Label ID="Label2" runat="server" Text="Seleccione un Municipio..." CssClass="color"></asp:Label>
                         <asp:DropDownList ID="ddlMunicipio"  ForeColor="#60b699" runat="server" CssClass="color" width="300px">
                             <asp:ListItem>
-                                -----Seleccione Localidad----
-                            </asp:ListItem>
-                              <asp:ListItem>
-                                holi
-                            </asp:ListItem>
-                              <asp:ListItem>
-                                holi
+                                -----Seleccione Municipio----
                             </asp:ListItem>
                         </asp:DropDownList>
 				</center>
                 </div>
 			</div>
-			<div class="agileits-bottom">
-                <asp:Button ID="lbtnSeleccionarMunicipio" runat="server" Text="Seleccionar" />
-			</div>	
+		
             </div>
 
            <!--DropDownlist Localidad-->
@@ -122,9 +110,6 @@
                 </div>
 			</div>
            
-			<div class="agileits-bottom">
-                <asp:Button ID="lbtnSeleccionarLocalidad" runat="server" Text="Seleccionar" />
-			</div>	
             </div>
          </div>
 	</div>
