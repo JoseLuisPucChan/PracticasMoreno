@@ -82,7 +82,7 @@
                 <div class="styled-input">
 					<center>
 					<asp:Label ID="Label2" runat="server" Text="Seleccione un Municipio..." CssClass="color"></asp:Label>
-                        <asp:DropDownList ID="ddlMunicipio"  ForeColor="#60b699" runat="server" CssClass="color" width="300px" OnSelectedIndexChanged="ddlMunicipio_SelectedIndexChanged">
+                        <asp:DropDownList ID="ddlMunicipio"  ForeColor="#60b699" runat="server" CssClass="color" width="300px" OnSelectedIndexChanged="ddlMunicipio_SelectedIndexChanged" AutoPostBack="True">
                             <asp:ListItem>
                                 -----Seleccione Municipio----
                             </asp:ListItem>
