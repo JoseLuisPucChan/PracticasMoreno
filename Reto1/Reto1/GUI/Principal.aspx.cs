@@ -164,6 +164,7 @@ namespace Reto1.GUI
             DataTable dsBibliografia = new DataTable();
             DataTable dsTemporal = new DataTable();
             dsBibliografia = this.ListarEstados(id);
+            
             try
             {
                 dsTemporal = this.ListarEstados(id);
@@ -173,10 +174,22 @@ namespace Reto1.GUI
             {
 
             }            
-            int cont = 0, i = 0;
+            int cont = 0, i = 0, a =0;
             string[] filas = new string[dsBibliografia.Rows.Count];
             foreach (DataRow r in dsBibliografia.Rows)
             {
+                if (a == 0)
+                {
+                    if (r["D_mnpio"].ToString() == mun)
+                    {
+                        mun = r["c_mnpio"].ToString();
+                        a++;
+                    }
+                }
+            }
+            foreach (DataRow r in dsBibliografia.Rows)
+            {
+                
                 foreach (string cadena in filas)
                 {
                     if (r["d_asenta"].ToString() == cadena)
@@ -184,7 +197,7 @@ namespace Reto1.GUI
                         cont++;
                     }
                 }
-                if (cont == 0)
+                if (cont == 0 && r["c_mnpio"].ToString() == mun)
                 {
                     dsTemporal.ImportRow(r);
                     filas[i] = r["d_asenta"].ToString();
