@@ -28,12 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tpCinepolis = new System.Windows.Forms.TabPage();
-            this.tpCinemex = new System.Windows.Forms.TabPage();
             this.TextBox1 = new System.Windows.Forms.RichTextBox();
+            this.tpCinemex = new System.Windows.Forms.TabPage();
+            this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.restaurarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.minimizarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cerrarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tabControl1.SuspendLayout();
             this.tpCinepolis.SuspendLayout();
+            this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -62,6 +69,15 @@
             this.tpCinepolis.Text = "Cinepolis";
             this.tpCinepolis.UseVisualStyleBackColor = true;
             // 
+            // TextBox1
+            // 
+            this.TextBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.TextBox1.Location = new System.Drawing.Point(3, 3);
+            this.TextBox1.Name = "TextBox1";
+            this.TextBox1.Size = new System.Drawing.Size(755, 455);
+            this.TextBox1.TabIndex = 0;
+            this.TextBox1.Text = "";
+            // 
             // tpCinemex
             // 
             this.tpCinemex.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
@@ -73,14 +89,41 @@
             this.tpCinemex.Text = "Cinemex";
             this.tpCinemex.UseVisualStyleBackColor = true;
             // 
-            // TextBox1
+            // notifyIcon1
             // 
-            this.TextBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.TextBox1.Location = new System.Drawing.Point(3, 3);
-            this.TextBox1.Name = "TextBox1";
-            this.TextBox1.Size = new System.Drawing.Size(755, 455);
-            this.TextBox1.TabIndex = 0;
-            this.TextBox1.Text = "";
+            this.notifyIcon1.Text = "notifyIcon1";
+            this.notifyIcon1.Visible = true;
+            this.notifyIcon1.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.notifyIcon1_MouseDoubleClick);
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.restaurarToolStripMenuItem,
+            this.minimizarToolStripMenuItem,
+            this.cerrarToolStripMenuItem});
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(153, 92);
+            // 
+            // restaurarToolStripMenuItem
+            // 
+            this.restaurarToolStripMenuItem.Name = "restaurarToolStripMenuItem";
+            this.restaurarToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.restaurarToolStripMenuItem.Text = "Restaurar";
+            this.restaurarToolStripMenuItem.Click += new System.EventHandler(this.restaurarToolStripMenuItem_Click);
+            // 
+            // minimizarToolStripMenuItem
+            // 
+            this.minimizarToolStripMenuItem.Name = "minimizarToolStripMenuItem";
+            this.minimizarToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.minimizarToolStripMenuItem.Text = "Minimizar";
+            this.minimizarToolStripMenuItem.Click += new System.EventHandler(this.minimizarToolStripMenuItem_Click);
+            // 
+            // cerrarToolStripMenuItem
+            // 
+            this.cerrarToolStripMenuItem.Name = "cerrarToolStripMenuItem";
+            this.cerrarToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.cerrarToolStripMenuItem.Text = "Cerrar";
+            this.cerrarToolStripMenuItem.Click += new System.EventHandler(this.cerrarToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -91,8 +134,10 @@
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.SizeChanged += new System.EventHandler(this.Form1_SizeChanged);
             this.tabControl1.ResumeLayout(false);
             this.tpCinepolis.ResumeLayout(false);
+            this.contextMenuStrip1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -103,6 +148,11 @@
         private System.Windows.Forms.TabPage tpCinepolis;
         private System.Windows.Forms.TabPage tpCinemex;
         private System.Windows.Forms.RichTextBox TextBox1;
+        private System.Windows.Forms.NotifyIcon notifyIcon1;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem restaurarToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem minimizarToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cerrarToolStripMenuItem;
     }
 }
 
