@@ -80,6 +80,28 @@ namespace Reto2
                         cont = 0;
                         cadena = "";
                     }
+                    // Detección de imagenes ---- proceso
+                    if (cadena == "class=\"billboard-block-title\">")
+                    {
+                        cont = 0;
+                        car = 0;
+                        cont = tamaño.Length;
+                        while (res.Substring(cont, 1) != "<")
+                        {
+                            if (car == 0)
+                            {
+                                sede = res.Substring(cont, 1);
+                            }
+                            else
+                            {
+                                sede += res.Substring(cont, 1);
+                            }
+                            cont++;
+                            car++;
+                        }
+                        cont = 0;
+                        cadena = "";
+                    }
                     if (cadena == "class=\"mycinema-item-title\">")
                     {
                         cont = 0;
