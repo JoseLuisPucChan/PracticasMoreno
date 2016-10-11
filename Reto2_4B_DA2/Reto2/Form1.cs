@@ -16,31 +16,30 @@ namespace Reto2
         public Form1()
         {
             InitializeComponent();
-            //LeerPaginaCinemex();
-            LeerPaginaCinepolis();
+            
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            //LeerPaginaCinemex();
-            
+            LeerPaginaCinemex();
+            //LeerPaginaCinepolis();
         }
         private void LeerPaginaCinemex()
         {
-            WebRequest request = WebRequest.Create("http://cinemex.com/cartelera/zona-86/merida/date-20161011");
+            //    WebRequest request = WebRequest.Create("http://cinemex.com/cartelera/zona-86/merida/");
 
-            // Obtener la respuesta.
-            WebResponse response = request.GetResponse();
+            //    // Obtener la respuesta.
+            //    WebResponse response = request.GetResponse();
 
-            // Abrir el stream de la respuesta recibida.
-            StreamReader reader = new StreamReader(response.GetResponseStream());
+            //    // Abrir el stream de la respuesta recibida.
+            //    StreamReader reader = new StreamReader(response.GetResponseStream());
 
             // Leer el contenido.
-            String res = reader.ReadToEnd();
-
-            // Cerrar los streams abiertos.
-            reader.Close();
-            response.Close();
+            //String res = reader.ReadToEnd();
+            string res = File.ReadAllText(@"C:\Users\Andre\Desktop\Reto2_4B_DA2\Reto2\cinemex.txt");
+            //// Cerrar los streams abiertos.
+            //reader.Close();
+            //response.Close();
 
             string[,] lista = new string[100, 4];
             string cadena = "", tamaño = "", sede = "";
@@ -53,6 +52,7 @@ namespace Reto2
                 {
                     cadena = "";
                 }
+                // detección de cambio de títulos de películas
                 if (cadena == "class=\"mycinema-item-rating\"" && lista[posicion, 0] != null)
                 {
                     posicion++;
@@ -78,6 +78,7 @@ namespace Reto2
                 //}
                 if (dato == '>')
                 {
+                    // detección de sedes de Cinemex
                     if (cadena == "class=\"billboard-block-title\">")
                     {
                         cont = 0;
@@ -99,6 +100,7 @@ namespace Reto2
                         cont = 0;
                         cadena = "";
                     }
+                    // detección de títulos de películas
                     if (cadena == "class=\"mycinema-item-title\">")
                     {
                         cont = 0;
@@ -127,6 +129,7 @@ namespace Reto2
                         }
                     }
                     string hr = "";
+                    // detección de horarios
                     if (cadena.Length > 10)
                     {
                         hr = cadena.Substring(0, 10);
@@ -166,27 +169,36 @@ namespace Reto2
                 peliculas[cont] = lista[cont, 0];
                 cont++;
             }
+            // agrupación de películas por sedes
             string comp = "";
             cont = 0;
-            //for (int a = 0; a < lista.Length; a++)
-            //{
-            sede = lista[cont, 0];
-            while (lista[cont, 0] == sede)
+            for (int a = 0; a < lista.Length; a++)
             {
-                cont++;
-            }
-            comp = "Sede: " + sede + "\n";
-            for (int i = 0; i < cont; i++)
-            {
-                if (i < cont)
+                if (lista[cont, 0] != null)
                 {
-                    if (lista[i, 0] == sede)
+                    sede = lista[cont, 0];
+                    while (lista[cont, 0] == sede && lista[cont, 0] != null)
                     {
-                        comp += "       Título: " + lista[i, 1] + " Horario: " + lista[i, 2] + "\n";
+                        cont++;
                     }
+                    comp += "Sede: " + sede + "\n";
+                    for (int i = src; i < cont; i++)
+                    {
+                        if (i < cont)
+                        {
+                            if (lista[i, 0] == sede)
+                            {
+                                comp += "       Título: " + lista[i, 1] + " Horario: " + lista[i, 2] + "\n";
+                            }
+                        }
+                    }
+                    src = cont + 1;
+                }
+                else
+                {
+                    break;
                 }
             }
-            //}
             TextBox1.Text = comp;
 
         }

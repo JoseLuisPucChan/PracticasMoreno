@@ -33,12 +33,13 @@
             this.tpCinemex = new System.Windows.Forms.TabPage();
             this.TextBox1 = new System.Windows.Forms.RichTextBox();
             this.tpCinepolis = new System.Windows.Forms.TabPage();
+            this.ricCinepolis = new System.Windows.Forms.RichTextBox();
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.restaurarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.minimizarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cerrarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ricCinepolis = new System.Windows.Forms.RichTextBox();
+            this.cobSede = new System.Windows.Forms.ComboBox();
             this.tabControl1.SuspendLayout();
             this.tpCinemex.SuspendLayout();
             this.tpCinepolis.SuspendLayout();
@@ -54,29 +55,30 @@
             this.tabControl1.Multiline = true;
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(782, 297);
+            this.tabControl1.Size = new System.Drawing.Size(782, 439);
             this.tabControl1.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
             this.tabControl1.TabIndex = 2;
             // 
             // tpCinemex
             // 
             this.tpCinemex.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.tpCinemex.Controls.Add(this.cobSede);
             this.tpCinemex.Controls.Add(this.TextBox1);
             this.tpCinemex.ForeColor = System.Drawing.SystemColors.ControlText;
             this.tpCinemex.Location = new System.Drawing.Point(4, 22);
             this.tpCinemex.Name = "tpCinemex";
             this.tpCinemex.Padding = new System.Windows.Forms.Padding(3);
-            this.tpCinemex.Size = new System.Drawing.Size(774, 271);
+            this.tpCinemex.Size = new System.Drawing.Size(774, 413);
             this.tpCinemex.TabIndex = 0;
             this.tpCinemex.Text = "Cinemex";
             this.tpCinemex.UseVisualStyleBackColor = true;
             // 
             // TextBox1
             // 
-            this.TextBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.TextBox1.Location = new System.Drawing.Point(3, 3);
+            this.TextBox1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.TextBox1.Location = new System.Drawing.Point(3, 62);
             this.TextBox1.Name = "TextBox1";
-            this.TextBox1.Size = new System.Drawing.Size(764, 261);
+            this.TextBox1.Size = new System.Drawing.Size(764, 344);
             this.TextBox1.TabIndex = 0;
             this.TextBox1.Text = "";
             // 
@@ -91,6 +93,15 @@
             this.tpCinepolis.TabIndex = 1;
             this.tpCinepolis.Text = "Cinépolis";
             this.tpCinepolis.UseVisualStyleBackColor = true;
+            // 
+            // ricCinepolis
+            // 
+            this.ricCinepolis.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ricCinepolis.Location = new System.Drawing.Point(3, 3);
+            this.ricCinepolis.Name = "ricCinepolis";
+            this.ricCinepolis.Size = new System.Drawing.Size(764, 261);
+            this.ricCinepolis.TabIndex = 1;
+            this.ricCinepolis.Text = "";
             // 
             // notifyIcon1
             // 
@@ -129,20 +140,29 @@
             this.cerrarToolStripMenuItem.Text = "Cerrar";
             this.cerrarToolStripMenuItem.Click += new System.EventHandler(this.cerrarToolStripMenuItem_Click);
             // 
-            // ricCinepolis
+            // cobSede
             // 
-            this.ricCinepolis.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ricCinepolis.Location = new System.Drawing.Point(3, 3);
-            this.ricCinepolis.Name = "ricCinepolis";
-            this.ricCinepolis.Size = new System.Drawing.Size(764, 261);
-            this.ricCinepolis.TabIndex = 1;
-            this.ricCinepolis.Text = "";
+            this.cobSede.FormattingEnabled = true;
+            this.cobSede.Items.AddRange(new object[] {
+            "Todos",
+            "Cinemex Canek",
+            "Cinemex City Center Mérida",
+            "Cinemex Galerías Mérida",
+            "Cinemex Galerías Mérida Platino",
+            "Cinemex Gran Plaza Mérida",
+            "Cinemex Macroplaza Mérida",
+            "Cinemex Península Montejo Platino",
+            "Cinemex Rex Mérida"});
+            this.cobSede.Location = new System.Drawing.Point(7, 7);
+            this.cobSede.Name = "cobSede";
+            this.cobSede.Size = new System.Drawing.Size(121, 21);
+            this.cobSede.TabIndex = 1;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(782, 297);
+            this.ClientSize = new System.Drawing.Size(782, 439);
             this.Controls.Add(this.tabControl1);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -168,6 +188,7 @@
         private System.Windows.Forms.ToolStripMenuItem minimizarToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cerrarToolStripMenuItem;
         private System.Windows.Forms.RichTextBox ricCinepolis;
+        private System.Windows.Forms.ComboBox cobSede;
     }
 }
 
