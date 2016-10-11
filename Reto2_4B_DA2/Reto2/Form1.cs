@@ -61,9 +61,16 @@ namespace Reto2
                 if (cadena.Length > 20)
                 {
                     string hr = cadena.Substring(0, 3);
+                    string lol = res.Substring(tamaño.Length - (cadena.Length - 7), cadena.Length);
+                    cont = cadena.Length - 7;
                     if (hr == "src")
                     {
-                        lista[posicion, 3] = cadena.Substring(7,cadena.Length);
+                        while (res.Substring(tamaño.Length - cont, 1) != "\"")
+                        {
+                            lista[posicion, 3] += res.Substring(tamaño.Length - cont, 1);
+                            cont++;
+                        }
+                        
                         cont = 0;
                         cadena = "";
                     }
