@@ -31,6 +31,7 @@
             this.components = new System.ComponentModel.Container();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tpCinemex = new System.Windows.Forms.TabPage();
+            this.cobSede = new System.Windows.Forms.ComboBox();
             this.TextBox1 = new System.Windows.Forms.RichTextBox();
             this.tpCinepolis = new System.Windows.Forms.TabPage();
             this.ricCinepolis = new System.Windows.Forms.RichTextBox();
@@ -39,7 +40,6 @@
             this.restaurarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.minimizarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cerrarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cobSede = new System.Windows.Forms.ComboBox();
             this.tabControl1.SuspendLayout();
             this.tpCinemex.SuspendLayout();
             this.tpCinepolis.SuspendLayout();
@@ -73,6 +73,25 @@
             this.tpCinemex.Text = "Cinemex";
             this.tpCinemex.UseVisualStyleBackColor = true;
             // 
+            // cobSede
+            // 
+            this.cobSede.FormattingEnabled = true;
+            this.cobSede.Items.AddRange(new object[] {
+            "Todos",
+            "Cinemex Canek",
+            "Cinemex City Center Mérida",
+            "Cinemex Galerías Mérida",
+            "Cinemex Galerías Mérida Platino",
+            "Cinemex Gran Plaza Mérida",
+            "Cinemex Macroplaza Mérida",
+            "Cinemex Península Montejo Platino",
+            "Cinemex Rex Mérida"});
+            this.cobSede.Location = new System.Drawing.Point(7, 7);
+            this.cobSede.Name = "cobSede";
+            this.cobSede.Size = new System.Drawing.Size(121, 21);
+            this.cobSede.TabIndex = 1;
+            this.cobSede.SelectedIndexChanged += new System.EventHandler(this.cobSede_SelectedIndexChanged);
+            // 
             // TextBox1
             // 
             this.TextBox1.Dock = System.Windows.Forms.DockStyle.Bottom;
@@ -89,7 +108,7 @@
             this.tpCinepolis.Location = new System.Drawing.Point(4, 22);
             this.tpCinepolis.Name = "tpCinepolis";
             this.tpCinepolis.Padding = new System.Windows.Forms.Padding(3);
-            this.tpCinepolis.Size = new System.Drawing.Size(774, 271);
+            this.tpCinepolis.Size = new System.Drawing.Size(774, 413);
             this.tpCinepolis.TabIndex = 1;
             this.tpCinepolis.Text = "Cinépolis";
             this.tpCinepolis.UseVisualStyleBackColor = true;
@@ -99,7 +118,7 @@
             this.ricCinepolis.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ricCinepolis.Location = new System.Drawing.Point(3, 3);
             this.ricCinepolis.Name = "ricCinepolis";
-            this.ricCinepolis.Size = new System.Drawing.Size(764, 261);
+            this.ricCinepolis.Size = new System.Drawing.Size(764, 403);
             this.ricCinepolis.TabIndex = 1;
             this.ricCinepolis.Text = "";
             // 
@@ -139,24 +158,6 @@
             this.cerrarToolStripMenuItem.Size = new System.Drawing.Size(127, 22);
             this.cerrarToolStripMenuItem.Text = "Cerrar";
             this.cerrarToolStripMenuItem.Click += new System.EventHandler(this.cerrarToolStripMenuItem_Click);
-            // 
-            // cobSede
-            // 
-            this.cobSede.FormattingEnabled = true;
-            this.cobSede.Items.AddRange(new object[] {
-            "Todos",
-            "Cinemex Canek",
-            "Cinemex City Center Mérida",
-            "Cinemex Galerías Mérida",
-            "Cinemex Galerías Mérida Platino",
-            "Cinemex Gran Plaza Mérida",
-            "Cinemex Macroplaza Mérida",
-            "Cinemex Península Montejo Platino",
-            "Cinemex Rex Mérida"});
-            this.cobSede.Location = new System.Drawing.Point(7, 7);
-            this.cobSede.Name = "cobSede";
-            this.cobSede.Size = new System.Drawing.Size(121, 21);
-            this.cobSede.TabIndex = 1;
             // 
             // Form1
             // 

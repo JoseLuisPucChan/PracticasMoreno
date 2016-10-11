@@ -22,3 +22,9 @@ C:\Users\Luis Puc\Desktop\PracticasMoreno\Reto2_4B_DA2\Reto2\obj\Debug\Reto2.For
 C:\Users\Luis Puc\Desktop\PracticasMoreno\Reto2_4B_DA2\Reto2\obj\Debug\Reto2.Properties.Resources.resources
 C:\Users\Luis Puc\Desktop\PracticasMoreno\Reto2_4B_DA2\Reto2\obj\Debug\Reto2.csproj.GenerateResource.Cache
 >>>>>>> origin/master
+C:\Users\Andre\Desktop\PracticasMoreno\Reto2_4B_DA2\Reto2\bin\Debug\Reto2.exe
+C:\Users\Andre\Desktop\PracticasMoreno\Reto2_4B_DA2\Reto2\bin\Debug\Reto2.pdb
+C:\Users\Andre\Desktop\PracticasMoreno\Reto2_4B_DA2\Reto2\obj\Debug\Reto2.csprojResolveAssemblyReference.cache
+C:\Users\Andre\Desktop\PracticasMoreno\Reto2_4B_DA2\Reto2\obj\Debug\Reto2.Form1.resources
+C:\Users\Andre\Desktop\PracticasMoreno\Reto2_4B_DA2\Reto2\obj\Debug\Reto2.Properties.Resources.resources
+C:\Users\Andre\Desktop\PracticasMoreno\Reto2_4B_DA2\Reto2\obj\Debug\Reto2.csproj.GenerateResource.Cache

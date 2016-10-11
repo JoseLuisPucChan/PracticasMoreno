@@ -21,25 +21,26 @@ namespace Reto2
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            LeerPaginaCinemex();
+            cobSede.SelectedIndex = 0;
+            LeerPaginaCinemex(cobSede.SelectedItem.ToString());
             //LeerPaginaCinepolis();
         }
-        private void LeerPaginaCinemex()
+        private void LeerPaginaCinemex(string filtro)
         {
-            //    WebRequest request = WebRequest.Create("http://cinemex.com/cartelera/zona-86/merida/");
+            WebRequest request = WebRequest.Create("http://cinemex.com/cartelera/zona-86/merida/");
 
-            //    // Obtener la respuesta.
-            //    WebResponse response = request.GetResponse();
+            // Obtener la respuesta.
+            WebResponse response = request.GetResponse();
 
-            //    // Abrir el stream de la respuesta recibida.
-            //    StreamReader reader = new StreamReader(response.GetResponseStream());
+            // Abrir el stream de la respuesta recibida.
+            StreamReader reader = new StreamReader(response.GetResponseStream());
 
-            // Leer el contenido.
-            //String res = reader.ReadToEnd();
-            string res = File.ReadAllText(@"C:\Users\Andre\Desktop\Reto2_4B_DA2\Reto2\cinemex.txt");
-            //// Cerrar los streams abiertos.
-            //reader.Close();
-            //response.Close();
+            //Leer el contenido.
+           String res = reader.ReadToEnd();
+
+            // Cerrar los streams abiertos.
+            reader.Close();
+            response.Close();
 
             string[,] lista = new string[100, 4];
             string cadena = "", tamaño = "", sede = "";
@@ -172,31 +173,67 @@ namespace Reto2
             // agrupación de películas por sedes
             string comp = "";
             cont = 0;
-            for (int a = 0; a < lista.Length; a++)
+            if (filtro == "Todos")
             {
-                if (lista[cont, 0] != null)
+                for (int a = 0; a < lista.Length; a++)
                 {
-                    sede = lista[cont, 0];
-                    while (lista[cont, 0] == sede && lista[cont, 0] != null)
+                    if (lista[cont, 0] != null)
                     {
-                        cont++;
-                    }
-                    comp += "Sede: " + sede + "\n";
-                    for (int i = src; i < cont; i++)
-                    {
-                        if (i < cont)
+                        sede = lista[cont, 0];
+                        while (lista[cont, 0] == sede && lista[cont, 0] != null)
                         {
-                            if (lista[i, 0] == sede)
+                            cont++;
+                        }
+                        comp += "Sede: " + sede + "\n";
+                        for (int i = src; i < cont; i++)
+                        {
+                            if (i < cont)
                             {
-                                comp += "       Título: " + lista[i, 1] + " Horario: " + lista[i, 2] + "\n";
+                                if (lista[i, 0] == sede)
+                                {
+                                    comp += "       Título: " + lista[i, 1] + " Horario: " + lista[i, 2] + "\n";
+                                }
                             }
                         }
+                        src = cont;
                     }
-                    src = cont + 1;
+                    else
+                    {
+                        break;
+                    }
                 }
-                else
+            }
+            else
+            {
+                for (int a = 0; a < lista.Length; a++)
                 {
-                    break;
+                    if (lista[cont, 0] != null)
+                    {
+                        sede = lista[cont, 0];
+                        while (lista[cont, 0] == sede && lista[cont, 0] != null)
+                        {
+                            cont++;
+                        }
+                        if (sede == filtro)
+                        {
+                            comp += "Sede: " + sede + "\n";
+                            for (int i = src; i < cont; i++)
+                            {
+                                if (i < cont)
+                                {
+                                    if (lista[i, 0] == sede)
+                                    {
+                                        comp += "       Título: " + lista[i, 1] + " Horario: " + lista[i, 2] + "\n";
+                                    }
+                                }
+                            }
+                            src = cont;
+                        }
+                    }
+                    else
+                    {
+                        break;
+                    }
                 }
             }
             TextBox1.Text = comp;
@@ -256,6 +293,11 @@ namespace Reto2
         private void cerrarToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void cobSede_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            LeerPaginaCinemex(cobSede.SelectedItem.ToString());
         }
     }
 }
