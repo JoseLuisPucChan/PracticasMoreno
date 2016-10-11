@@ -27,7 +27,7 @@ namespace Reto2
 
         private void LeerPaginaCinemex()
         {
-             WebRequest request = WebRequest.Create("http://cinemex.com/cartelera/zona-86/merida/");
+             WebRequest request = WebRequest.Create("http://cinemex.com/cartelera/zona-86/merida/date-20161011");
 
             // Obtener la respuesta.
             WebResponse response = request.GetResponse();
@@ -44,7 +44,7 @@ namespace Reto2
 
             string[,] lista = new string[100,4];
             string cadena = "", tamaño = "", sede = "";
-            int cont = 0, posicion = 0, car = 0, anterior = 0;
+            int cont = 0, posicion = 0, car = 0, anterior = 0, src = 0;
             foreach (char dato in res)
             {
                 cadena += dato;
@@ -58,23 +58,24 @@ namespace Reto2
                     posicion++;
                 }
                 // Detección de imagenes ---- proceso
-                if (cadena.Length > 20)
-                {
-                    string hr = cadena.Substring(0, 3);
-                    string lol = res.Substring(tamaño.Length - (cadena.Length - 7), cadena.Length);
-                    cont = cadena.Length - 7;
-                    if (hr == "src")
-                    {
-                        while (res.Substring(tamaño.Length - cont, 1) != "\"")
-                        {
-                            lista[posicion, 3] += res.Substring(tamaño.Length - cont, 1);
-                            cont++;
-                        }
+                //if (cadena.Length > 20)
+                //{
+                //    string hr = cadena.Substring(0, 3);
+                //    cont = cadena.Length - 35;
+                //    if (hr == "src")
+                //    {
+                //        car++;
+                //        while (res.Substring(tamaño.Length + cont, 1) != "\"" && car > 3)
+                //        {
+                //            lista[posicion, 3] += res.Substring(tamaño.Length +cont, 1);
+                //            cont++;
+                //        }
                         
-                        cont = 0;
-                        cadena = "";
-                    }
-                }
+                        
+                //        cont = 0;
+                //        cadena = "";
+                //    }
+                //}
                 if (dato == '>') 
                 {
                     if (cadena == "class=\"billboard-block-title\">")
@@ -166,11 +167,26 @@ namespace Reto2
                 cont++;
             }
             string comp = "";
-            foreach (string sd in lista)
+            for (int a = 0; a < lista.Length; a++)
             {
-
+                sede = lista[cont, 0];
+                while (lista[cont, 0] == sede)
+                {
+                    cont++;
+                }
+                comp = "Sede: " + sede + "\n";
+                for (int i = 0; i < cont; i++)
+                {
+                    if (i < cont)
+                    {
+                        if (lista[i, 0] == sede)
+                        {
+                            comp += "       Título: " + lista[i, 1] + " Horario: " + lista[i, 2] + "\n";
+                        }
+                    }
+                }
             }
-            textBox1.Text = comp;
+            TextBox1.Text = comp;
 
         }
     }

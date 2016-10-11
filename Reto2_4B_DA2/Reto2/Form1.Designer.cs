@@ -31,7 +31,7 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tpCinepolis = new System.Windows.Forms.TabPage();
             this.tpCinemex = new System.Windows.Forms.TabPage();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.TextBox1 = new System.Windows.Forms.RichTextBox();
             this.tabControl1.SuspendLayout();
             this.tpCinepolis.SuspendLayout();
             this.SuspendLayout();
@@ -52,7 +52,7 @@
             // tpCinepolis
             // 
             this.tpCinepolis.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.tpCinepolis.Controls.Add(this.textBox1);
+            this.tpCinepolis.Controls.Add(this.TextBox1);
             this.tpCinepolis.ForeColor = System.Drawing.SystemColors.ControlText;
             this.tpCinepolis.Location = new System.Drawing.Point(4, 22);
             this.tpCinepolis.Name = "tpCinepolis";
@@ -73,14 +73,14 @@
             this.tpCinemex.Text = "Cinemex";
             this.tpCinemex.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // TextBox1
             // 
-            this.textBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox1.Location = new System.Drawing.Point(3, 3);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(755, 455);
-            this.textBox1.TabIndex = 0;
+            this.TextBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.TextBox1.Location = new System.Drawing.Point(3, 3);
+            this.TextBox1.Name = "TextBox1";
+            this.TextBox1.Size = new System.Drawing.Size(755, 455);
+            this.TextBox1.TabIndex = 0;
+            this.TextBox1.Text = "";
             // 
             // Form1
             // 
@@ -93,7 +93,6 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.tabControl1.ResumeLayout(false);
             this.tpCinepolis.ResumeLayout(false);
-            this.tpCinepolis.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -103,7 +102,7 @@
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tpCinepolis;
         private System.Windows.Forms.TabPage tpCinemex;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.RichTextBox TextBox1;
     }
 }
 
