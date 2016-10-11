@@ -28,7 +28,6 @@ namespace UTM.SQLite.GUI
         }
         public void imprimeReporte(DataTable dt)
         {
-
             ReportDocument cryrpt = new ReportDocument();
             string mystr = Application.StartupPath;
             //string path = mystr.Substring(0, mystr.Length - 9);
