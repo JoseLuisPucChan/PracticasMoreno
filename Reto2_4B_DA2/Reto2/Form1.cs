@@ -16,6 +16,7 @@ namespace Reto2
         public Form1()
         {
             InitializeComponent();
+        
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -187,6 +188,10 @@ namespace Reto2
             TextBox1.Text = comp;
 
         }
+
+
+      
+
 
         private void Form1_SizeChanged(object sender, EventArgs e)
         {
