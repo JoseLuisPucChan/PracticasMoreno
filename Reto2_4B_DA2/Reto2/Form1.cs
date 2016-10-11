@@ -36,7 +36,7 @@ namespace Reto2
             StreamReader reader = new StreamReader(response.GetResponseStream());
 
             // Leer el contenido.
-            string res = reader.ReadToEnd();
+            String res = reader.ReadToEnd();
 
             // Cerrar los streams abiertos.
             reader.Close();
@@ -110,15 +110,6 @@ namespace Reto2
                     string hr = "";
                     if (cadena.Length > 10)
                     {
-                        //    hr = cadena.Substring(cadena.Length - 6, 4);
-                        //}
-
-                        //try
-                        //{
-                        //    hora = Convert.ToInt32(hr);
-                        //}
-                        //catch
-                        //{ }
                         hr = cadena.Substring(0, 10);
                         if ( hr == "data-time=")
                         {
@@ -148,19 +139,17 @@ namespace Reto2
                     }
                 }
             }
-            string comp = "";
-            for (int i = 0; i < lista.Length; i++)
+            cont = 0;
+            string[] peliculas = new string[100];
+            while(lista[cont,0] != null)
             {
-                try
-                {
-                    if (lista[i, 1] != null)
-                    {
+                peliculas[cont] = lista[cont, 0];
+                cont++;
+            }
+            string comp = "";
+            foreach (string sd in lista)
+            {
 
-                        comp += "Título: " + lista[i, 1] + " \n" + "Horarios: " + lista[i, 2] + " \n";
-
-                    }
-                }
-                catch { }
             }
             textBox1.Text = comp;
 
