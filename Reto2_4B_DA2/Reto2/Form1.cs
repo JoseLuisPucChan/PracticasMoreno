@@ -44,7 +44,7 @@ namespace Reto2
 
             string[,] lista = new string[100,3];
             string cadena = "", tamaño = "", sede = "";
-            int cont = 0, posicion = 0, car = 0;
+            int cont = 0, posicion = 0, car = 0, anterior = 0;
             foreach (char dato in res)
             {
                 cadena += dato;
@@ -52,6 +52,10 @@ namespace Reto2
                 if (dato == ' ')
                 {
                     cadena = "";
+                }
+                if (cadena == "class=\"mycinema-item-rating\"" && lista[posicion,0] != null)
+                {
+                    posicion++;
                 }
                 if (dato == '>') 
                 {
@@ -80,26 +84,28 @@ namespace Reto2
                     {
                         cont = 0;
                         cont = tamaño.Length;
-                        while (res.Substring(cont, 1) != "<")
+                        if (lista[posicion, 1] == null)
                         {
-                            foreach (string titulo in lista)
+                            while (res.Substring(cont, 1) != "<")
                             {
+                                foreach (string titulo in lista)
+                                {
 
+                                }
+                                if (cont == 0)
+                                {
+                                    lista[posicion, 1] = res.Substring(cont, 1);
+                                }
+                                else
+                                {
+                                    lista[posicion, 1] += res.Substring(cont, 1);
+                                }
+                                cont++;
                             }
-                            if (cont == 0)
-                            {
-                                lista[posicion,1] = res.Substring(cont, 1);
-                            }
-                            else
-                            {
-                                lista[posicion,1] += res.Substring(cont, 1);
-                            }
-                            cont++;
+                            lista[posicion, 0] = sede.Trim();
+                            cont = 0;
+                            cadena = "";
                         }
-                        lista[posicion, 0] = sede.Trim();
-                        cont = 0;
-                        cadena = "";
-                        posicion++;
                     }
                     string hr = "";
                     if (cadena.Length > 10)
@@ -114,18 +120,29 @@ namespace Reto2
                         //catch
                         //{ }
                         hr = cadena.Substring(0, 10);
-                        if ( hr == "data-time=\"")
+                        if ( hr == "data-time=")
                         {
-                            if (lista[posicion, 2] == null || lista[posicion, 2] == "")
+                            for (int i = 0; i < lista.Length - 1; i++)
                             {
-                                lista[posicion, 2] = res.Substring(cont, 2) + ":" + res.Substring(cont + 2, 2);
+                                if (lista[i,0] == null && lista[i,1] == null)
+                                {
+                                    anterior = i - 1;
+                                    if (anterior < 0)
+                                    {
+                                        anterior = 0;
+                                    }
+                                    break;
+                                }
+                            }
+                            if (lista[anterior, 2] == null || lista[anterior, 2] == "")
+                            {
+                                lista[anterior, 2] = res.Substring(tamaño.Length, 2) + ":" + res.Substring(tamaño.Length + 3, 2);
                             }
                             else
                             {
-                                lista[posicion, 2] += ", " + res.Substring(cont, 2) + ":" + res.Substring(cont + 2, 2);
+                                lista[anterior, 2] += ", " + res.Substring(tamaño.Length, 2) + ":" + res.Substring(tamaño.Length + 3, 2);
                             }
                             cont = 0;
-                            posicion++;
                             cadena = "";
                         }
                     }
