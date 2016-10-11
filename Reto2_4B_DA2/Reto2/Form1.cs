@@ -42,7 +42,7 @@ namespace Reto2
             reader.Close();
             response.Close();
 
-            string[,] lista = new string[100,3];
+            string[,] lista = new string[100,4];
             string cadena = "", tamaño = "", sede = "";
             int cont = 0, posicion = 0, car = 0, anterior = 0;
             foreach (char dato in res)
@@ -57,6 +57,17 @@ namespace Reto2
                 {
                     posicion++;
                 }
+                // Detección de imagenes ---- proceso
+                if (cadena.Length > 20)
+                {
+                    string hr = cadena.Substring(0, 3);
+                    if (hr == "src")
+                    {
+                        lista[posicion, 3] = cadena.Substring(7,cadena.Length);
+                        cont = 0;
+                        cadena = "";
+                    }
+                }
                 if (dato == '>') 
                 {
                     if (cadena == "class=\"billboard-block-title\">")
@@ -65,28 +76,6 @@ namespace Reto2
                         car = 0;
                         cont = tamaño.Length;
                         while (res.Substring(cont, 1) != "<" )
-                        {
-                            if (car == 0)
-                            {
-                                sede = res.Substring(cont, 1);
-                            }
-                            else
-                            {
-                                sede += res.Substring(cont, 1);
-                            }
-                            cont++;
-                            car++;
-                        }
-                        cont = 0;
-                        cadena = "";
-                    }
-                    // Detección de imagenes ---- proceso
-                    if (cadena == "class=\"billboard-block-title\">")
-                    {
-                        cont = 0;
-                        car = 0;
-                        cont = tamaño.Length;
-                        while (res.Substring(cont, 1) != "<")
                         {
                             if (car == 0)
                             {
@@ -158,6 +147,7 @@ namespace Reto2
                             cont = 0;
                             cadena = "";
                         }
+                        
                     }
                 }
             }
