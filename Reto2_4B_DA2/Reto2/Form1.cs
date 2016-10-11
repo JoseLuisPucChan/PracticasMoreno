@@ -16,12 +16,14 @@ namespace Reto2
         public Form1()
         {
             InitializeComponent();
-        
+            //LeerPaginaCinemex();
+            LeerPaginaCinepolis();
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            LeerPaginaCinemex();
+            //LeerPaginaCinemex();
+            
         }
         private void LeerPaginaCinemex()
         {
@@ -190,7 +192,27 @@ namespace Reto2
         }
 
 
-      
+
+        private void LeerPaginaCinepolis()
+        {
+            WebRequest request = WebRequest.Create("http://www.cinepolis.com/cartelera/merida/cinepolis-plaza-kukulcan");
+
+            // Obtener la respuesta.
+            WebResponse response = request.GetResponse();
+
+            // Abrir el stream de la respuesta recibida.
+            StreamReader reader = new StreamReader(response.GetResponseStream());
+
+            // Leer el contenido.
+            String res = reader.ReadToEnd();
+
+            // Cerrar los streams abiertos.
+            reader.Close();
+            response.Close();
+
+            ricCinepolis.Text = res;
+        }
+
 
 
         private void Form1_SizeChanged(object sender, EventArgs e)
