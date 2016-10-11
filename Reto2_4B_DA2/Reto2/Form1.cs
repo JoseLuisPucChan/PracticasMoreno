@@ -167,8 +167,8 @@ namespace Reto2
                 cont++;
             }
             string comp = "";
-            for (int a = 0; a < lista.Length; a++)
-            {
+            //for (int a = 0; a < lista.Length; a++)
+            //{
                 sede = lista[cont, 0];
                 while (lista[cont, 0] == sede)
                 {
@@ -185,7 +185,7 @@ namespace Reto2
                         }
                     }
                 }
-            }
+            //}
             TextBox1.Text = comp;
 
         }
