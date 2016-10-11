@@ -1,0 +1,9 @@
+C:\Users\Andre\Desktop\Proyecto4Cuatrimestre\Reto2_4B_DA2\Reto2\bin\Debug\Reto2.exe.config
+C:\Users\Andre\Desktop\Proyecto4Cuatrimestre\Reto2_4B_DA2\Reto2\bin\Debug\Reto2.exe
+C:\Users\Andre\Desktop\Proyecto4Cuatrimestre\Reto2_4B_DA2\Reto2\bin\Debug\Reto2.pdb
+C:\Users\Andre\Desktop\Proyecto4Cuatrimestre\Reto2_4B_DA2\Reto2\obj\Debug\Reto2.csprojResolveAssemblyReference.cache
+C:\Users\Andre\Desktop\Proyecto4Cuatrimestre\Reto2_4B_DA2\Reto2\obj\Debug\Reto2.Form1.resources
+C:\Users\Andre\Desktop\Proyecto4Cuatrimestre\Reto2_4B_DA2\Reto2\obj\Debug\Reto2.Properties.Resources.resources
+C:\Users\Andre\Desktop\Proyecto4Cuatrimestre\Reto2_4B_DA2\Reto2\obj\Debug\Reto2.csproj.GenerateResource.Cache
+C:\Users\Andre\Desktop\Proyecto4Cuatrimestre\Reto2_4B_DA2\Reto2\obj\Debug\Reto2.exe
+C:\Users\Andre\Desktop\Proyecto4Cuatrimestre\Reto2_4B_DA2\Reto2\obj\Debug\Reto2.pdb
