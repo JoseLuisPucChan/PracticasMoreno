@@ -167,6 +167,7 @@ namespace Reto2
                 cont++;
             }
             string comp = "";
+            cont = 0;
             //for (int a = 0; a < lista.Length; a++)
             //{
                 sede = lista[cont, 0];
