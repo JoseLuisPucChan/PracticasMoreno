@@ -48,3 +48,4 @@ C:\Users\Andre\Desktop\Reto2_4B_DA2\Reto2\bin\Debug\ShockwaveFlashObjects.dll
 C:\Users\Andre\Desktop\Reto2_4B_DA2\Reto2\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
 C:\Users\Andre\Desktop\Reto2_4B_DA2\Reto2\bin\Debug\stdole.dll
 C:\Users\Andre\Desktop\Reto2_4B_DA2\Reto2\obj\Debug\Reto2.Reporte.ReporteCinemex.resources
+C:\Users\Luis Puc\Desktop\PracticasMoreno\Reto2_4B_DA2\Reto2\obj\Debug\Reto2.Reporte.ReporteCinemex.resources
