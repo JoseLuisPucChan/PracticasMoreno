@@ -6,3 +6,6 @@ c:\users\luis puc\documents\visual studio 2013\Projects\PRACTICACinepolis\PRACTI
 c:\users\luis puc\documents\visual studio 2013\Projects\PRACTICACinepolis\PRACTICACinepolis\bin\Debug\PRACTICACinepolis.pdb
 c:\users\luis puc\documents\visual studio 2013\Projects\PRACTICACinepolis\PRACTICACinepolis\obj\Debug\PRACTICACinepolis.exe
 c:\users\luis puc\documents\visual studio 2013\Projects\PRACTICACinepolis\PRACTICACinepolis\obj\Debug\PRACTICACinepolis.pdb
+C:\Users\Andre\Desktop\PracticasMoreno\PRACTICACinepolis\PRACTICACinepolis\bin\Debug\PRACTICACinepolis.exe.config
+C:\Users\Andre\Desktop\PracticasMoreno\PRACTICACinepolis\PRACTICACinepolis\obj\Debug\PRACTICACinepolis.exe
+C:\Users\Andre\Desktop\PracticasMoreno\PRACTICACinepolis\PRACTICACinepolis\obj\Debug\PRACTICACinepolis.pdb

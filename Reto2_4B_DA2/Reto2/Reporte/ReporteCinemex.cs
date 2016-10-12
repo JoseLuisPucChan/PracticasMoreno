@@ -34,31 +34,75 @@ namespace Reto2.Reporte
 
         private void GenerarReporte()
         {
+            ReportDocument cryrpt = new ReportDocument();
+            string mystr = Application.StartupPath;
+            string path = "";
             if (tabla == "Todos")
             {
-                ReportDocument cryrpt = new ReportDocument();
-                string mystr = Application.StartupPath;
-                //string path = mystr.Substring(0, mystr.Length - 9);
-                string path = mystr.Substring(0, mystr.Length - 15) + @"Reto2\Reporte\crCinemex.rpt";
-                cryrpt.Load(path);
-                cryrpt.DataSourceConnections.Clear();
-                cryrpt.SetDataSource(ds);
-                crvReporte.ReportSource = cryrpt;
-                crvReporte.Refresh();
+                path = mystr.Substring(0, mystr.Length - 15) + @"Reto2\Reporte\crCinemex.rpt";
             }
             else
             {
-                ReportDocument cryrpt = new ReportDocument();
-                string mystr = Application.StartupPath;
-                //string path = mystr.Substring(0, mystr.Length - 9);
-                string path = mystr.Substring(0, mystr.Length - 15) + @"Reto2\Reporte\crCinemex.rpt";
-                cryrpt.Load(path);
-                cryrpt.DataSourceConnections.Clear();
-                cryrpt.SetDataSource(ds.Tables[tabla]);
-                crvReporte.ReportSource = cryrpt;
-                crvReporte.Refresh();
+                if (tabla == "Cinemex Canek")
+                {
+                    path = mystr.Substring(0, mystr.Length - 15) + @"Reto2\Reporte\crCinemexCanek.rpt";
+                }
+                else
+                {
+                    if (tabla == "Cinemex City Center Mérida")
+                    {
+                        path = mystr.Substring(0, mystr.Length - 15) + @"Reto2\Reporte\crCinemexCity.rpt";
+                    }
+                    else
+                    {
+                        if (tabla == "Cinemex Galerías Mérida")
+                        {
+                            path = mystr.Substring(0, mystr.Length - 15) + @"Reto2\Reporte\crCinemexGalerias.rpt";
+                        }
+                        else
+                        {
+                            if (tabla == "Cinemex Galerías Mérida Platino")
+                            {
+                                path = mystr.Substring(0, mystr.Length - 15) + @"Reto2\Reporte\crCinemexGaleriasP.rpt";
+                            }
+                            else
+                            {
+                                if (tabla == "Cinemex Gran Plaza Mérida")
+                                {
+                                    path = mystr.Substring(0, mystr.Length - 15) + @"Reto2\Reporte\crCinemexGranP.rpt";
+                                }
+                                else
+                                {
+                                    if (tabla == "Cinemex Macroplaza Mérida")
+                                    {
+                                        path = mystr.Substring(0, mystr.Length - 15) + @"Reto2\Reporte\crCinemexMacro.rpt";
+                                    }
+                                    else
+                                    {
+                                        if (tabla == "Cinemex Península Montejo Platino")
+                                        {
+                                            path = mystr.Substring(0, mystr.Length - 15) + @"Reto2\Reporte\crCinemexPenin.rpt";
+                                        }
+                                        else
+                                        {
+                                            if (tabla == "Cinemex Rex Mérida")
+                                            {
+                                                path = mystr.Substring(0, mystr.Length - 15) + @"Reto2\Reporte\crCinemexRex.rpt";
+                                            }
+                                        }                                        
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
             }
+            cryrpt.Load(path);
+            cryrpt.DataSourceConnections.Clear();
+            cryrpt.SetDataSource(ds);
+            crvReporte.ReportSource = cryrpt;
+            crvReporte.Refresh();
         }
-
     }
+
 }

@@ -15,8 +15,10 @@ namespace Reto2
 {
     public partial class Form1 : Form
     {
+        WebBrowser navegador = new WebBrowser();
         private string tabla = "";
         private DataSet report = new DataSet();
+        private string[] sede = new string[] { "Cinemex Canek", "Cinemex City Center Mérida", "Cinemex Galerías Mérida", "Cinemex Galerías Mérida Platino", "Cinemex Gran Plaza Mérida", "Cinemex Macroplaza Mérida", "Cinemex Península Montejo Platino", "Cinemex Rex Mérida" };
         public Form1()
         {
             InitializeComponent();
@@ -25,6 +27,7 @@ namespace Reto2
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            panel2.BackColor = Color.Red;
             cobSede.SelectedIndex = 0;
             LeerPaginaCinemex(cobSede.SelectedItem.ToString());
             //LeerPaginaCinepolis();
@@ -168,13 +171,6 @@ namespace Reto2
                     }
                 }
             }
-            cont = 0;
-            string[] peliculas = new string[100];
-            while (lista[cont, 0] != null)
-            {
-                peliculas[cont] = lista[cont, 0];
-                cont++;
-            }
             // agrupación de películas por sedes
             string comp = "";
             cont = 0;
@@ -192,13 +188,12 @@ namespace Reto2
                         }
                         if (comp == "")
                         {
-                            comp += "Sede: " + sede + "\n";
+                            comp += "Sede: " + sede + "\n\n";
                         }
                         else
                         {
-                            comp += "\nSede: " + sede + "\n";
+                            comp += "\nSede: " + sede + "\n\n";
                         }
-                        comp += "_____________________________________________________________________\n";
                         for (int i = src; i < cont; i++)
                         {
                             if (i < cont)
@@ -210,6 +205,7 @@ namespace Reto2
                                 }
                             }
                         }
+                        comp += "\n_____________________________________________________________________\n\n";
                         src = cont;
                     }
                     else
@@ -234,19 +230,20 @@ namespace Reto2
                             tabla = sede;
                             if (comp == "")
                             {
-                                comp += "Sede: " + sede + "\n";
+                                comp += "Sede: " + sede + "\n\n";
                             }
                             else
                             {
-                                comp += "\nSede: " + sede + "\n";
+                                comp += "\nSede: " + sede + "\n\n";
                             }
-                            comp += "_____________________________________________________________________\n";
+                            
                             for (int i = src; i < cont; i++)
                             {
                                 if (i < cont)
                                 {
                                     if (lista[i, 0] == sede)
                                     {
+                                        ds.Tables[sede].Rows.Add(lista[i, 1], lista[i, 2]);
                                         comp += "       Título: " + lista[i, 1] + "\n               Horario: " + lista[i, 2] + "\n";
                                     }
                                 }
@@ -260,7 +257,7 @@ namespace Reto2
                     }
                 }
             }
-            TextBox1.Text = comp;
+            ricCinemex.Text = comp;
             report = ds;
         }
 
@@ -268,22 +265,9 @@ namespace Reto2
 
         private void LeerPaginaCinepolis()
         {
-            WebRequest request = WebRequest.Create("http://www.cinepolis.com/cartelera/merida/cinepolis-plaza-kukulcan");
-
-            // Obtener la respuesta.
-            WebResponse response = request.GetResponse();
-
-            // Abrir el stream de la respuesta recibida.
-            StreamReader reader = new StreamReader(response.GetResponseStream());
-
-            // Leer el contenido.
-            String res = reader.ReadToEnd();
-
-            // Cerrar los streams abiertos.
-            reader.Close();
-            response.Close();
-
-            ricCinepolis.Text = res;
+            navegador.ScriptErrorsSuppressed = true;
+            navegador.DocumentCompleted += new WebBrowserDocumentCompletedEventHandler(this.datos_cargados);
+            navegador.Navigate("http://www.cinepolis.com/cartelera/merida/");
         }
 
 
@@ -326,8 +310,65 @@ namespace Reto2
 
         private void btnReporte_Click(object sender, EventArgs e)
         {
-            ReporteCinemex frm = new ReporteCinemex(report,tabla);
-            frm.ShowDialog();
+            if (tabla == "Todos")
+            {
+                if (MessageBox.Show("Se abrirán múltiples ventanas con cada sede", "Información", MessageBoxButtons.OKCancel) == DialogResult.OK)
+                {
+                    for (int i = 0; i < sede.Length; i++)
+                    {
+                        ReporteCinemex frm = new ReporteCinemex(report, sede[i]);
+                        frm.Show();
+                    }
+                }
+            }
+            else
+            {
+                ReporteCinemex frm = new ReporteCinemex(report, tabla);
+                frm.ShowDialog();
+            }
+        }
+
+        private void datos_cargados(object sender, EventArgs e)
+        {
+            ricCinepolis.Text = "";
+            try
+            {
+                foreach (HtmlElement funcion in navegador.Document.All)
+                {
+                    if (funcion.GetAttribute("classname").Contains("ng-binding"))
+                    {
+                        ricCinepolis.Text += funcion.InnerText;
+                    }
+                }
+
+                foreach (HtmlElement etiqueta in navegador.Document.GetElementsByTagName("img"))
+                {
+                    //    if (etiqueta.GetAttribute("alt").Contains(txtcanal.Text))
+                    //    {
+                    //        pbcanal.ImageLocation = etiqueta.GetAttribute("data-thumb");
+                    //    }
+                }
+            }
+            catch (Exception ex)
+            {
+
+            }
+        }
+
+        private void tabControl1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (tabControl1.SelectedIndex == 0)
+            {
+                panel2.BackColor = Color.Red;
+                cobSede.SelectedIndex = 0;
+                LeerPaginaCinemex("Todos");
+            }
+            if (tabControl1.SelectedIndex == 1)
+            {
+                panel1.BackColor = Color.Blue;
+                cobCP.SelectedIndex = 0;
+                LeerPaginaCinepolis();
+            }
         }
     }
 }
