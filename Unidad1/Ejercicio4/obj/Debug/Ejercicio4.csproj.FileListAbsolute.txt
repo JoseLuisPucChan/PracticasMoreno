@@ -4,3 +4,6 @@ C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Estructura de Datos\Practicas\Unidad1
 C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Estructura de Datos\Practicas\Unidad1\Ejercicio4\obj\Debug\Ejercicio4.csprojResolveAssemblyReference.cache
 C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Estructura de Datos\Practicas\Unidad1\Ejercicio4\obj\Debug\Ejercicio4.exe
 C:\Users\Luis Puc\Desktop\4to Cuatrimestre\Estructura de Datos\Practicas\Unidad1\Ejercicio4\obj\Debug\Ejercicio4.pdb
+C:\Users\Luis Puc\Desktop\PracticasMoreno\Unidad1\Ejercicio4\bin\Debug\Ejercicio4.exe.config
+C:\Users\Luis Puc\Desktop\PracticasMoreno\Unidad1\Ejercicio4\obj\Debug\Ejercicio4.exe
+C:\Users\Luis Puc\Desktop\PracticasMoreno\Unidad1\Ejercicio4\obj\Debug\Ejercicio4.pdb

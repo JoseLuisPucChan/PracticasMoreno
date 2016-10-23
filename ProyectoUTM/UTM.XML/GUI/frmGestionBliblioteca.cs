@@ -62,6 +62,7 @@ namespace UTM.XML.GUI
             dtgListado.DataSource = this.Buscar(txtNombre.Text.Trim(), txtISBN.Text.Trim());
             ds.Tables.Add(dtgListado.DataMember);
             dsReporte = ds;
+
         }
         DataSet ds = new DataSet();
         private void button1_Click(object sender, EventArgs e)
