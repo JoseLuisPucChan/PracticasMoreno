@@ -11,6 +11,11 @@
 /* 
  * TABLE: Administrador 
  */
+CREATE DATABASE MCTuristic;
+GO
+
+USE MCTuristic;
+GO
 
 CREATE TABLE Administrador(
     idAdministrador    int            IDENTITY(1,1),
