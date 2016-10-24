@@ -4,7 +4,7 @@
  * Project :      MoldeLogicoProyecto4B.DM1
  * Author :       Luis Puc
  *
- * Date Created : Sunday, October 23, 2016 19:14:13
+ * Date Created : Monday, October 24, 2016 10:19:42
  * Target DBMS : Microsoft SQL Server 2008
  */
 
@@ -93,7 +93,6 @@ CREATE TABLE Eventos(
     HoraFinalizacion     varchar(50)    NOT NULL,
     FechaIncio           date           NULL,
     FechaFinalizacion    date           NULL,
-    ubicacion            varchar(50)    NOT NULL,
     IdUsuario            int            NOT NULL,
     IdSitio              int            NOT NULL
 )
@@ -215,8 +214,9 @@ go
  */
 
 CREATE TABLE TipoSitio(
-    idTipoSitio    int            IDENTITY(1,1),
-    NombreSitio    varchar(50)    NOT NULL
+    idTipoSitio         int            IDENTITY(1,1),
+    NombreSitio         varchar(50)    NOT NULL,
+    DescripcionSitio    varchar(50)    NOT NULL
 )
 go
 
